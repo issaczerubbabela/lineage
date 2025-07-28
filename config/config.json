@@ -1,0 +1,78 @@
+{
+  "spark": {
+    "app_name": "DataLineagePipeline",
+    "master": "local[*]",
+    "config": {
+      "spark.sql.adaptive.enabled": "true",
+      "spark.sql.adaptive.coalescePartitions.enabled": "true",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
+      "spark.sql.execution.arrow.pyspark.enabled": "true"
+    }
+  },
+  "data_sources": {
+    "customers": {
+      "path": "data/customers.csv",
+      "format": "csv",
+      "options": {
+        "header": "true",
+        "inferSchema": "true"
+      }
+    },
+    "products": {
+      "path": "data/products.csv", 
+      "format": "csv",
+      "options": {
+        "header": "true",
+        "inferSchema": "true"
+      }
+    },
+    "orders": {
+      "path": "data/orders.csv",
+      "format": "csv", 
+      "options": {
+        "header": "true",
+        "inferSchema": "true"
+      }
+    },
+    "order_items": {
+      "path": "data/order_items.csv",
+      "format": "csv",
+      "options": {
+        "header": "true", 
+        "inferSchema": "true"
+      }
+    },
+    "inventory": {
+      "path": "data/inventory.csv",
+      "format": "csv",
+      "options": {
+        "header": "true",
+        "inferSchema": "true"
+      }
+    }
+  },
+  "output": {
+    "base_path": "output",
+    "format": "parquet",
+    "mode": "overwrite"
+  },
+  "lineage": {
+    "track_schema": true,
+    "track_statistics": true,
+    "export_format": "json",
+    "visualization": {
+      "default_layout": "spring",
+      "node_colors": {
+        "source": "lightblue",
+        "transformation": "lightgreen", 
+        "sink": "lightcoral"
+      }
+    }
+  },
+  "ui": {
+    "page_title": "Data Lineage Pipeline",
+    "page_icon": "🔄",
+    "layout": "wide",
+    "theme": "light"
+  }
+}
