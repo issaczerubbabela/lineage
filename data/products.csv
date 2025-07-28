@@ -1,0 +1,1001 @@
+product_id,product_name,category,subcategory,brand,price,cost,weight,dimensions,color,material,stock_quantity,reorder_level,supplier_id,launch_date,rating,is_discontinued
+PROD_000001,Quality-focused 24/7 process improvement,Toys,Toys_Sub_3,Taylor-Dunlap,754.09,453.49,17.99,36x27x11,Gray,Metal,260,70,SUPP_056,2024-08-16,2.1,False
+PROD_000002,Customer-focused transitional projection,Beauty,Beauty_Sub_5,Payne-Williams,451.95,305.75,26.1,31x38x13,Bisque,Wood,699,17,SUPP_046,2022-12-02,1.3,False
+PROD_000003,Adaptive cohesive support,Sports,Sports_Sub_3,Savage LLC,115.45,90.81,8.84,21x24x21,Beige,Plastic,788,75,SUPP_076,2024-10-03,3.4,False
+PROD_000004,Fully-configurable needs-based initiative,Electronics,Electronics_Sub_2,"Moore, Andrews and Pacheco",803.66,616.65,41.68,17x38x31,Lime,Fabric,436,12,SUPP_066,2023-12-05,4.1,False
+PROD_000005,Sharable next generation benchmark,Automotive,Automotive_Sub_1,"Gutierrez, Vargas and Estrada",732.89,478.98,22.69,20x31x17,Gold,Plastic,903,89,SUPP_039,2024-07-05,4.2,False
+PROD_000006,Synchronized exuding definition,Home & Garden,Home & Garden_Sub_5,"Allen, Brown and Smith",646.56,416.82,3.13,7x49x26,DarkSalmon,Leather,49,79,SUPP_079,2023-02-23,3.9,False
+PROD_000007,Re-contextualized static superstructure,Sports,Sports_Sub_1,Hamilton and Sons,220.47,170.56,33.43,5x42x32,DarkGreen,Leather,67,87,SUPP_061,2022-11-19,3.4,True
+PROD_000008,Networked zero administration throughput,Automotive,Automotive_Sub_2,"Lee, Baker and Tanner",842.29,594.09,16.9,14x40x22,MediumPurple,Plastic,214,56,SUPP_050,2023-06-30,3.4,False
+PROD_000009,Quality-focused full-range orchestration,Sports,Sports_Sub_3,"Gonzalez, Richard and Sanchez",915.23,640.34,23.26,27x29x49,DodgerBlue,Glass,306,75,SUPP_002,2025-05-24,3.3,False
+PROD_000010,Multi-layered empowering function,Home & Garden,Home & Garden_Sub_5,"Evans, Petersen and Davis",258.7,155.28,1.04,26x42x45,LightCyan,Fabric,46,27,SUPP_085,2024-02-24,4.9,False
+PROD_000011,Future-proofed background budgetary management,Sports,Sports_Sub_3,Crawford-Frey,155.67,97.76,43.61,7x19x10,MediumOrchid,Wood,933,77,SUPP_077,2024-06-29,4.9,False
+PROD_000012,Decentralized reciprocal neural-net,Sports,Sports_Sub_5,"Schmidt, Torres and Reese",843.12,618.0,0.98,17x24x14,GhostWhite,Plastic,232,22,SUPP_073,2023-11-16,4.0,False
+PROD_000013,Reactive even-keeled forecast,Automotive,Automotive_Sub_3,"Conley, Thompson and Howard",537.26,401.64,23.07,44x28x12,Aquamarine,Leather,316,18,SUPP_066,2025-02-11,4.6,False
+PROD_000014,Face-to-face zero administration adapter,Books,Books_Sub_2,"Logan, Ray and Gillespie",13.66,10.76,26.15,13x43x25,DeepSkyBlue,Leather,532,60,SUPP_090,2022-11-26,3.1,False
+PROD_000015,Robust tangible implementation,Clothing,Clothing_Sub_5,Lee Inc,426.08,287.75,12.31,19x15x32,Purple,Plastic,754,92,SUPP_047,2025-06-30,3.9,False
+PROD_000016,Focused responsive groupware,Sports,Sports_Sub_2,"Williams, Hall and Erickson",464.65,314.47,41.95,23x38x18,Red,Plastic,869,66,SUPP_025,2023-01-06,3.8,True
+PROD_000017,Vision-oriented encompassing frame,Books,Books_Sub_5,Wilson-Miles,221.5,156.86,48.33,48x10x28,DarkOrange,Plastic,831,77,SUPP_098,2024-05-12,1.4,True
+PROD_000018,Secured disintermediate project,Books,Books_Sub_3,"Browning, Moody and Brown",781.15,472.35,44.33,28x26x41,DarkCyan,Wood,424,89,SUPP_071,2025-06-25,3.4,False
+PROD_000019,Grass-roots static knowledge user,Beauty,Beauty_Sub_2,Owens and Sons,243.21,174.1,23.06,14x19x46,Green,Glass,121,67,SUPP_080,2023-03-11,3.0,False
+PROD_000020,Business-focused fresh-thinking leverage,Books,Books_Sub_2,Zimmerman PLC,235.72,182.58,34.0,41x8x7,MediumSeaGreen,Leather,832,64,SUPP_041,2024-02-07,4.3,False
+PROD_000021,Profit-focused demand-driven approach,Automotive,Automotive_Sub_1,Hernandez-Fowler,674.39,464.68,27.65,34x33x42,Cyan,Wood,720,43,SUPP_010,2024-05-03,3.5,False
+PROD_000022,Decentralized asymmetric database,Automotive,Automotive_Sub_3,Smith PLC,320.74,222.13,29.71,9x39x39,LimeGreen,Fabric,701,15,SUPP_058,2024-03-31,4.0,True
+PROD_000023,Customer-focused heuristic protocol,Clothing,Clothing_Sub_3,Taylor-Diaz,587.35,441.93,16.09,43x8x40,Linen,Fabric,309,57,SUPP_066,2024-09-02,5.0,False
+PROD_000024,Advanced hybrid customer loyalty,Beauty,Beauty_Sub_2,Baxter-Smith,410.94,317.35,27.54,37x21x40,Gold,Fabric,453,62,SUPP_027,2024-04-20,3.1,True
+PROD_000025,Horizontal fresh-thinking artificial intelligence,Electronics,Electronics_Sub_4,Bennett-Baker,404.61,291.53,7.63,42x30x48,YellowGreen,Plastic,184,24,SUPP_081,2022-12-17,4.1,False
+PROD_000026,Total 5thgeneration Local Area Network,Toys,Toys_Sub_1,Benson Ltd,551.71,424.52,40.38,11x14x41,LimeGreen,Leather,808,79,SUPP_067,2024-01-19,3.6,False
+PROD_000027,Multi-tiered clear-thinking initiative,Clothing,Clothing_Sub_5,Lynn Inc,769.35,592.37,40.79,6x46x36,CornflowerBlue,Plastic,937,61,SUPP_050,2025-03-22,3.9,False
+PROD_000028,Progressive contextually-based initiative,Electronics,Electronics_Sub_1,Williams and Sons,56.6,44.07,29.35,19x35x14,DeepPink,Fabric,568,28,SUPP_050,2022-09-25,3.2,False
+PROD_000029,Persevering incremental infrastructure,Home & Garden,Home & Garden_Sub_3,"Knight, Wilson and Kelly",906.24,601.05,25.62,32x47x24,LightSteelBlue,Fabric,923,68,SUPP_006,2025-06-20,2.0,False
+PROD_000030,Universal human-resource artificial intelligence,Beauty,Beauty_Sub_4,Sanchez and Sons,334.62,254.34,25.6,31x38x19,Maroon,Metal,346,55,SUPP_089,2025-01-03,2.8,False
+PROD_000031,Fundamental optimal customer loyalty,Automotive,Automotive_Sub_2,Gardner-Rosario,742.34,570.73,38.32,47x18x11,FloralWhite,Wood,337,53,SUPP_081,2023-01-17,1.2,True
+PROD_000032,Optimized discrete structure,Toys,Toys_Sub_4,Adams-Holland,679.36,508.05,1.73,13x46x10,PowderBlue,Fabric,489,89,SUPP_078,2023-03-31,3.7,False
+PROD_000033,Triple-buffered high-level customer loyalty,Sports,Sports_Sub_3,Long PLC,270.77,210.54,15.63,37x39x18,Silver,Plastic,995,19,SUPP_040,2025-05-27,1.3,False
+PROD_000034,User-centric foreground monitoring,Electronics,Electronics_Sub_1,Delgado and Sons,755.02,547.81,46.82,46x25x8,YellowGreen,Metal,410,78,SUPP_057,2023-01-06,1.5,False
+PROD_000035,Grass-roots encompassing knowledge user,Beauty,Beauty_Sub_5,Grant-Murphy,605.72,470.34,37.21,42x45x33,GreenYellow,Glass,632,67,SUPP_069,2024-12-31,1.2,False
+PROD_000036,Re-engineered human-resource application,Home & Garden,Home & Garden_Sub_3,Alexander-Anderson,806.25,531.07,31.42,27x32x37,DarkBlue,Wood,269,62,SUPP_061,2023-02-07,3.3,False
+PROD_000037,Adaptive 4thgeneration hub,Home & Garden,Home & Garden_Sub_4,"Gutierrez, Woods and Bishop",728.37,468.87,21.42,24x6x9,LightGreen,Glass,223,27,SUPP_079,2023-09-25,2.3,False
+PROD_000038,Programmable non-volatile paradigm,Automotive,Automotive_Sub_5,James-Arnold,665.29,492.75,43.44,27x42x36,DarkOrchid,Wood,463,100,SUPP_021,2025-01-30,3.4,False
+PROD_000039,Centralized explicit standardization,Books,Books_Sub_4,Saunders Ltd,241.19,162.48,25.5,40x18x50,DarkViolet,Plastic,139,82,SUPP_012,2025-02-23,2.3,False
+PROD_000040,Optional logistical encoding,Sports,Sports_Sub_2,Torres Ltd,995.97,722.44,11.42,16x24x10,MediumAquaMarine,Glass,875,57,SUPP_009,2023-06-28,3.2,True
+PROD_000041,Integrated regional success,Sports,Sports_Sub_5,"Hill, Webster and Williams",254.96,189.13,21.7,29x6x34,IndianRed,Metal,307,47,SUPP_050,2023-01-02,4.4,False
+PROD_000042,Progressive bottom-line superstructure,Beauty,Beauty_Sub_2,Montoya-Banks,729.88,509.03,17.33,45x41x27,ForestGreen,Fabric,290,93,SUPP_011,2022-09-08,4.7,False
+PROD_000043,Down-sized tertiary policy,Clothing,Clothing_Sub_4,"Davidson, Logan and Nichols",73.01,51.86,0.25,5x15x15,Violet,Plastic,525,95,SUPP_013,2023-07-27,2.6,False
+PROD_000044,Persistent fault-tolerant process improvement,Sports,Sports_Sub_1,"Mitchell, Clark and Wright",235.65,179.91,38.18,22x47x35,DeepSkyBlue,Glass,715,17,SUPP_091,2024-12-31,3.4,False
+PROD_000045,Compatible eco-centric monitoring,Home & Garden,Home & Garden_Sub_4,Davis-Smith,812.75,526.88,14.46,13x42x13,Turquoise,Fabric,414,46,SUPP_086,2022-07-30,3.5,False
+PROD_000046,Business-focused solution-oriented software,Home & Garden,Home & Garden_Sub_1,Mcdonald-Adams,813.79,621.6,21.3,45x27x6,LimeGreen,Fabric,743,92,SUPP_075,2023-05-16,2.5,False
+PROD_000047,Proactive bandwidth-monitored Internet solution,Clothing,Clothing_Sub_5,"Williams, Fernandez and Contreras",891.78,704.96,20.84,33x34x12,LightSteelBlue,Fabric,764,58,SUPP_054,2022-08-02,2.7,False
+PROD_000048,Public-key clear-thinking standardization,Electronics,Electronics_Sub_2,Newton-Miller,997.41,793.71,37.36,20x22x16,DeepSkyBlue,Plastic,137,26,SUPP_018,2023-12-30,3.7,True
+PROD_000049,Triple-buffered tertiary definition,Sports,Sports_Sub_5,Osborn-Anderson,592.5,443.23,2.08,18x33x32,YellowGreen,Fabric,226,63,SUPP_063,2023-05-26,2.4,False
+PROD_000050,Right-sized fault-tolerant archive,Clothing,Clothing_Sub_4,"Lindsey, Hardy and Mcconnell",865.6,524.02,30.75,25x14x45,PaleVioletRed,Wood,282,61,SUPP_016,2023-07-23,2.1,False
+PROD_000051,Multi-lateral zero-defect matrices,Books,Books_Sub_2,Jensen and Sons,252.86,158.8,42.93,9x34x24,Moccasin,Glass,929,56,SUPP_056,2023-03-10,4.5,False
+PROD_000052,Programmable web-enabled success,Beauty,Beauty_Sub_1,Mcdowell-Roberts,118.94,79.85,19.25,36x13x29,DarkSlateBlue,Metal,68,82,SUPP_075,2024-11-14,4.1,False
+PROD_000053,Object-based methodical functionalities,Beauty,Beauty_Sub_5,Wilson Group,637.37,415.91,17.87,15x45x16,Plum,Glass,701,66,SUPP_049,2025-06-20,4.4,False
+PROD_000054,Customizable bandwidth-monitored contingency,Clothing,Clothing_Sub_3,Gonzales Ltd,611.78,455.41,1.41,40x25x5,MediumSlateBlue,Metal,760,52,SUPP_044,2023-01-13,1.3,False
+PROD_000055,Front-line executive approach,Home & Garden,Home & Garden_Sub_3,Ward LLC,781.69,504.77,46.28,21x40x30,MediumSeaGreen,Glass,144,33,SUPP_069,2023-04-02,4.6,False
+PROD_000056,Optional human-resource synergy,Electronics,Electronics_Sub_3,Hunt-Bartlett,474.13,292.41,12.14,19x9x21,DarkMagenta,Wood,282,58,SUPP_094,2024-10-18,4.0,False
+PROD_000057,Right-sized local Graphical User Interface,Automotive,Automotive_Sub_3,"Leonard, Lopez and Pineda",584.46,405.21,9.98,27x10x12,SteelBlue,Wood,713,85,SUPP_059,2025-07-20,3.1,False
+PROD_000058,Streamlined zero-defect benchmark,Toys,Toys_Sub_2,Flowers PLC,72.89,53.22,43.75,5x23x5,Plum,Fabric,329,46,SUPP_032,2023-12-04,2.8,False
+PROD_000059,Organized uniform groupware,Beauty,Beauty_Sub_1,"Ford, Lee and Williams",518.69,361.05,2.68,38x28x37,Cyan,Plastic,61,22,SUPP_093,2025-01-12,3.8,False
+PROD_000060,Exclusive systematic forecast,Home & Garden,Home & Garden_Sub_1,Lee Group,318.9,202.24,29.16,25x10x9,Chocolate,Wood,234,65,SUPP_062,2022-09-16,3.1,False
+PROD_000061,Virtual intangible service-desk,Clothing,Clothing_Sub_1,Freeman-Barajas,491.03,326.05,27.47,40x34x11,Gold,Plastic,629,95,SUPP_052,2024-08-27,3.5,False
+PROD_000062,Proactive didactic Graphical User Interface,Sports,Sports_Sub_2,Williams and Sons,337.36,257.88,22.76,8x31x46,DarkCyan,Fabric,667,10,SUPP_019,2025-07-07,4.5,True
+PROD_000063,Down-sized discrete open architecture,Home & Garden,Home & Garden_Sub_2,Reynolds and Sons,925.25,564.92,36.1,28x21x16,Turquoise,Leather,760,35,SUPP_002,2022-10-03,2.6,False
+PROD_000064,Integrated asymmetric array,Home & Garden,Home & Garden_Sub_1,Martinez Group,193.17,151.27,25.16,26x46x49,Chartreuse,Wood,931,99,SUPP_003,2023-03-21,3.7,False
+PROD_000065,Fundamental 5thgeneration installation,Books,Books_Sub_2,Harris-Howard,295.42,181.71,4.87,23x14x6,GreenYellow,Glass,418,71,SUPP_005,2024-07-18,1.4,False
+PROD_000066,Multi-lateral explicit adapter,Toys,Toys_Sub_5,Spears-Vazquez,570.73,439.79,1.05,30x32x20,SaddleBrown,Metal,869,76,SUPP_019,2023-11-16,1.5,False
+PROD_000067,Extended interactive open system,Sports,Sports_Sub_1,Garrison and Sons,41.19,30.11,16.04,42x13x16,AliceBlue,Leather,180,16,SUPP_048,2024-02-06,2.5,False
+PROD_000068,Streamlined secondary neural-net,Clothing,Clothing_Sub_5,Yang-Stephens,759.93,485.21,42.53,12x18x21,Gray,Fabric,314,36,SUPP_029,2023-08-28,3.3,False
+PROD_000069,Down-sized background protocol,Books,Books_Sub_3,Woods-Chapman,189.72,146.46,19.0,12x18x15,LightSkyBlue,Metal,750,86,SUPP_033,2023-06-27,2.3,False
+PROD_000070,Compatible multimedia array,Sports,Sports_Sub_3,Romero Inc,134.98,85.67,15.28,37x30x24,Sienna,Wood,624,66,SUPP_055,2022-11-03,4.2,False
+PROD_000071,Monitored national hierarchy,Beauty,Beauty_Sub_4,Parks Inc,201.39,146.01,8.78,8x42x27,SteelBlue,Metal,447,68,SUPP_082,2024-11-21,3.7,False
+PROD_000072,Organic static focus group,Home & Garden,Home & Garden_Sub_3,"Smith, Thompson and Tyler",665.25,502.18,27.55,45x28x16,DarkSeaGreen,Fabric,483,39,SUPP_046,2025-03-24,2.6,False
+PROD_000073,User-centric regional hierarchy,Toys,Toys_Sub_2,"Gilbert, Butler and Cisneros",997.31,777.35,49.09,30x28x26,DarkSlateGray,Fabric,867,18,SUPP_035,2024-02-20,3.0,False
+PROD_000074,Mandatory coherent utilization,Books,Books_Sub_3,"Williams, Ramsey and Owen",789.66,597.42,43.63,37x8x44,Ivory,Glass,426,48,SUPP_014,2024-08-13,2.1,False
+PROD_000075,Reactive intangible hierarchy,Toys,Toys_Sub_2,"Davila, Coleman and Duncan",256.72,167.94,42.46,49x28x15,SeaShell,Wood,899,66,SUPP_100,2024-09-20,5.0,False
+PROD_000076,Distributed heuristic open architecture,Beauty,Beauty_Sub_4,"Patton, Murillo and Smith",722.48,451.88,33.38,26x18x40,GreenYellow,Fabric,715,98,SUPP_090,2025-04-20,4.7,False
+PROD_000077,Phased didactic Graphical User Interface,Toys,Toys_Sub_2,"Williams, Johnson and Sanchez",162.56,100.2,10.21,50x29x36,MediumVioletRed,Fabric,154,48,SUPP_014,2022-12-31,2.4,False
+PROD_000078,Optimized human-resource capacity,Automotive,Automotive_Sub_4,Brown Ltd,951.39,633.34,37.27,40x19x25,CornflowerBlue,Wood,217,94,SUPP_037,2024-07-12,2.6,False
+PROD_000079,Organized scalable functionalities,Beauty,Beauty_Sub_2,"Lewis, Garcia and Rogers",672.07,435.01,1.4,11x30x39,SandyBrown,Metal,303,82,SUPP_061,2024-10-04,3.4,True
+PROD_000080,Compatible static parallelism,Clothing,Clothing_Sub_4,"Smith, Zimmerman and Gentry",105.22,72.85,43.04,48x37x10,SpringGreen,Plastic,403,75,SUPP_084,2022-10-29,1.8,False
+PROD_000081,Open-architected systemic matrices,Electronics,Electronics_Sub_2,Chavez-Tucker,32.89,24.82,40.34,35x13x29,Gray,Plastic,482,98,SUPP_022,2022-12-01,4.1,False
+PROD_000082,Reactive real-time challenge,Clothing,Clothing_Sub_3,"Reilly, Smith and Ellis",540.94,386.65,21.24,35x40x50,OliveDrab,Plastic,569,27,SUPP_050,2024-10-08,3.9,False
+PROD_000083,Phased reciprocal moderator,Clothing,Clothing_Sub_2,Lloyd-White,979.42,713.5,48.95,30x17x42,CadetBlue,Wood,801,66,SUPP_051,2023-07-19,1.7,False
+PROD_000084,Reactive incremental hub,Books,Books_Sub_5,Green-Thomas,991.58,632.88,31.68,29x49x23,Indigo,Wood,768,61,SUPP_027,2024-02-28,4.7,False
+PROD_000085,Assimilated discrete core,Clothing,Clothing_Sub_4,Roberts-Goodwin,147.31,113.33,46.54,42x45x24,MediumSlateBlue,Plastic,220,60,SUPP_074,2025-03-02,2.0,True
+PROD_000086,Innovative analyzing collaboration,Clothing,Clothing_Sub_1,Wright-Kirby,189.71,151.37,20.74,29x50x23,MediumOrchid,Fabric,471,21,SUPP_080,2024-03-08,2.6,False
+PROD_000087,Stand-alone logistical framework,Electronics,Electronics_Sub_4,"Byrd, Ball and Wang",685.11,425.79,27.58,18x26x19,LightSalmon,Fabric,113,14,SUPP_014,2023-10-09,4.8,False
+PROD_000088,Digitized holistic hardware,Toys,Toys_Sub_5,"Guerrero, Robinson and Thompson",37.26,22.96,20.13,50x20x41,DarkOliveGreen,Fabric,278,84,SUPP_005,2022-12-15,4.0,False
+PROD_000089,Open-architected mission-critical migration,Home & Garden,Home & Garden_Sub_2,Wagner LLC,279.45,212.08,13.67,35x47x31,BlanchedAlmond,Glass,672,36,SUPP_088,2024-10-16,2.1,False
+PROD_000090,Synchronized clear-thinking hub,Sports,Sports_Sub_1,Taylor-Cohen,827.27,532.18,27.32,49x21x10,Aqua,Leather,63,19,SUPP_056,2025-05-18,3.0,False
+PROD_000091,Streamlined heuristic focus group,Clothing,Clothing_Sub_3,Wilson-Malone,909.62,560.88,4.65,30x5x23,AntiqueWhite,Fabric,670,100,SUPP_076,2024-10-22,3.7,False
+PROD_000092,User-friendly upward-trending focus group,Electronics,Electronics_Sub_1,Thomas-Stephenson,849.94,578.67,32.84,15x7x14,LightPink,Fabric,575,63,SUPP_054,2024-09-13,4.7,False
+PROD_000093,Decentralized encompassing service-desk,Electronics,Electronics_Sub_1,Morales and Sons,877.41,656.78,30.15,20x23x14,LightSalmon,Plastic,977,35,SUPP_034,2024-10-11,3.0,False
+PROD_000094,Face-to-face methodical support,Toys,Toys_Sub_3,"Nichols, Rojas and Sims",557.98,397.89,44.42,8x18x25,Chartreuse,Metal,76,64,SUPP_008,2025-05-03,3.8,False
+PROD_000095,Fully-configurable fault-tolerant workforce,Clothing,Clothing_Sub_4,Moore-Hart,838.96,519.97,46.41,11x18x39,YellowGreen,Glass,60,20,SUPP_042,2025-02-25,4.1,False
+PROD_000096,Open-source systematic knowledge user,Clothing,Clothing_Sub_4,Sanders Inc,124.85,86.49,43.86,50x11x42,Moccasin,Leather,316,12,SUPP_018,2025-03-12,2.2,False
+PROD_000097,Function-based web-enabled moratorium,Electronics,Electronics_Sub_2,Cervantes Ltd,970.94,705.29,26.09,46x10x23,PaleVioletRed,Plastic,122,26,SUPP_069,2024-05-01,2.8,False
+PROD_000098,Cross-platform transitional Graphic Interface,Toys,Toys_Sub_2,Johnson-Willis,909.55,599.31,46.7,9x43x18,HoneyDew,Glass,487,75,SUPP_048,2025-06-10,3.0,False
+PROD_000099,Optimized human-resource open architecture,Beauty,Beauty_Sub_2,"Rodgers, Jenkins and Hodge",609.14,411.65,12.02,10x7x45,PaleTurquoise,Glass,308,88,SUPP_015,2022-10-17,3.6,False
+PROD_000100,Advanced uniform customer loyalty,Sports,Sports_Sub_2,Keith-May,257.01,165.4,7.67,27x23x8,PaleVioletRed,Plastic,727,40,SUPP_011,2024-07-18,4.7,False
+PROD_000101,Persistent even-keeled migration,Electronics,Electronics_Sub_4,Brown-Arias,600.84,401.02,21.72,47x16x29,DarkKhaki,Plastic,416,80,SUPP_033,2022-10-24,4.3,False
+PROD_000102,Profit-focused content-based moratorium,Toys,Toys_Sub_2,Reynolds Inc,760.08,578.99,24.89,24x9x5,YellowGreen,Metal,648,56,SUPP_037,2022-11-11,2.9,False
+PROD_000103,Streamlined disintermediate help-desk,Automotive,Automotive_Sub_5,"Gross, Thornton and Robinson",547.38,390.85,35.27,22x38x38,Fuchsia,Wood,436,59,SUPP_078,2025-06-26,2.1,False
+PROD_000104,Self-enabling needs-based open system,Home & Garden,Home & Garden_Sub_1,Kelly-Nunez,40.32,25.87,5.39,45x49x26,DarkRed,Glass,462,54,SUPP_085,2023-06-24,4.7,False
+PROD_000105,Right-sized explicit database,Toys,Toys_Sub_5,Chase-Oliver,303.28,190.05,7.37,16x33x45,SaddleBrown,Leather,88,68,SUPP_020,2025-07-26,2.6,False
+PROD_000106,Business-focused non-volatile leverage,Toys,Toys_Sub_4,Moses Group,373.29,272.79,13.02,5x35x6,Orchid,Leather,43,20,SUPP_038,2023-09-28,4.4,False
+PROD_000107,Fundamental mobile collaboration,Sports,Sports_Sub_1,Fuller-Mitchell,840.44,622.0,0.35,29x37x46,RosyBrown,Glass,881,33,SUPP_034,2023-03-18,1.2,False
+PROD_000108,Ameliorated static conglomeration,Automotive,Automotive_Sub_1,Bauer-Haynes,878.18,697.63,0.27,45x31x31,DeepSkyBlue,Fabric,613,17,SUPP_087,2024-01-31,2.1,False
+PROD_000109,User-friendly object-oriented encoding,Clothing,Clothing_Sub_4,Orr-Williams,144.22,109.4,7.12,35x31x15,DarkGoldenRod,Metal,513,24,SUPP_016,2022-12-17,2.4,False
+PROD_000110,Polarized tangible matrix,Books,Books_Sub_2,"Williamson, Reynolds and Pena",237.07,157.73,27.66,16x16x40,DarkBlue,Metal,290,11,SUPP_069,2025-02-22,2.1,False
+PROD_000111,Progressive 4thgeneration capability,Books,Books_Sub_5,"Robles, Pineda and Dennis",200.68,150.56,50.0,42x43x24,Brown,Plastic,1,44,SUPP_012,2024-06-19,1.2,False
+PROD_000112,Managed composite matrix,Sports,Sports_Sub_4,"Hudson, Mora and Newman",609.29,466.23,5.88,28x11x50,OliveDrab,Plastic,958,41,SUPP_045,2025-07-11,3.7,True
+PROD_000113,Streamlined clear-thinking encryption,Toys,Toys_Sub_2,Greer LLC,325.5,195.8,39.01,33x14x15,DarkGoldenRod,Leather,543,85,SUPP_017,2022-09-06,4.7,False
+PROD_000114,Ergonomic scalable middleware,Beauty,Beauty_Sub_3,Green-Romero,126.48,81.97,35.04,47x28x36,DarkGreen,Fabric,41,86,SUPP_098,2025-01-01,2.9,False
+PROD_000115,Multi-tiered uniform algorithm,Books,Books_Sub_5,Foster LLC,27.02,19.53,3.73,24x11x44,Blue,Wood,931,52,SUPP_032,2022-12-23,2.2,True
+PROD_000116,Up-sized local flexibility,Books,Books_Sub_5,"Lane, White and Russo",763.34,592.93,4.87,46x21x23,DeepPink,Glass,569,62,SUPP_059,2023-09-06,2.2,False
+PROD_000117,Synergistic 24/7 solution,Books,Books_Sub_5,"Marsh, Phillips and Miller",46.05,30.8,4.34,37x48x40,DeepSkyBlue,Fabric,228,12,SUPP_050,2023-04-20,1.9,False
+PROD_000118,Streamlined maximized adapter,Electronics,Electronics_Sub_2,Pratt-Hoover,470.01,349.57,29.3,12x47x14,DarkMagenta,Plastic,227,94,SUPP_080,2025-05-09,3.9,False
+PROD_000119,Reactive impactful leverage,Sports,Sports_Sub_2,Murray-Rodriguez,823.8,623.49,20.18,41x5x25,Red,Wood,565,51,SUPP_045,2023-02-19,4.7,True
+PROD_000120,User-centric motivating hierarchy,Sports,Sports_Sub_1,Obrien LLC,549.28,405.31,13.99,41x5x31,DarkGoldenRod,Fabric,987,65,SUPP_073,2024-01-18,3.6,False
+PROD_000121,Re-contextualized 24hour array,Toys,Toys_Sub_2,Burgess-Barton,524.62,363.01,40.07,32x5x29,GreenYellow,Plastic,745,16,SUPP_050,2024-09-23,2.3,True
+PROD_000122,Operative asymmetric extranet,Home & Garden,Home & Garden_Sub_4,Webb Ltd,758.58,488.93,18.63,7x10x30,Bisque,Wood,147,66,SUPP_054,2023-06-30,1.4,False
+PROD_000123,Optional radical algorithm,Clothing,Clothing_Sub_3,Cruz-Cervantes,591.87,440.69,27.64,13x27x19,Bisque,Leather,20,75,SUPP_036,2023-08-25,1.8,False
+PROD_000124,Digitized bottom-line policy,Books,Books_Sub_5,Powers-Carlson,850.39,541.56,14.86,24x34x36,Cyan,Metal,330,11,SUPP_069,2024-04-15,2.1,False
+PROD_000125,Synchronized stable hardware,Books,Books_Sub_3,Burgess PLC,182.37,135.69,15.14,5x7x22,GreenYellow,Plastic,465,100,SUPP_017,2024-08-21,2.2,True
+PROD_000126,Team-oriented mission-critical data-warehouse,Toys,Toys_Sub_2,Bautista-Williams,942.87,676.03,19.98,11x25x39,DarkOliveGreen,Wood,322,68,SUPP_037,2024-09-14,4.4,False
+PROD_000127,Centralized 6thgeneration artificial intelligence,Electronics,Electronics_Sub_4,King and Sons,182.38,145.79,25.0,29x5x15,SeaGreen,Wood,168,57,SUPP_058,2025-01-15,1.2,False
+PROD_000128,Multi-channeled secondary neural-net,Home & Garden,Home & Garden_Sub_2,Peterson-Moon,660.59,438.92,31.07,26x48x43,MediumSpringGreen,Wood,367,33,SUPP_029,2025-01-29,4.4,False
+PROD_000129,Versatile discrete open system,Books,Books_Sub_5,Wright and Sons,393.01,242.93,2.4,6x13x43,PowderBlue,Glass,401,33,SUPP_089,2024-10-11,3.5,False
+PROD_000130,Seamless fresh-thinking definition,Books,Books_Sub_1,Mcdaniel-Williams,490.52,385.31,47.57,43x13x13,Violet,Plastic,309,21,SUPP_053,2025-06-20,2.9,False
+PROD_000131,Ergonomic solution-oriented orchestration,Books,Books_Sub_1,"Moore, Hartman and Anderson",365.59,291.46,12.11,16x30x29,OldLace,Fabric,214,70,SUPP_001,2025-03-26,2.6,False
+PROD_000132,Team-oriented eco-centric open architecture,Toys,Toys_Sub_1,Smith LLC,971.46,742.45,6.14,19x42x15,FloralWhite,Fabric,46,48,SUPP_069,2024-10-20,4.1,False
+PROD_000133,Synergized multi-tasking conglomeration,Electronics,Electronics_Sub_2,"Warren, Haas and Burns",159.71,107.76,20.96,47x42x8,Turquoise,Plastic,590,40,SUPP_083,2022-11-16,2.0,False
+PROD_000134,Digitized bifurcated standardization,Home & Garden,Home & Garden_Sub_4,Thompson-Powell,608.15,406.44,4.33,8x5x8,Olive,Leather,22,33,SUPP_091,2024-03-02,3.3,False
+PROD_000135,Decentralized 24/7 definition,Clothing,Clothing_Sub_4,Doyle Inc,154.76,115.76,42.1,29x50x50,Linen,Leather,287,99,SUPP_064,2025-01-25,1.3,True
+PROD_000136,Triple-buffered context-sensitive process improvement,Toys,Toys_Sub_5,"Curry, Smith and Lawson",316.01,240.41,36.38,42x44x14,Gray,Metal,0,46,SUPP_100,2024-09-18,2.4,True
+PROD_000137,De-engineered local info-mediaries,Home & Garden,Home & Garden_Sub_2,"Davis, Adams and Chung",745.47,496.71,4.23,29x46x45,SandyBrown,Glass,476,78,SUPP_099,2022-12-14,1.3,False
+PROD_000138,Seamless uniform moderator,Sports,Sports_Sub_4,Long-Snyder,736.58,544.97,41.91,33x5x12,Fuchsia,Fabric,302,55,SUPP_026,2024-01-18,3.7,False
+PROD_000139,Polarized global emulation,Clothing,Clothing_Sub_1,Carey Group,673.38,467.45,48.7,32x31x50,MistyRose,Glass,348,17,SUPP_045,2024-05-20,1.7,False
+PROD_000140,De-engineered even-keeled encoding,Beauty,Beauty_Sub_1,Miller-Stevens,133.77,91.14,39.21,15x40x10,MediumPurple,Leather,663,51,SUPP_062,2024-01-16,3.2,False
+PROD_000141,Ameliorated object-oriented website,Clothing,Clothing_Sub_5,Brown LLC,69.28,47.69,6.69,9x48x12,DarkGoldenRod,Glass,489,90,SUPP_071,2022-10-05,3.7,True
+PROD_000142,Reactive bottom-line firmware,Beauty,Beauty_Sub_4,"Case, Jackson and Romero",636.28,456.31,10.3,20x13x14,SeaShell,Metal,700,72,SUPP_016,2022-08-12,3.2,False
+PROD_000143,Versatile analyzing knowledgebase,Clothing,Clothing_Sub_2,"Morgan, Vega and Nunez",384.77,252.88,31.82,23x46x37,DarkKhaki,Wood,424,38,SUPP_064,2024-12-06,1.3,False
+PROD_000144,Visionary analyzing forecast,Books,Books_Sub_5,Valenzuela-Roberts,318.45,227.03,1.18,6x20x34,Ivory,Wood,791,41,SUPP_073,2023-05-14,4.0,False
+PROD_000145,Multi-channeled context-sensitive customer loyalty,Books,Books_Sub_2,Lawrence-Holden,706.01,477.28,3.75,14x21x32,Beige,Wood,613,94,SUPP_081,2023-10-30,3.0,False
+PROD_000146,Devolved user-facing approach,Home & Garden,Home & Garden_Sub_2,Hurley and Sons,971.19,715.38,37.77,39x50x21,Magenta,Plastic,502,94,SUPP_071,2023-05-26,1.8,False
+PROD_000147,Multi-tiered well-modulated function,Beauty,Beauty_Sub_3,Lee Ltd,574.42,421.31,44.13,26x18x38,DarkOrchid,Metal,42,22,SUPP_013,2024-08-09,4.1,False
+PROD_000148,Devolved non-volatile function,Electronics,Electronics_Sub_4,"Cook, Lee and Reynolds",805.79,542.91,8.27,32x30x23,SandyBrown,Metal,441,66,SUPP_029,2023-01-04,4.5,False
+PROD_000149,Profound neutral pricing structure,Books,Books_Sub_4,Sanders-Moss,191.25,150.34,14.05,27x19x20,Coral,Glass,972,56,SUPP_087,2024-12-15,2.6,False
+PROD_000150,Cross-platform real-time strategy,Beauty,Beauty_Sub_5,"Galloway, Johnson and Landry",474.57,362.02,20.6,38x33x37,DarkBlue,Wood,602,64,SUPP_021,2023-01-13,1.7,False
+PROD_000151,Organic fault-tolerant migration,Sports,Sports_Sub_3,"Crosby, West and Washington",832.16,593.74,1.18,31x45x13,Gold,Wood,5,62,SUPP_075,2023-03-02,1.5,False
+PROD_000152,Robust hybrid secured line,Toys,Toys_Sub_4,Roberts Ltd,538.49,371.27,16.76,12x14x48,IndianRed,Plastic,887,63,SUPP_099,2025-01-15,1.5,False
+PROD_000153,Down-sized 24hour challenge,Beauty,Beauty_Sub_4,Davis-Hernandez,187.53,138.2,47.24,25x49x6,DeepSkyBlue,Fabric,451,84,SUPP_100,2024-07-10,1.9,False
+PROD_000154,Universal transitional structure,Sports,Sports_Sub_2,Williams PLC,82.22,52.55,28.82,24x32x47,ForestGreen,Wood,922,10,SUPP_024,2025-07-05,1.6,True
+PROD_000155,Diverse well-modulated task-force,Automotive,Automotive_Sub_4,"Garcia, Garrett and Vance",554.6,384.19,42.87,49x47x49,MediumSeaGreen,Plastic,293,54,SUPP_064,2022-10-18,3.9,False
+PROD_000156,Seamless holistic toolset,Books,Books_Sub_3,Thompson Ltd,125.06,88.28,26.04,49x46x8,DarkTurquoise,Glass,24,36,SUPP_030,2025-01-31,3.6,False
+PROD_000157,Object-based next generation info-mediaries,Clothing,Clothing_Sub_3,"Miller, Burns and Williams",458.26,326.96,34.06,14x20x17,SeaShell,Glass,660,29,SUPP_089,2025-06-10,1.2,False
+PROD_000158,Progressive exuding strategy,Sports,Sports_Sub_3,"Brown, Jones and Jenkins",73.39,53.88,46.13,36x30x33,OliveDrab,Plastic,404,35,SUPP_053,2025-02-10,3.5,False
+PROD_000159,Extended attitude-oriented algorithm,Beauty,Beauty_Sub_2,Hanson-Horton,14.3,11.21,3.46,13x14x6,Turquoise,Plastic,912,96,SUPP_067,2024-02-24,2.2,False
+PROD_000160,Fundamental content-based Graphic Interface,Books,Books_Sub_4,Lucas-Cruz,818.94,495.12,38.68,39x18x18,Gray,Metal,433,67,SUPP_087,2023-08-18,3.3,False
+PROD_000161,Monitored demand-driven system engine,Books,Books_Sub_5,Morales Inc,609.2,396.37,24.99,45x10x49,DarkGray,Metal,390,11,SUPP_043,2023-05-15,3.6,False
+PROD_000162,Reduced encompassing protocol,Sports,Sports_Sub_4,Becker Inc,877.94,546.73,30.01,6x40x28,HotPink,Glass,286,82,SUPP_092,2025-07-19,4.3,False
+PROD_000163,De-engineered content-based ability,Home & Garden,Home & Garden_Sub_2,Davis Inc,268.94,209.72,18.54,10x41x18,LightSlateGray,Wood,51,93,SUPP_001,2024-08-10,1.3,False
+PROD_000164,Face-to-face maximized approach,Sports,Sports_Sub_4,Robinson Group,118.63,76.32,17.31,38x50x49,PeachPuff,Leather,657,17,SUPP_070,2024-03-22,4.5,False
+PROD_000165,Assimilated intermediate extranet,Electronics,Electronics_Sub_3,Perry-Stokes,262.73,184.38,3.5,23x8x22,Coral,Metal,65,54,SUPP_052,2023-01-05,2.5,False
+PROD_000166,Multi-tiered needs-based workforce,Clothing,Clothing_Sub_2,Macias-Long,835.3,577.71,9.63,45x46x11,GhostWhite,Wood,527,92,SUPP_028,2024-10-16,2.9,False
+PROD_000167,Mandatory 24hour algorithm,Toys,Toys_Sub_5,Chang PLC,59.44,36.97,2.2,45x5x11,Purple,Glass,528,50,SUPP_049,2023-07-27,2.1,False
+PROD_000168,Team-oriented tertiary database,Automotive,Automotive_Sub_5,"Taylor, Anderson and Cook",269.64,194.48,4.65,43x7x14,DarkCyan,Glass,809,94,SUPP_014,2022-12-30,2.6,False
+PROD_000169,Open-source multi-tasking encoding,Home & Garden,Home & Garden_Sub_4,Meadows Ltd,704.71,502.99,21.85,11x28x38,LightGreen,Glass,434,76,SUPP_055,2023-10-16,1.5,False
+PROD_000170,Re-engineered zero-defect pricing structure,Automotive,Automotive_Sub_4,"Hawkins, Johnson and Johnson",444.16,343.76,29.0,50x38x17,GoldenRod,Leather,203,30,SUPP_053,2023-10-10,1.3,False
+PROD_000171,Operative systemic knowledgebase,Toys,Toys_Sub_1,Dunn-Garcia,339.51,227.32,48.95,18x28x17,DarkSlateGray,Wood,365,92,SUPP_070,2023-07-25,1.3,False
+PROD_000172,Virtual bi-directional archive,Toys,Toys_Sub_4,Williamson Inc,708.53,497.27,27.32,20x28x20,GreenYellow,Metal,592,93,SUPP_076,2024-02-08,4.1,False
+PROD_000173,Re-engineered local access,Sports,Sports_Sub_2,"White, Jordan and Turner",394.02,262.44,33.01,11x34x49,LightGoldenRodYellow,Glass,343,81,SUPP_006,2022-09-24,1.3,False
+PROD_000174,Business-focused next generation paradigm,Sports,Sports_Sub_4,Fuller Inc,433.48,338.2,24.3,18x5x17,DarkMagenta,Plastic,155,75,SUPP_044,2024-01-16,1.8,False
+PROD_000175,Diverse holistic attitude,Automotive,Automotive_Sub_2,Clark-Gutierrez,484.2,369.06,19.27,42x40x46,LimeGreen,Metal,261,50,SUPP_009,2024-10-21,3.6,False
+PROD_000176,De-engineered non-volatile pricing structure,Electronics,Electronics_Sub_2,Ferrell-Marshall,326.74,226.57,43.75,28x24x32,Fuchsia,Plastic,991,40,SUPP_001,2023-04-24,4.2,True
+PROD_000177,Streamlined human-resource process improvement,Home & Garden,Home & Garden_Sub_1,Nelson Ltd,539.82,415.08,28.26,35x13x5,LightGoldenRodYellow,Leather,467,38,SUPP_072,2025-03-21,4.5,False
+PROD_000178,Synergistic fresh-thinking utilization,Automotive,Automotive_Sub_4,"Gomez, Hernandez and Pacheco",474.45,330.29,46.0,12x12x37,MediumSlateBlue,Wood,143,50,SUPP_017,2025-07-13,3.8,False
+PROD_000179,Profound interactive matrix,Beauty,Beauty_Sub_2,Baker Ltd,11.09,7.27,30.17,5x33x10,MediumSpringGreen,Metal,74,16,SUPP_019,2022-08-22,3.9,False
+PROD_000180,Networked neutral contingency,Home & Garden,Home & Garden_Sub_3,"Jones, Henderson and Murphy",678.38,540.73,24.49,48x8x27,SandyBrown,Leather,674,71,SUPP_089,2025-02-18,3.6,False
+PROD_000181,Exclusive cohesive frame,Clothing,Clothing_Sub_5,"Mays, Smith and Castro",835.88,562.51,39.21,32x12x48,OliveDrab,Fabric,596,90,SUPP_061,2023-03-28,1.4,False
+PROD_000182,Vision-oriented well-modulated focus group,Beauty,Beauty_Sub_3,Gonzalez-Hall,774.16,545.63,20.19,34x31x23,Lime,Plastic,621,88,SUPP_093,2022-12-26,3.7,False
+PROD_000183,Multi-lateral web-enabled conglomeration,Home & Garden,Home & Garden_Sub_2,Diaz-Trujillo,294.7,234.96,13.37,6x44x50,Gray,Wood,155,30,SUPP_037,2023-08-13,4.8,False
+PROD_000184,Automated bifurcated array,Beauty,Beauty_Sub_3,Cochran-Brown,204.31,133.14,23.0,17x49x16,GoldenRod,Metal,857,21,SUPP_075,2022-08-04,1.3,False
+PROD_000185,Automated analyzing product,Electronics,Electronics_Sub_4,"Allen, Carlson and Watkins",31.04,22.6,34.69,35x47x20,Tomato,Glass,51,24,SUPP_043,2023-06-08,3.0,False
+PROD_000186,Devolved global neural-net,Clothing,Clothing_Sub_1,Morrison PLC,908.79,550.86,16.5,49x11x7,Tan,Plastic,406,100,SUPP_020,2024-08-03,2.7,False
+PROD_000187,Persevering 5thgeneration intranet,Electronics,Electronics_Sub_2,Neal PLC,407.31,314.73,28.07,50x18x47,Moccasin,Wood,864,69,SUPP_044,2025-01-17,3.4,False
+PROD_000188,Down-sized systematic implementation,Home & Garden,Home & Garden_Sub_2,Shaffer-Smith,325.46,213.74,25.43,50x18x27,Silver,Glass,915,21,SUPP_077,2022-11-02,1.7,False
+PROD_000189,Managed composite hierarchy,Beauty,Beauty_Sub_4,Garcia-Goodwin,574.43,377.24,40.93,29x20x50,LightCoral,Fabric,946,62,SUPP_082,2024-08-30,2.5,False
+PROD_000190,Programmable bifurcated adapter,Home & Garden,Home & Garden_Sub_2,"Walton, Garza and Grant",32.72,23.02,10.46,36x49x13,Cyan,Leather,417,64,SUPP_047,2024-06-13,1.6,False
+PROD_000191,Quality-focused maximized challenge,Sports,Sports_Sub_4,Lewis Group,543.34,329.74,13.27,42x15x36,MediumSlateBlue,Leather,131,47,SUPP_001,2025-03-19,1.2,False
+PROD_000192,Networked foreground throughput,Books,Books_Sub_1,Hebert-Bell,550.64,333.04,33.24,10x24x47,DeepPink,Leather,386,12,SUPP_041,2023-11-24,1.3,False
+PROD_000193,Function-based regional emulation,Toys,Toys_Sub_3,"Rivera, Martin and Anderson",216.39,138.41,7.25,12x30x46,DarkRed,Metal,747,17,SUPP_083,2022-08-14,3.8,True
+PROD_000194,Automated stable leverage,Home & Garden,Home & Garden_Sub_3,"Harrison, Williams and Fisher",899.61,550.24,42.27,18x29x43,Magenta,Leather,780,35,SUPP_002,2023-03-19,1.4,False
+PROD_000195,Front-line zero administration website,Electronics,Electronics_Sub_5,Gonzales Inc,61.89,47.15,41.06,42x20x9,Teal,Fabric,454,76,SUPP_015,2024-10-08,3.9,False
+PROD_000196,Customer-focused foreground firmware,Sports,Sports_Sub_5,Holloway PLC,967.5,750.93,8.76,46x19x26,LemonChiffon,Leather,974,45,SUPP_009,2024-06-17,2.3,False
+PROD_000197,Virtual encompassing orchestration,Books,Books_Sub_5,"Martin, Nichols and Gomez",686.11,423.81,31.12,19x8x21,Green,Leather,225,91,SUPP_057,2022-08-13,2.7,False
+PROD_000198,Enhanced tertiary artificial intelligence,Beauty,Beauty_Sub_4,"Gentry, Mueller and Fox",178.69,109.6,45.82,6x37x10,Orange,Metal,140,96,SUPP_082,2023-11-18,2.7,False
+PROD_000199,Polarized reciprocal system engine,Sports,Sports_Sub_4,"Cole, Lara and Ramos",895.19,599.57,49.07,34x5x27,MediumPurple,Leather,225,19,SUPP_012,2025-05-17,1.1,False
+PROD_000200,Persevering cohesive moderator,Home & Garden,Home & Garden_Sub_2,Roberts-Kirk,18.28,11.31,30.68,36x17x43,Cyan,Glass,633,74,SUPP_038,2024-07-28,4.9,False
+PROD_000201,Balanced fault-tolerant knowledgebase,Clothing,Clothing_Sub_3,Vaughn Inc,148.53,110.76,21.17,19x35x31,DarkCyan,Leather,884,55,SUPP_083,2025-04-28,1.1,False
+PROD_000202,Automated bi-directional access,Beauty,Beauty_Sub_4,Bryant and Sons,432.87,329.89,34.53,11x37x36,WhiteSmoke,Glass,407,26,SUPP_085,2024-12-07,3.1,False
+PROD_000203,Realigned 3rdgeneration application,Home & Garden,Home & Garden_Sub_4,Skinner and Sons,927.57,719.63,21.68,38x47x47,Aqua,Wood,25,21,SUPP_094,2023-07-10,3.6,False
+PROD_000204,Programmable upward-trending toolset,Books,Books_Sub_4,Webster-Mitchell,925.08,650.31,8.68,15x16x32,Khaki,Glass,445,66,SUPP_066,2024-11-02,4.3,False
+PROD_000205,Public-key systematic database,Home & Garden,Home & Garden_Sub_4,Benson-Johnston,647.15,480.72,4.37,30x25x15,PaleTurquoise,Metal,563,92,SUPP_078,2022-07-30,3.7,False
+PROD_000206,Organic bifurcated matrix,Electronics,Electronics_Sub_4,"Wilson, Bradley and Murphy",298.52,207.79,29.23,25x41x39,Turquoise,Plastic,138,51,SUPP_044,2023-04-28,3.5,False
+PROD_000207,Streamlined user-facing function,Books,Books_Sub_4,Gardner Inc,329.49,246.59,30.2,36x29x23,DarkOrange,Plastic,562,34,SUPP_072,2022-11-15,2.5,False
+PROD_000208,Sharable holistic core,Electronics,Electronics_Sub_3,Dennis Ltd,39.03,27.97,3.71,50x23x12,Fuchsia,Glass,111,59,SUPP_043,2024-01-27,2.9,False
+PROD_000209,Monitored 3rdgeneration forecast,Clothing,Clothing_Sub_2,"Burgess, Alvarez and Flynn",594.33,370.17,47.46,27x30x27,MistyRose,Plastic,547,78,SUPP_057,2023-12-20,1.3,True
+PROD_000210,Up-sized bifurcated ability,Sports,Sports_Sub_5,Wright-Williams,434.25,312.17,2.9,46x28x7,Green,Plastic,735,87,SUPP_024,2023-01-10,2.0,False
+PROD_000211,Upgradable solution-oriented solution,Books,Books_Sub_5,Woodward and Sons,948.42,715.86,28.1,36x27x45,DarkGreen,Glass,50,90,SUPP_030,2025-03-22,3.6,False
+PROD_000212,Virtual transitional paradigm,Home & Garden,Home & Garden_Sub_1,"Solomon, Harrison and Price",132.26,95.9,36.58,14x26x45,Orchid,Plastic,65,92,SUPP_065,2024-11-14,2.6,False
+PROD_000213,Phased zero administration hub,Automotive,Automotive_Sub_3,"Austin, Miles and Silva",179.21,113.33,37.74,6x30x47,DarkTurquoise,Leather,615,54,SUPP_020,2023-10-20,5.0,False
+PROD_000214,Polarized cohesive artificial intelligence,Home & Garden,Home & Garden_Sub_4,Taylor-Sampson,608.68,425.89,41.06,45x40x6,LightPink,Glass,172,15,SUPP_002,2023-10-23,4.1,False
+PROD_000215,Focused empowering interface,Home & Garden,Home & Garden_Sub_1,Alvarez PLC,941.02,672.68,40.64,16x29x46,Brown,Leather,433,27,SUPP_034,2022-10-17,3.8,False
+PROD_000216,Pre-emptive high-level budgetary management,Toys,Toys_Sub_2,Pena-Harris,474.88,350.5,39.65,45x23x6,PapayaWhip,Leather,828,51,SUPP_064,2023-12-03,4.5,False
+PROD_000217,Synergized zero tolerance portal,Sports,Sports_Sub_3,Richardson Ltd,397.12,268.49,33.2,43x28x31,DarkBlue,Leather,795,73,SUPP_033,2022-08-09,1.2,False
+PROD_000218,Assimilated demand-driven circuit,Automotive,Automotive_Sub_2,Clark-Wilson,368.27,252.57,15.27,28x19x21,DarkGoldenRod,Wood,741,18,SUPP_036,2022-08-24,2.5,False
+PROD_000219,Fully-configurable zero administration methodology,Beauty,Beauty_Sub_3,Knight LLC,928.2,599.36,25.75,47x22x37,Crimson,Metal,805,47,SUPP_072,2023-03-30,4.0,False
+PROD_000220,Configurable zero administration firmware,Toys,Toys_Sub_5,Benton Ltd,945.25,596.31,31.54,31x36x18,LightYellow,Glass,401,48,SUPP_067,2024-11-20,2.3,True
+PROD_000221,Universal bifurcated neural-net,Automotive,Automotive_Sub_4,Padilla Ltd,371.27,268.06,23.6,37x43x23,BlueViolet,Metal,162,93,SUPP_053,2023-09-24,4.1,False
+PROD_000222,Secured content-based installation,Home & Garden,Home & Garden_Sub_3,"Todd, Potter and Lee",307.76,231.63,43.58,32x43x49,OliveDrab,Wood,887,78,SUPP_005,2023-12-20,2.4,False
+PROD_000223,Open-source dynamic hierarchy,Sports,Sports_Sub_3,"Woods, Davis and Evans",801.71,612.94,18.12,7x43x16,LightGreen,Fabric,275,61,SUPP_060,2023-10-11,1.7,False
+PROD_000224,Function-based tangible focus group,Electronics,Electronics_Sub_4,Lin LLC,205.1,153.35,8.69,43x17x41,Maroon,Plastic,713,69,SUPP_058,2024-10-31,1.9,False
+PROD_000225,Customer-focused executive moratorium,Books,Books_Sub_5,"Peters, Hurst and Harrison",321.58,197.03,31.78,27x47x45,IndianRed,Leather,4,40,SUPP_072,2024-09-16,4.7,True
+PROD_000226,Proactive asymmetric moderator,Books,Books_Sub_3,Silva-Dean,563.5,449.95,17.62,27x7x48,Purple,Metal,705,99,SUPP_082,2022-12-06,1.0,False
+PROD_000227,Stand-alone interactive utilization,Electronics,Electronics_Sub_2,Mitchell-Estes,959.83,707.16,4.8,18x26x19,BlueViolet,Plastic,142,69,SUPP_077,2023-10-29,2.1,False
+PROD_000228,Quality-focused interactive success,Home & Garden,Home & Garden_Sub_2,Nguyen PLC,753.09,550.78,31.06,26x17x10,LawnGreen,Leather,742,22,SUPP_015,2023-03-01,1.6,False
+PROD_000229,Future-proofed client-server challenge,Electronics,Electronics_Sub_3,Buckley Ltd,993.82,671.88,8.43,27x16x34,LightSalmon,Wood,152,80,SUPP_056,2023-01-04,4.4,False
+PROD_000230,Front-line discrete process improvement,Books,Books_Sub_3,Fitzpatrick PLC,119.9,80.3,2.65,28x36x19,DarkSlateBlue,Fabric,197,80,SUPP_092,2023-06-09,3.7,False
+PROD_000231,Decentralized reciprocal budgetary management,Toys,Toys_Sub_1,"Suarez, Murray and Hughes",266.95,185.62,37.85,7x43x45,WhiteSmoke,Plastic,598,39,SUPP_042,2024-10-31,1.4,False
+PROD_000232,Polarized asymmetric utilization,Sports,Sports_Sub_3,"Gonzalez, Lowery and Moore",830.51,577.02,15.7,48x19x49,Plum,Glass,715,14,SUPP_098,2023-08-08,2.7,False
+PROD_000233,Multi-tiered cohesive contingency,Clothing,Clothing_Sub_4,Cuevas LLC,461.07,320.5,12.45,21x29x11,HotPink,Metal,866,21,SUPP_086,2025-01-20,2.3,False
+PROD_000234,Face-to-face attitude-oriented open system,Beauty,Beauty_Sub_2,"Valencia, Ryan and Rojas",763.44,607.04,12.94,11x16x32,MediumSeaGreen,Plastic,526,42,SUPP_068,2024-01-08,1.5,False
+PROD_000235,Reduced composite artificial intelligence,Automotive,Automotive_Sub_4,Barber Ltd,168.19,127.49,29.5,8x32x41,DarkBlue,Metal,85,87,SUPP_056,2023-12-18,2.0,False
+PROD_000236,Exclusive clear-thinking complexity,Home & Garden,Home & Garden_Sub_5,Sanchez Inc,601.74,435.12,47.5,32x36x8,Chocolate,Wood,343,14,SUPP_092,2024-10-17,2.3,False
+PROD_000237,Profit-focused 24/7 Internet solution,Books,Books_Sub_2,Davis Ltd,915.24,588.56,35.22,31x33x19,LightSkyBlue,Leather,823,22,SUPP_023,2024-05-07,4.8,False
+PROD_000238,Visionary tangible hierarchy,Home & Garden,Home & Garden_Sub_5,Silva-Gomez,920.56,580.37,26.58,7x24x37,CornflowerBlue,Wood,870,21,SUPP_085,2022-10-08,2.2,False
+PROD_000239,Open-source upward-trending function,Books,Books_Sub_3,"Delgado, Hendrix and Khan",611.73,396.1,12.19,24x28x7,Black,Leather,148,80,SUPP_023,2023-01-08,4.1,False
+PROD_000240,Inverse tertiary policy,Home & Garden,Home & Garden_Sub_3,"Watson, Patrick and Phillips",141.19,105.0,18.15,28x33x29,Yellow,Glass,189,87,SUPP_079,2023-09-28,1.3,False
+PROD_000241,Upgradable mission-critical structure,Sports,Sports_Sub_5,Giles-Drake,34.04,22.12,14.33,21x17x10,Khaki,Fabric,871,100,SUPP_026,2023-04-29,3.6,False
+PROD_000242,Polarized dedicated info-mediaries,Toys,Toys_Sub_2,Bryant-Collier,916.2,673.99,4.32,7x48x46,Cornsilk,Metal,680,84,SUPP_062,2024-01-20,2.9,False
+PROD_000243,Configurable system-worthy knowledgebase,Clothing,Clothing_Sub_3,Jordan-Schultz,25.64,20.31,7.44,42x12x48,DarkGray,Glass,619,26,SUPP_050,2023-12-28,4.6,False
+PROD_000244,Upgradable well-modulated hierarchy,Clothing,Clothing_Sub_4,"Bray, Kaufman and Marquez",221.49,155.19,8.17,12x32x14,GhostWhite,Leather,629,20,SUPP_096,2025-03-14,1.2,False
+PROD_000245,Reverse-engineered 24/7 projection,Home & Garden,Home & Garden_Sub_5,Woodward-Conner,164.06,120.73,4.99,40x20x30,Crimson,Fabric,921,19,SUPP_042,2025-03-10,2.8,False
+PROD_000246,Object-based high-level hub,Beauty,Beauty_Sub_4,Taylor-Collins,122.77,80.83,1.44,13x41x37,LightYellow,Leather,462,72,SUPP_001,2022-12-29,2.8,False
+PROD_000247,Polarized heuristic emulation,Clothing,Clothing_Sub_3,Young Ltd,864.75,630.61,2.92,22x25x8,MediumTurquoise,Plastic,828,32,SUPP_001,2023-07-18,1.5,False
+PROD_000248,Centralized even-keeled interface,Home & Garden,Home & Garden_Sub_5,Berger-Garcia,499.42,349.89,30.68,18x24x45,Snow,Wood,901,17,SUPP_022,2024-03-16,3.4,False
+PROD_000249,Vision-oriented national array,Automotive,Automotive_Sub_4,Green-Torres,56.76,41.89,32.46,8x22x5,Peru,Fabric,799,36,SUPP_035,2023-04-20,2.6,False
+PROD_000250,Reactive multimedia flexibility,Toys,Toys_Sub_3,Johnston-White,629.18,408.16,26.87,14x20x32,Blue,Fabric,517,22,SUPP_006,2022-09-09,1.3,True
+PROD_000251,User-friendly hybrid artificial intelligence,Books,Books_Sub_4,"Garcia, Payne and Hester",180.8,119.71,2.52,25x11x20,FloralWhite,Metal,287,58,SUPP_008,2024-02-09,1.4,False
+PROD_000252,Diverse real-time middleware,Books,Books_Sub_1,"Holmes, Perez and Day",107.55,68.77,26.82,40x15x28,Sienna,Metal,177,14,SUPP_099,2022-10-07,3.2,False
+PROD_000253,Horizontal motivating customer loyalty,Clothing,Clothing_Sub_4,Soto and Sons,527.74,388.07,36.21,45x31x19,PowderBlue,Glass,861,11,SUPP_031,2025-04-14,3.1,True
+PROD_000254,Progressive multimedia monitoring,Clothing,Clothing_Sub_4,Harrell-Wilson,990.45,690.56,36.94,43x5x34,GhostWhite,Leather,522,85,SUPP_091,2025-01-03,2.2,False
+PROD_000255,Exclusive client-driven contingency,Automotive,Automotive_Sub_2,Franklin-Lee,55.71,38.71,1.25,13x10x21,DarkGreen,Leather,734,22,SUPP_100,2023-06-03,1.2,False
+PROD_000256,Team-oriented solution-oriented access,Electronics,Electronics_Sub_4,"Petersen, Roberts and Schneider",123.0,78.24,12.15,40x28x6,LightSalmon,Leather,687,78,SUPP_078,2025-03-02,2.3,True
+PROD_000257,Monitored eco-centric system engine,Automotive,Automotive_Sub_1,"Ellis, Owens and Lawson",533.8,420.07,4.14,12x42x10,Turquoise,Fabric,271,92,SUPP_039,2023-08-09,2.4,False
+PROD_000258,Mandatory foreground strategy,Beauty,Beauty_Sub_5,Smith PLC,477.88,294.21,30.88,27x26x29,DimGray,Plastic,614,33,SUPP_059,2025-01-24,2.7,False
+PROD_000259,Total tertiary frame,Automotive,Automotive_Sub_4,"Luna, Herman and Garcia",737.02,494.45,40.56,49x48x37,Navy,Fabric,425,28,SUPP_055,2025-05-21,2.0,False
+PROD_000260,Face-to-face intangible concept,Clothing,Clothing_Sub_2,Bishop-Hamilton,744.76,477.76,38.27,29x33x39,MistyRose,Metal,962,13,SUPP_048,2023-08-29,2.5,True
+PROD_000261,Proactive 4thgeneration hierarchy,Clothing,Clothing_Sub_2,"Gomez, Dean and Martin",549.03,431.28,42.62,35x23x7,Olive,Metal,746,27,SUPP_028,2023-07-12,3.7,False
+PROD_000262,Future-proofed reciprocal extranet,Sports,Sports_Sub_4,Herman Ltd,961.8,634.18,15.17,30x29x16,LightGreen,Glass,434,36,SUPP_094,2024-12-30,1.9,False
+PROD_000263,Visionary 24hour Graphical User Interface,Clothing,Clothing_Sub_1,Potter-Jenkins,807.48,532.21,20.86,11x48x24,DarkSlateBlue,Metal,641,95,SUPP_014,2024-02-21,2.5,False
+PROD_000264,Open-architected attitude-oriented Internet solution,Home & Garden,Home & Garden_Sub_1,Moses PLC,604.96,408.6,49.52,31x18x31,CornflowerBlue,Wood,490,13,SUPP_033,2024-09-10,2.6,False
+PROD_000265,Open-architected methodical capability,Beauty,Beauty_Sub_5,Walker Ltd,515.41,365.04,24.2,6x18x29,GreenYellow,Fabric,572,39,SUPP_001,2023-10-09,1.1,False
+PROD_000266,Multi-channeled asynchronous Internet solution,Automotive,Automotive_Sub_5,Owens LLC,921.33,696.43,11.47,19x49x10,LightGoldenRodYellow,Wood,590,33,SUPP_096,2024-12-11,4.8,True
+PROD_000267,Distributed contextually-based help-desk,Clothing,Clothing_Sub_2,"Ballard, Yoder and Ingram",487.73,365.1,2.98,26x43x19,DarkOrange,Wood,65,15,SUPP_034,2025-06-22,1.2,False
+PROD_000268,Persevering multi-state definition,Books,Books_Sub_5,Sampson-Brown,103.25,62.37,27.21,15x13x37,Coral,Metal,287,71,SUPP_016,2023-06-13,3.1,False
+PROD_000269,Switchable 6thgeneration application,Clothing,Clothing_Sub_4,Stanton-Peterson,699.56,521.75,38.66,30x46x8,DarkGreen,Glass,342,96,SUPP_058,2025-05-22,3.1,False
+PROD_000270,User-friendly executive challenge,Sports,Sports_Sub_5,Solis and Sons,482.29,302.38,14.31,44x33x44,Tomato,Fabric,58,50,SUPP_021,2023-11-11,4.7,False
+PROD_000271,Team-oriented user-facing model,Automotive,Automotive_Sub_1,Livingston Ltd,119.28,87.38,27.36,31x26x31,Maroon,Wood,529,22,SUPP_071,2023-01-09,3.5,False
+PROD_000272,Team-oriented regional policy,Electronics,Electronics_Sub_4,Clarke-Pitts,86.2,55.17,10.64,48x50x25,SeaGreen,Glass,882,41,SUPP_013,2024-12-29,5.0,False
+PROD_000273,Centralized multi-tasking challenge,Clothing,Clothing_Sub_2,"Wilson, Gonzalez and Mccullough",600.41,396.88,49.06,28x27x33,DeepPink,Metal,762,63,SUPP_014,2024-03-31,2.7,False
+PROD_000274,Optimized fault-tolerant database,Beauty,Beauty_Sub_2,Moore-Gonzalez,493.12,353.15,28.07,9x10x41,SkyBlue,Metal,538,98,SUPP_091,2023-05-08,3.4,True
+PROD_000275,Public-key grid-enabled website,Electronics,Electronics_Sub_4,"Bridges, Hill and Scott",535.1,427.13,47.39,49x8x12,Turquoise,Metal,658,11,SUPP_064,2025-07-01,1.3,False
+PROD_000276,Focused directional policy,Toys,Toys_Sub_2,Powell-Salinas,797.39,517.04,34.81,12x29x19,AliceBlue,Leather,199,63,SUPP_016,2023-08-08,4.2,False
+PROD_000277,Multi-channeled optimizing help-desk,Automotive,Automotive_Sub_5,Lopez-Clark,862.37,633.42,16.54,42x7x7,Fuchsia,Wood,705,87,SUPP_008,2023-09-25,2.0,False
+PROD_000278,Fully-configurable neutral forecast,Toys,Toys_Sub_3,Lucero-Guzman,377.86,271.0,38.85,37x19x26,DarkMagenta,Leather,431,40,SUPP_088,2022-08-15,3.4,False
+PROD_000279,Balanced high-level superstructure,Clothing,Clothing_Sub_2,Vang Group,487.01,325.52,13.99,18x43x45,Coral,Metal,148,51,SUPP_100,2022-07-31,4.8,False
+PROD_000280,Profound explicit installation,Automotive,Automotive_Sub_3,Cross Ltd,79.04,61.62,30.05,16x25x40,DarkGray,Plastic,644,42,SUPP_064,2023-08-20,4.5,False
+PROD_000281,Focused dedicated projection,Clothing,Clothing_Sub_2,Robertson LLC,709.6,476.57,20.35,7x12x49,LightSeaGreen,Fabric,404,39,SUPP_074,2025-05-01,3.4,False
+PROD_000282,Cross-group bottom-line capability,Clothing,Clothing_Sub_2,Lopez LLC,726.09,470.85,27.79,25x19x11,CadetBlue,Wood,398,37,SUPP_100,2025-06-18,1.2,False
+PROD_000283,Re-engineered solution-oriented solution,Automotive,Automotive_Sub_5,Delgado-Peterson,405.94,272.98,33.11,26x44x7,MidnightBlue,Leather,601,64,SUPP_090,2025-06-10,3.6,False
+PROD_000284,Object-based impactful task-force,Automotive,Automotive_Sub_2,Austin-Goodwin,633.34,441.24,45.74,7x40x44,Chartreuse,Fabric,887,32,SUPP_090,2025-04-20,1.4,False
+PROD_000285,Multi-channeled explicit database,Home & Garden,Home & Garden_Sub_3,Orozco-Garcia,654.34,473.96,38.05,10x31x30,BurlyWood,Fabric,65,18,SUPP_027,2023-06-19,1.9,False
+PROD_000286,Polarized web-enabled definition,Home & Garden,Home & Garden_Sub_4,"Hernandez, Leon and Butler",458.29,339.72,23.96,13x12x35,LightYellow,Leather,231,100,SUPP_038,2024-11-17,4.9,False
+PROD_000287,Managed fresh-thinking access,Books,Books_Sub_3,Sanders PLC,141.28,107.64,8.67,15x22x11,MediumPurple,Leather,631,77,SUPP_093,2022-08-23,1.9,False
+PROD_000288,Reactive mission-critical open architecture,Beauty,Beauty_Sub_2,"Patel, Scott and Flowers",192.98,127.75,11.81,25x24x5,SteelBlue,Plastic,912,79,SUPP_013,2025-01-03,3.6,True
+PROD_000289,Open-architected scalable knowledge user,Sports,Sports_Sub_2,Martinez Group,303.57,231.23,48.6,22x14x47,Lavender,Leather,31,30,SUPP_089,2023-02-08,2.1,False
+PROD_000290,Monitored discrete conglomeration,Toys,Toys_Sub_1,Rodriguez-Martin,700.73,512.57,15.45,31x27x49,Lime,Plastic,120,95,SUPP_095,2024-05-09,3.1,False
+PROD_000291,Centralized empowering groupware,Toys,Toys_Sub_4,"Thomas, Perez and Walton",989.8,716.62,0.5,41x23x11,DarkSlateGray,Wood,506,54,SUPP_025,2024-01-30,3.5,False
+PROD_000292,Multi-layered bandwidth-monitored initiative,Clothing,Clothing_Sub_2,Turner-Evans,472.78,331.76,16.06,45x13x24,MidnightBlue,Wood,95,97,SUPP_082,2024-09-21,3.5,True
+PROD_000293,Ameliorated local time-frame,Books,Books_Sub_4,Gonzalez PLC,861.48,548.11,33.4,9x6x46,DarkKhaki,Metal,325,59,SUPP_041,2023-03-26,3.5,False
+PROD_000294,User-friendly non-volatile conglomeration,Books,Books_Sub_1,Robinson Inc,637.83,436.71,8.81,35x29x50,LawnGreen,Glass,443,84,SUPP_085,2024-07-07,4.7,False
+PROD_000295,Innovative systematic firmware,Books,Books_Sub_2,"Andrews, Mayer and Hill",574.15,406.7,11.76,39x29x10,RosyBrown,Fabric,256,21,SUPP_009,2023-11-17,3.5,False
+PROD_000296,Future-proofed radical framework,Home & Garden,Home & Garden_Sub_5,"Dixon, Little and Haynes",680.04,459.51,41.81,19x24x13,Magenta,Wood,669,90,SUPP_020,2025-04-22,2.2,False
+PROD_000297,Synergized hybrid implementation,Books,Books_Sub_5,"Wallace, Greer and Cook",747.23,483.93,13.58,17x17x24,MidnightBlue,Leather,529,78,SUPP_078,2024-07-29,1.9,False
+PROD_000298,Front-line impactful encryption,Home & Garden,Home & Garden_Sub_4,"Roberts, Atkins and Brown",377.22,287.32,46.96,38x29x32,Indigo,Fabric,260,14,SUPP_065,2023-04-08,2.7,False
+PROD_000299,Operative regional paradigm,Sports,Sports_Sub_2,Garcia-Cortez,291.44,190.54,36.4,16x29x44,Plum,Metal,567,52,SUPP_044,2023-01-12,1.1,True
+PROD_000300,Synergistic analyzing conglomeration,Toys,Toys_Sub_1,Lewis Ltd,581.84,456.3,17.44,40x45x38,Ivory,Fabric,382,87,SUPP_035,2025-06-13,4.5,False
+PROD_000301,Visionary systematic software,Electronics,Electronics_Sub_2,"Salas, Holt and Fox",573.63,443.06,40.35,43x32x23,LightGreen,Wood,214,51,SUPP_077,2024-12-02,1.4,False
+PROD_000302,Mandatory transitional system engine,Beauty,Beauty_Sub_3,"Williams, Moore and Harvey",54.35,34.09,22.95,40x38x17,MediumAquaMarine,Plastic,38,85,SUPP_076,2022-08-12,2.4,False
+PROD_000303,Multi-channeled static superstructure,Automotive,Automotive_Sub_2,Johnson-Avery,935.22,671.31,49.3,44x46x30,LawnGreen,Leather,386,76,SUPP_056,2025-06-18,2.7,False
+PROD_000304,Horizontal neutral website,Sports,Sports_Sub_4,"Tucker, Gonzales and Howard",26.24,20.19,35.07,34x49x46,Gainsboro,Plastic,893,65,SUPP_075,2025-02-26,1.2,False
+PROD_000305,Digitized web-enabled function,Automotive,Automotive_Sub_1,Davis-Edwards,89.99,62.64,48.17,18x38x21,LightBlue,Leather,954,67,SUPP_014,2023-06-21,2.3,False
+PROD_000306,Seamless asymmetric data-warehouse,Toys,Toys_Sub_4,Thomas Group,437.81,322.77,16.36,46x26x9,Lavender,Fabric,745,74,SUPP_055,2024-01-03,4.8,False
+PROD_000307,Persistent bottom-line budgetary management,Beauty,Beauty_Sub_4,Perez Inc,665.56,484.48,13.11,48x16x18,LightBlue,Wood,710,36,SUPP_048,2023-12-05,3.4,False
+PROD_000308,Re-engineered next generation application,Beauty,Beauty_Sub_5,"Garcia, Smith and Carter",521.95,373.36,1.03,22x25x6,DarkGray,Leather,343,62,SUPP_053,2025-03-04,4.4,False
+PROD_000309,Multi-channeled tangible forecast,Home & Garden,Home & Garden_Sub_4,Davis-Smith,349.72,247.4,2.37,50x21x16,Gainsboro,Fabric,445,19,SUPP_061,2025-06-01,4.3,False
+PROD_000310,Function-based interactive functionalities,Books,Books_Sub_3,Dickerson-Walker,803.52,622.13,6.31,7x13x26,DarkViolet,Plastic,882,97,SUPP_031,2024-04-12,3.2,False
+PROD_000311,De-engineered 4thgeneration moratorium,Automotive,Automotive_Sub_4,Santiago LLC,747.12,533.89,37.8,24x37x9,DarkSlateBlue,Leather,421,41,SUPP_067,2023-03-02,3.6,False
+PROD_000312,Progressive demand-driven paradigm,Beauty,Beauty_Sub_5,"Mann, Bell and Cooper",869.49,525.47,33.59,17x25x37,Black,Wood,226,12,SUPP_093,2023-02-15,4.4,False
+PROD_000313,Optimized client-driven interface,Clothing,Clothing_Sub_2,Leon-Johnson,444.88,324.11,28.95,43x26x10,LightYellow,Fabric,664,36,SUPP_001,2024-03-31,4.0,False
+PROD_000314,Object-based zero administration product,Toys,Toys_Sub_2,"Buchanan, Escobar and Cooper",907.49,614.79,45.19,36x34x27,HotPink,Fabric,385,70,SUPP_007,2024-05-29,4.6,True
+PROD_000315,Team-oriented optimizing benchmark,Beauty,Beauty_Sub_2,Noble-Lewis,61.09,39.81,9.8,32x18x21,Cyan,Wood,696,46,SUPP_028,2025-05-01,3.5,False
+PROD_000316,Optimized fresh-thinking implementation,Beauty,Beauty_Sub_2,Nichols LLC,240.3,167.09,26.91,48x14x17,Moccasin,Metal,379,66,SUPP_087,2023-03-27,2.7,False
+PROD_000317,Assimilated scalable project,Electronics,Electronics_Sub_4,"Dalton, Harrington and Roberts",883.97,603.48,41.93,33x24x22,Black,Wood,472,69,SUPP_055,2025-04-09,1.7,False
+PROD_000318,Versatile optimal pricing structure,Books,Books_Sub_4,Wagner-Lopez,252.55,182.11,19.68,39x25x49,Aqua,Plastic,521,88,SUPP_071,2023-03-04,4.7,False
+PROD_000319,Extended logistical utilization,Automotive,Automotive_Sub_3,"Simmons, Sanchez and Ayala",785.72,603.32,48.31,28x44x22,Violet,Leather,293,93,SUPP_031,2022-12-19,4.8,False
+PROD_000320,Managed contextually-based leverage,Toys,Toys_Sub_2,Montes-Roman,591.56,404.61,42.44,33x34x21,Plum,Plastic,985,40,SUPP_061,2024-09-25,2.6,False
+PROD_000321,Diverse foreground ability,Automotive,Automotive_Sub_3,Dunn PLC,34.77,23.3,43.62,6x35x31,GhostWhite,Glass,363,20,SUPP_040,2024-08-25,3.4,False
+PROD_000322,Configurable asymmetric circuit,Sports,Sports_Sub_1,Jones-Stuart,85.27,62.13,37.74,18x46x18,DarkMagenta,Plastic,636,85,SUPP_008,2022-10-08,4.2,False
+PROD_000323,Upgradable 4thgeneration Local Area Network,Electronics,Electronics_Sub_5,Howell-Meyer,852.59,561.09,36.95,31x28x30,Green,Wood,743,74,SUPP_020,2022-11-22,2.0,False
+PROD_000324,Reduced explicit database,Sports,Sports_Sub_3,"Higgins, Brown and Rivera",251.72,197.04,49.16,26x46x47,DarkMagenta,Glass,374,41,SUPP_044,2024-08-17,4.8,True
+PROD_000325,De-engineered impactful data-warehouse,Books,Books_Sub_4,"Smith, Harding and Johnson",435.54,311.03,1.69,48x47x5,RoyalBlue,Plastic,266,69,SUPP_004,2023-10-12,4.4,False
+PROD_000326,Adaptive executive instruction set,Clothing,Clothing_Sub_1,"Huffman, Beasley and Forbes",69.33,51.16,12.35,24x42x47,DarkMagenta,Wood,844,63,SUPP_010,2023-09-30,1.3,False
+PROD_000327,Intuitive homogeneous flexibility,Beauty,Beauty_Sub_3,Cochran-Moore,993.68,611.41,4.43,11x48x25,Blue,Fabric,220,67,SUPP_036,2024-12-26,2.6,False
+PROD_000328,Reverse-engineered bifurcated collaboration,Sports,Sports_Sub_4,"Pena, Ford and Roberts",454.19,337.97,46.17,37x46x46,LightSteelBlue,Glass,523,72,SUPP_086,2025-04-25,1.0,False
+PROD_000329,Right-sized static encryption,Beauty,Beauty_Sub_4,Aguirre Inc,674.5,422.66,42.94,29x40x14,Beige,Leather,628,12,SUPP_095,2023-10-04,2.5,False
+PROD_000330,Synchronized optimizing info-mediaries,Beauty,Beauty_Sub_3,Stuart-Lowe,978.17,632.42,29.35,6x38x46,GhostWhite,Fabric,69,45,SUPP_092,2024-04-10,1.7,False
+PROD_000331,Ameliorated mission-critical secured line,Home & Garden,Home & Garden_Sub_1,"Oneill, Bell and Pratt",732.7,510.13,28.76,16x36x32,DarkSlateBlue,Wood,875,12,SUPP_041,2023-05-23,2.1,False
+PROD_000332,Up-sized holistic migration,Home & Garden,Home & Garden_Sub_5,Hayes and Sons,539.68,381.22,8.82,14x9x21,LightYellow,Plastic,363,18,SUPP_028,2024-03-16,4.5,False
+PROD_000333,Cloned impactful strategy,Beauty,Beauty_Sub_1,Barry Group,315.24,235.84,15.45,20x18x40,DarkSalmon,Fabric,858,21,SUPP_033,2023-11-02,2.8,True
+PROD_000334,Stand-alone full-range benchmark,Toys,Toys_Sub_2,"Campbell, Porter and Patel",268.54,162.02,15.03,24x13x5,Gray,Metal,335,87,SUPP_034,2024-06-04,2.1,False
+PROD_000335,Automated bandwidth-monitored open architecture,Books,Books_Sub_2,Bowman Inc,785.26,534.96,24.09,19x27x10,DarkCyan,Fabric,937,97,SUPP_090,2025-03-24,4.0,False
+PROD_000336,Ameliorated upward-trending data-warehouse,Sports,Sports_Sub_4,Ritter PLC,484.28,324.98,4.87,10x18x28,MidnightBlue,Plastic,517,96,SUPP_025,2022-11-03,1.0,False
+PROD_000337,Visionary 24/7 secured line,Toys,Toys_Sub_2,"Wilson, Jimenez and Lopez",274.86,207.56,47.24,31x25x39,MidnightBlue,Plastic,357,36,SUPP_080,2023-09-04,4.7,False
+PROD_000338,Enterprise-wide context-sensitive Local Area Network,Toys,Toys_Sub_2,"Cole, Lopez and Davis",696.83,490.92,24.5,43x25x26,DarkSeaGreen,Fabric,826,89,SUPP_008,2023-06-12,4.2,False
+PROD_000339,Adaptive tertiary forecast,Clothing,Clothing_Sub_2,Powers Ltd,971.41,730.09,27.74,29x26x28,Salmon,Fabric,859,24,SUPP_049,2023-06-25,2.8,False
+PROD_000340,Streamlined non-volatile collaboration,Books,Books_Sub_2,Lin and Sons,542.66,403.36,47.13,11x42x19,DarkOrange,Wood,545,83,SUPP_012,2022-11-22,3.2,False
+PROD_000341,Face-to-face coherent benchmark,Electronics,Electronics_Sub_1,"Sosa, Herman and Odonnell",992.83,757.81,48.03,9x21x29,MediumSeaGreen,Metal,265,26,SUPP_091,2023-01-21,3.4,False
+PROD_000342,Sharable composite matrices,Sports,Sports_Sub_2,"Adams, Dickerson and Hall",111.77,85.85,30.45,28x41x34,Peru,Leather,861,40,SUPP_098,2025-05-16,4.4,False
+PROD_000343,User-centric optimal collaboration,Clothing,Clothing_Sub_2,Bradley PLC,72.68,46.47,15.79,35x17x23,MediumSlateBlue,Plastic,89,47,SUPP_093,2025-05-10,2.6,False
+PROD_000344,Managed bi-directional task-force,Clothing,Clothing_Sub_3,Ramirez Inc,883.83,584.62,17.88,17x8x9,Teal,Wood,228,14,SUPP_025,2022-07-29,1.2,False
+PROD_000345,Digitized zero tolerance productivity,Electronics,Electronics_Sub_4,Patterson Group,446.54,294.99,4.49,50x11x8,MediumAquaMarine,Fabric,909,62,SUPP_047,2024-03-27,3.5,False
+PROD_000346,Open-architected dynamic leverage,Toys,Toys_Sub_3,Watson-Lee,462.05,305.28,37.1,50x32x20,Black,Leather,819,49,SUPP_042,2023-10-03,5.0,False
+PROD_000347,Streamlined full-range initiative,Books,Books_Sub_5,Navarro-Dennis,595.1,366.82,7.15,44x43x22,RosyBrown,Wood,156,17,SUPP_054,2022-11-27,2.2,False
+PROD_000348,Persistent reciprocal instruction set,Clothing,Clothing_Sub_1,"Cruz, Neal and Smith",425.16,331.21,5.32,49x29x46,PeachPuff,Glass,706,88,SUPP_012,2023-10-08,1.1,False
+PROD_000349,Switchable 5thgeneration alliance,Books,Books_Sub_2,Parker PLC,667.51,411.68,6.79,12x30x39,Gainsboro,Metal,427,74,SUPP_017,2023-09-10,1.6,False
+PROD_000350,Horizontal heuristic functionalities,Automotive,Automotive_Sub_3,Edwards Group,928.59,593.1,20.17,46x29x44,AliceBlue,Fabric,797,58,SUPP_019,2022-12-23,1.1,False
+PROD_000351,Versatile next generation utilization,Sports,Sports_Sub_4,"Christensen, Ramos and Garcia",577.21,419.53,46.63,10x5x5,Crimson,Wood,582,39,SUPP_018,2023-01-11,3.6,False
+PROD_000352,Progressive asynchronous hierarchy,Toys,Toys_Sub_4,"Thomas, Lynn and Clark",138.21,109.47,6.72,45x34x8,LightYellow,Leather,206,30,SUPP_019,2023-02-11,1.1,False
+PROD_000353,Customizable didactic model,Automotive,Automotive_Sub_3,Garrett Inc,563.27,347.92,30.82,13x21x17,IndianRed,Fabric,474,25,SUPP_019,2024-06-04,3.4,False
+PROD_000354,Virtual high-level pricing structure,Toys,Toys_Sub_2,"Griffith, Johnson and Richardson",901.96,712.14,40.59,26x48x37,Khaki,Leather,23,100,SUPP_019,2023-01-10,4.7,False
+PROD_000355,Reactive object-oriented encoding,Beauty,Beauty_Sub_1,Strickland-Herrera,807.95,621.67,2.29,40x6x16,FloralWhite,Metal,268,11,SUPP_054,2024-03-01,4.1,False
+PROD_000356,Persevering impactful workforce,Automotive,Automotive_Sub_3,Klein Inc,456.64,281.6,40.25,49x43x26,Fuchsia,Plastic,735,84,SUPP_003,2024-03-26,2.0,True
+PROD_000357,Quality-focused intermediate capability,Toys,Toys_Sub_4,"Jackson, Hanson and Stewart",398.22,249.65,34.42,18x7x11,Silver,Glass,337,90,SUPP_046,2023-04-07,2.7,False
+PROD_000358,Triple-buffered non-volatile adapter,Automotive,Automotive_Sub_5,Jenkins LLC,513.57,315.75,25.57,29x27x32,Magenta,Leather,933,88,SUPP_080,2024-12-30,4.3,False
+PROD_000359,Proactive neutral challenge,Beauty,Beauty_Sub_1,Strickland-Taylor,422.52,331.43,6.49,13x42x6,PaleGreen,Plastic,100,34,SUPP_072,2023-02-15,2.5,False
+PROD_000360,Expanded holistic application,Automotive,Automotive_Sub_5,Munoz Inc,284.32,177.49,37.69,10x41x44,SteelBlue,Plastic,219,75,SUPP_003,2023-12-09,1.8,False
+PROD_000361,Optional optimal synergy,Sports,Sports_Sub_5,Rodriguez-May,590.99,424.23,49.52,25x20x40,DarkGoldenRod,Metal,973,82,SUPP_038,2024-04-10,2.2,False
+PROD_000362,Visionary analyzing software,Clothing,Clothing_Sub_3,Sampson-Mckee,465.01,312.34,28.21,8x28x19,MediumBlue,Wood,451,26,SUPP_072,2024-08-25,2.0,False
+PROD_000363,Ameliorated 24hour initiative,Clothing,Clothing_Sub_4,"Morris, Lopez and Mcmahon",479.49,341.07,32.02,41x26x19,Chocolate,Metal,673,60,SUPP_064,2024-04-07,1.0,False
+PROD_000364,User-centric responsive capability,Beauty,Beauty_Sub_5,Woods-Marquez,750.73,550.06,20.75,26x29x49,Violet,Leather,152,85,SUPP_022,2024-12-29,2.5,False
+PROD_000365,Multi-layered solution-oriented solution,Books,Books_Sub_2,Jones-Reeves,530.28,322.59,8.32,39x5x12,Crimson,Fabric,223,29,SUPP_032,2023-02-24,2.5,True
+PROD_000366,Down-sized eco-centric task-force,Toys,Toys_Sub_4,"Willis, Perez and Campbell",539.83,367.0,14.97,32x36x31,OliveDrab,Leather,507,74,SUPP_003,2023-06-20,3.4,False
+PROD_000367,Object-based intermediate implementation,Toys,Toys_Sub_5,"Rodriguez, Robinson and Anderson",226.62,152.17,48.68,22x41x25,Khaki,Fabric,486,52,SUPP_019,2023-09-13,1.3,False
+PROD_000368,Managed value-added customer loyalty,Home & Garden,Home & Garden_Sub_1,Nielsen Ltd,938.25,694.31,16.19,27x48x50,DarkSlateBlue,Wood,614,90,SUPP_021,2023-08-26,4.7,False
+PROD_000369,Centralized client-driven matrices,Automotive,Automotive_Sub_3,"Howell, Palmer and Collins",542.07,367.07,22.92,22x10x48,SaddleBrown,Plastic,722,91,SUPP_038,2022-11-16,4.9,False
+PROD_000370,Open-architected client-server concept,Books,Books_Sub_4,Olson-Miller,449.33,293.7,38.05,46x12x44,LightSalmon,Fabric,504,64,SUPP_033,2024-04-16,2.3,False
+PROD_000371,Total fault-tolerant access,Beauty,Beauty_Sub_3,Shaw Inc,789.26,557.12,3.69,27x46x32,DeepPink,Wood,908,24,SUPP_079,2024-05-18,2.6,False
+PROD_000372,Phased stable encoding,Beauty,Beauty_Sub_2,"Lloyd, Cabrera and Martin",936.01,582.25,0.5,8x41x18,Green,Wood,754,74,SUPP_024,2022-11-28,1.2,False
+PROD_000373,Diverse directional algorithm,Home & Garden,Home & Garden_Sub_1,"Lester, Lopez and Booker",95.0,66.96,36.85,41x35x46,Orange,Leather,158,32,SUPP_036,2022-11-24,1.6,False
+PROD_000374,Cloned well-modulated frame,Home & Garden,Home & Garden_Sub_3,"Cooper, Harris and Lee",774.57,504.1,30.05,35x29x31,WhiteSmoke,Fabric,49,82,SUPP_081,2023-04-24,3.1,False
+PROD_000375,Digitized exuding system engine,Electronics,Electronics_Sub_1,"Sims, Benitez and Matthews",806.42,619.09,43.72,7x22x5,DarkCyan,Metal,201,48,SUPP_071,2024-05-21,1.0,False
+PROD_000376,Programmable didactic installation,Toys,Toys_Sub_2,"Howell, Underwood and Tucker",444.25,290.77,12.18,38x30x30,YellowGreen,Leather,497,23,SUPP_045,2023-10-23,2.3,False
+PROD_000377,Phased systematic complexity,Electronics,Electronics_Sub_3,Floyd Group,252.6,171.91,7.8,30x7x44,MediumSpringGreen,Glass,496,44,SUPP_096,2022-10-12,4.3,False
+PROD_000378,Enhanced homogeneous Graphic Interface,Books,Books_Sub_4,Sweeney PLC,144.67,106.79,31.49,18x30x49,OliveDrab,Wood,639,83,SUPP_009,2023-02-11,1.4,False
+PROD_000379,Universal discrete capacity,Toys,Toys_Sub_4,Thompson-Brown,450.0,349.15,31.36,48x14x37,Crimson,Wood,755,15,SUPP_022,2025-07-17,4.9,False
+PROD_000380,Adaptive stable Graphic Interface,Toys,Toys_Sub_3,"Johnson, Santana and Olson",725.43,484.61,42.5,46x47x18,LightGray,Fabric,251,12,SUPP_087,2023-11-08,3.0,False
+PROD_000381,Digitized attitude-oriented neural-net,Toys,Toys_Sub_5,Carter-Woodward,147.37,107.33,45.72,29x16x31,FloralWhite,Wood,222,87,SUPP_048,2022-10-08,2.6,False
+PROD_000382,Cross-platform tangible function,Sports,Sports_Sub_3,Miller-Skinner,750.9,584.76,0.23,40x44x6,Blue,Glass,850,53,SUPP_011,2023-07-18,3.7,False
+PROD_000383,Innovative analyzing capacity,Clothing,Clothing_Sub_5,Carter-Hawkins,509.82,315.68,22.86,28x28x9,LightGoldenRodYellow,Metal,586,96,SUPP_089,2023-08-14,2.1,False
+PROD_000384,User-centric client-server function,Sports,Sports_Sub_5,Holland and Sons,782.95,575.15,17.02,48x11x32,SkyBlue,Wood,634,79,SUPP_023,2024-03-16,3.1,False
+PROD_000385,Reverse-engineered clear-thinking pricing structure,Home & Garden,Home & Garden_Sub_5,Bryant Ltd,782.82,519.67,16.88,41x35x22,SeaGreen,Glass,455,65,SUPP_045,2025-03-28,2.5,False
+PROD_000386,Up-sized 24/7 algorithm,Electronics,Electronics_Sub_4,Bennett-Pollard,28.55,21.5,16.37,44x21x46,PaleTurquoise,Leather,215,91,SUPP_040,2023-12-31,1.9,False
+PROD_000387,Reactive contextually-based leverage,Automotive,Automotive_Sub_4,Goodwin-Wallace,110.83,85.53,43.01,41x16x14,SkyBlue,Leather,2,84,SUPP_035,2023-06-30,4.1,False
+PROD_000388,Implemented global pricing structure,Electronics,Electronics_Sub_4,Sanchez and Sons,410.87,256.79,47.48,20x24x12,MediumOrchid,Wood,215,56,SUPP_076,2022-12-28,2.9,False
+PROD_000389,Versatile multimedia moderator,Electronics,Electronics_Sub_1,Fowler Ltd,118.69,94.02,47.49,46x21x34,DarkCyan,Glass,879,39,SUPP_099,2023-04-25,2.2,False
+PROD_000390,Synergistic multi-tasking infrastructure,Home & Garden,Home & Garden_Sub_1,"Williams, Buchanan and Gonzalez",820.46,574.4,33.0,49x39x35,OldLace,Metal,177,55,SUPP_047,2024-05-27,2.9,False
+PROD_000391,Devolved encompassing adapter,Beauty,Beauty_Sub_3,Welch PLC,112.82,82.33,17.2,46x45x36,Purple,Wood,97,60,SUPP_069,2025-06-22,2.3,False
+PROD_000392,Polarized non-volatile intranet,Automotive,Automotive_Sub_2,"Newman, Parker and Simmons",623.38,478.01,15.77,20x14x39,DarkGray,Wood,989,57,SUPP_045,2025-03-21,3.2,False
+PROD_000393,Robust zero administration middleware,Toys,Toys_Sub_4,Patterson-Dean,749.37,567.64,15.14,36x28x37,Gold,Plastic,669,62,SUPP_052,2024-10-05,1.2,False
+PROD_000394,Realigned intermediate intranet,Sports,Sports_Sub_1,Armstrong-Holmes,778.93,539.8,20.59,20x18x46,SeaGreen,Leather,309,66,SUPP_001,2025-03-01,2.2,False
+PROD_000395,Business-focused stable application,Sports,Sports_Sub_4,Wilson-Reid,808.8,601.81,49.85,33x45x50,LightPink,Plastic,260,73,SUPP_086,2023-05-25,3.4,True
+PROD_000396,Managed national initiative,Home & Garden,Home & Garden_Sub_3,Mcdonald-Davis,133.24,89.88,17.53,25x41x26,DarkCyan,Plastic,530,37,SUPP_064,2023-09-05,4.8,False
+PROD_000397,Universal encompassing portal,Beauty,Beauty_Sub_1,Nguyen-Evans,131.43,79.68,1.37,43x29x11,SteelBlue,Plastic,79,68,SUPP_045,2025-02-11,3.5,False
+PROD_000398,Reactive actuating challenge,Electronics,Electronics_Sub_1,"Massey, Green and Scott",443.95,304.77,1.86,29x34x41,MidnightBlue,Leather,276,83,SUPP_005,2023-04-26,3.0,False
+PROD_000399,Total 5thgeneration protocol,Books,Books_Sub_5,"Mooney, Hunter and Turner",319.48,206.79,34.03,30x50x14,Plum,Plastic,767,56,SUPP_075,2024-10-26,4.2,False
+PROD_000400,Grass-roots 6thgeneration encryption,Beauty,Beauty_Sub_4,Haynes Ltd,407.79,293.15,12.57,17x32x36,LightSteelBlue,Metal,376,96,SUPP_046,2024-07-02,3.8,False
+PROD_000401,Realigned hybrid Internet solution,Electronics,Electronics_Sub_4,Harvey-Graham,67.21,44.97,6.49,39x39x18,LightCyan,Wood,797,20,SUPP_028,2022-08-30,1.9,False
+PROD_000402,Operative didactic support,Clothing,Clothing_Sub_2,Brown and Sons,615.97,407.74,3.81,17x8x43,LightSlateGray,Glass,932,49,SUPP_022,2025-01-23,3.0,False
+PROD_000403,Organized motivating customer loyalty,Home & Garden,Home & Garden_Sub_4,Hall-Lee,411.14,314.13,33.65,19x25x35,LightSlateGray,Leather,790,82,SUPP_053,2025-06-01,2.8,False
+PROD_000404,De-engineered national attitude,Clothing,Clothing_Sub_3,"Harvey, French and Flowers",524.96,399.45,1.22,50x47x5,DarkRed,Leather,52,68,SUPP_087,2025-03-07,3.9,False
+PROD_000405,Team-oriented uniform database,Beauty,Beauty_Sub_3,Munoz-Simmons,565.11,421.51,7.75,6x37x16,DarkSlateGray,Wood,185,95,SUPP_054,2024-02-08,1.9,False
+PROD_000406,Total demand-driven forecast,Sports,Sports_Sub_1,Fowler Group,150.08,118.77,25.38,38x29x32,LimeGreen,Fabric,106,21,SUPP_017,2023-09-21,3.7,False
+PROD_000407,Exclusive fresh-thinking budgetary management,Books,Books_Sub_1,Miranda-Yang,271.22,197.55,32.92,25x15x29,Gray,Plastic,945,23,SUPP_075,2025-05-29,3.0,False
+PROD_000408,Adaptive tangible migration,Books,Books_Sub_3,Mitchell and Sons,811.91,547.6,43.27,30x25x33,GoldenRod,Wood,644,90,SUPP_035,2022-10-01,2.5,False
+PROD_000409,Expanded didactic workforce,Home & Garden,Home & Garden_Sub_2,"Schwartz, Ford and Anderson",381.04,279.36,40.97,22x23x9,LemonChiffon,Plastic,533,22,SUPP_099,2025-01-19,3.8,False
+PROD_000410,Profound client-driven portal,Toys,Toys_Sub_1,"Christensen, Carpenter and Chavez",221.69,169.62,46.08,17x37x6,HoneyDew,Leather,346,28,SUPP_008,2022-09-05,1.8,False
+PROD_000411,Customer-focused national customer loyalty,Clothing,Clothing_Sub_5,Mitchell-Anderson,224.22,146.2,41.89,32x37x24,Aqua,Plastic,549,45,SUPP_064,2023-03-29,4.8,False
+PROD_000412,User-friendly intermediate workforce,Books,Books_Sub_2,"Dorsey, Lowery and Moore",37.62,29.34,3.82,47x38x20,PaleVioletRed,Metal,248,51,SUPP_035,2023-05-05,4.9,False
+PROD_000413,Face-to-face directional open architecture,Clothing,Clothing_Sub_2,Vargas LLC,448.49,295.2,27.13,29x5x17,MediumBlue,Plastic,520,71,SUPP_100,2023-11-06,2.6,False
+PROD_000414,User-friendly incremental access,Automotive,Automotive_Sub_1,Smith-Sullivan,734.99,509.35,0.63,31x47x47,Chartreuse,Glass,445,23,SUPP_070,2023-10-05,1.9,False
+PROD_000415,Seamless secondary archive,Books,Books_Sub_5,Durham and Sons,379.44,265.53,24.21,46x35x49,MintCream,Plastic,651,63,SUPP_024,2023-01-11,4.8,False
+PROD_000416,Persistent non-volatile groupware,Electronics,Electronics_Sub_3,"Ferguson, Duke and Davis",550.14,393.27,42.29,30x40x8,DarkSalmon,Leather,306,23,SUPP_065,2025-02-05,2.6,False
+PROD_000417,Automated 24hour application,Electronics,Electronics_Sub_2,Taylor-Schultz,887.19,615.23,33.6,29x24x46,Snow,Wood,814,61,SUPP_033,2022-08-18,3.5,False
+PROD_000418,Future-proofed hybrid complexity,Clothing,Clothing_Sub_5,Hanson-Simon,616.75,482.51,20.12,25x50x48,LightSeaGreen,Metal,623,97,SUPP_003,2024-08-30,2.5,True
+PROD_000419,Ergonomic client-server frame,Electronics,Electronics_Sub_5,Gardner-Collins,722.12,535.12,37.56,46x5x19,Turquoise,Wood,133,53,SUPP_085,2025-06-30,5.0,False
+PROD_000420,Synergized mobile info-mediaries,Automotive,Automotive_Sub_1,"Burton, Robinson and Edwards",132.15,89.63,3.55,28x40x41,Magenta,Plastic,192,60,SUPP_070,2025-03-29,1.6,False
+PROD_000421,Stand-alone global data-warehouse,Electronics,Electronics_Sub_4,Brown Group,284.5,215.14,5.98,26x20x9,DarkOrange,Fabric,254,91,SUPP_051,2023-05-26,3.9,False
+PROD_000422,Distributed tangible pricing structure,Toys,Toys_Sub_2,Andrews Inc,407.51,281.63,0.27,16x12x32,HoneyDew,Fabric,752,13,SUPP_071,2023-03-24,3.8,False
+PROD_000423,Reduced content-based utilization,Sports,Sports_Sub_5,Aguilar Ltd,20.36,13.43,43.26,43x19x17,DarkRed,Wood,558,39,SUPP_097,2023-09-10,3.0,False
+PROD_000424,Digitized 24/7 help-desk,Clothing,Clothing_Sub_1,Underwood LLC,414.17,312.41,22.49,25x10x35,GreenYellow,Wood,346,42,SUPP_049,2023-01-10,3.3,False
+PROD_000425,Enterprise-wide zero tolerance capacity,Toys,Toys_Sub_1,Anderson LLC,35.74,25.53,8.23,10x24x8,MediumVioletRed,Plastic,154,79,SUPP_032,2023-08-14,1.8,False
+PROD_000426,Team-oriented asymmetric protocol,Toys,Toys_Sub_5,Miller-Burns,952.0,735.39,29.19,35x41x42,Chocolate,Plastic,954,38,SUPP_044,2023-12-12,4.2,False
+PROD_000427,Robust tertiary support,Automotive,Automotive_Sub_1,Hood-Velazquez,497.85,389.08,24.7,36x49x6,Salmon,Metal,33,54,SUPP_053,2023-12-21,3.0,False
+PROD_000428,Inverse scalable process improvement,Sports,Sports_Sub_1,Mahoney Inc,138.27,89.37,45.51,49x29x5,LightSlateGray,Wood,95,60,SUPP_033,2023-12-19,3.2,False
+PROD_000429,Devolved neutral array,Toys,Toys_Sub_2,Mason-Vazquez,246.68,180.93,19.32,21x12x40,Gainsboro,Glass,782,61,SUPP_059,2024-08-27,2.9,False
+PROD_000430,Fully-configurable exuding access,Electronics,Electronics_Sub_1,Smith LLC,393.9,302.68,11.3,25x46x50,DarkOrchid,Fabric,818,68,SUPP_087,2022-10-24,3.5,False
+PROD_000431,Automated next generation groupware,Clothing,Clothing_Sub_4,Martinez-Kelley,762.7,568.26,2.33,19x16x21,Red,Fabric,810,63,SUPP_096,2024-02-25,4.3,False
+PROD_000432,Open-architected client-driven ability,Toys,Toys_Sub_4,Murphy-Brooks,897.18,643.57,13.27,26x12x5,Peru,Wood,555,45,SUPP_069,2023-04-15,4.4,True
+PROD_000433,Organic zero administration throughput,Automotive,Automotive_Sub_2,Williams PLC,845.26,584.08,27.12,27x29x6,LavenderBlush,Wood,865,47,SUPP_021,2025-01-31,2.9,False
+PROD_000434,Synergized value-added hardware,Toys,Toys_Sub_5,Perry Ltd,720.94,515.64,15.01,35x31x12,Plum,Plastic,110,16,SUPP_062,2022-09-14,4.8,False
+PROD_000435,Multi-lateral bottom-line website,Beauty,Beauty_Sub_3,Hopkins-Owens,882.3,609.83,18.17,48x27x31,DarkGray,Wood,472,29,SUPP_066,2024-04-19,3.3,False
+PROD_000436,Cross-group zero tolerance solution,Books,Books_Sub_4,Cox Ltd,686.29,481.43,10.58,37x26x22,WhiteSmoke,Leather,25,36,SUPP_075,2025-07-25,1.0,False
+PROD_000437,Optional modular function,Beauty,Beauty_Sub_5,White-Anderson,859.69,679.82,37.11,5x32x29,LimeGreen,Leather,604,86,SUPP_024,2022-12-01,4.7,False
+PROD_000438,Organic zero administration focus group,Beauty,Beauty_Sub_1,Rodriguez-Murphy,226.3,155.65,6.7,31x40x35,LightPink,Plastic,639,66,SUPP_057,2024-04-08,4.6,False
+PROD_000439,Persevering secondary framework,Toys,Toys_Sub_4,Price-Williamson,50.47,32.14,32.75,41x41x31,Aqua,Metal,385,38,SUPP_064,2024-07-07,2.9,False
+PROD_000440,Synergized content-based hierarchy,Automotive,Automotive_Sub_1,"Camacho, Parrish and Duncan",673.38,429.27,4.36,33x20x27,GoldenRod,Plastic,133,80,SUPP_077,2025-06-01,2.7,False
+PROD_000441,Digitized eco-centric task-force,Electronics,Electronics_Sub_4,Roman-Mercer,544.24,352.87,45.06,15x23x17,CadetBlue,Metal,237,34,SUPP_088,2025-07-12,4.8,False
+PROD_000442,Devolved 4thgeneration focus group,Books,Books_Sub_2,"Kennedy, Williams and Coleman",620.61,475.95,46.46,21x22x29,MediumTurquoise,Plastic,806,61,SUPP_091,2023-10-11,4.6,False
+PROD_000443,Compatible 5thgeneration benchmark,Beauty,Beauty_Sub_5,Austin-Williams,985.06,658.22,13.0,19x48x5,Lavender,Glass,626,54,SUPP_084,2023-05-24,1.5,False
+PROD_000444,Reactive dynamic info-mediaries,Beauty,Beauty_Sub_3,"Foster, Logan and Bryant",780.74,473.6,29.98,10x13x37,DarkBlue,Wood,248,71,SUPP_092,2024-01-28,4.3,False
+PROD_000445,Automated needs-based knowledgebase,Beauty,Beauty_Sub_3,Keller-Gonzales,261.27,207.02,44.3,40x26x23,SteelBlue,Fabric,490,53,SUPP_032,2023-03-11,1.4,False
+PROD_000446,Advanced 24hour application,Electronics,Electronics_Sub_3,Carroll PLC,175.05,139.81,17.57,24x14x38,DarkCyan,Plastic,331,41,SUPP_057,2025-05-22,2.6,False
+PROD_000447,Grass-roots multimedia time-frame,Books,Books_Sub_3,"Gill, Miller and Ware",339.69,249.93,1.59,40x32x40,SaddleBrown,Fabric,652,67,SUPP_070,2022-09-23,2.6,False
+PROD_000448,Team-oriented logistical matrix,Electronics,Electronics_Sub_2,"Gonzalez, Smith and Wright",724.89,448.42,47.55,15x12x20,DarkSalmon,Plastic,939,71,SUPP_005,2025-05-22,4.6,False
+PROD_000449,Centralized context-sensitive knowledgebase,Toys,Toys_Sub_5,"Zamora, Hooper and Jimenez",407.27,307.63,20.79,18x42x41,Purple,Leather,134,79,SUPP_061,2022-09-21,3.3,False
+PROD_000450,Organic tangible firmware,Books,Books_Sub_5,Potts-Garcia,502.09,342.29,41.34,49x9x21,Sienna,Metal,824,49,SUPP_073,2024-06-22,2.4,False
+PROD_000451,Cross-group logistical neural-net,Clothing,Clothing_Sub_4,Johnston-Horn,916.56,649.27,28.91,24x24x12,DarkSalmon,Glass,8,40,SUPP_025,2024-07-04,4.0,False
+PROD_000452,Profit-focused incremental process improvement,Electronics,Electronics_Sub_4,Clark PLC,14.44,9.1,16.28,49x7x16,SlateGray,Fabric,499,49,SUPP_044,2024-08-26,3.7,False
+PROD_000453,Assimilated attitude-oriented attitude,Electronics,Electronics_Sub_2,Jones-Johnson,684.29,540.19,36.56,46x5x10,SeaGreen,Leather,908,72,SUPP_047,2024-10-27,2.2,False
+PROD_000454,Synergistic leadingedge neural-net,Clothing,Clothing_Sub_4,"Gould, Hicks and Campbell",282.67,219.04,24.96,13x47x49,PaleGreen,Plastic,56,44,SUPP_052,2022-12-25,2.7,False
+PROD_000455,Cross-platform tangible knowledgebase,Toys,Toys_Sub_1,"Morris, Boyd and Davis",782.12,477.22,17.84,30x48x48,PeachPuff,Fabric,458,42,SUPP_036,2024-12-30,1.7,False
+PROD_000456,Cloned eco-centric time-frame,Beauty,Beauty_Sub_1,"Gonzalez, Rodriguez and Sutton",486.47,341.28,45.44,26x23x39,LightSalmon,Metal,206,11,SUPP_074,2025-05-13,4.9,False
+PROD_000457,Persistent explicit process improvement,Automotive,Automotive_Sub_2,Carter-Boyd,903.07,557.72,34.47,18x30x39,Black,Leather,659,11,SUPP_055,2023-05-29,1.2,False
+PROD_000458,Versatile 5thgeneration encoding,Sports,Sports_Sub_3,Ramirez Ltd,450.98,301.46,29.76,19x13x30,SandyBrown,Glass,77,44,SUPP_095,2023-09-02,3.7,False
+PROD_000459,Assimilated client-driven benchmark,Clothing,Clothing_Sub_5,Moore LLC,637.93,507.21,0.45,28x7x11,MediumOrchid,Fabric,442,73,SUPP_078,2024-06-07,4.9,True
+PROD_000460,Customer-focused local website,Books,Books_Sub_1,Meyer-Moore,621.25,462.32,17.58,41x13x7,Peru,Plastic,868,81,SUPP_020,2023-11-14,3.2,False
+PROD_000461,Mandatory mission-critical alliance,Books,Books_Sub_2,Hensley-Hernandez,234.58,168.22,7.55,41x33x5,Ivory,Wood,589,92,SUPP_026,2025-03-11,4.0,False
+PROD_000462,Multi-lateral transitional success,Books,Books_Sub_5,Lewis-Phillips,910.4,663.85,17.25,45x28x25,DarkSeaGreen,Plastic,79,64,SUPP_028,2024-01-28,4.2,False
+PROD_000463,User-friendly didactic website,Clothing,Clothing_Sub_3,Wang-Moon,605.53,399.53,48.68,34x26x34,Linen,Wood,712,24,SUPP_040,2024-03-01,4.7,False
+PROD_000464,Expanded 4thgeneration application,Automotive,Automotive_Sub_2,Cooper-Keith,587.0,373.08,8.01,13x27x43,RoyalBlue,Plastic,529,79,SUPP_031,2022-09-20,3.8,False
+PROD_000465,Vision-oriented reciprocal complexity,Automotive,Automotive_Sub_4,Christian and Sons,243.28,160.84,46.21,32x50x34,Violet,Glass,175,43,SUPP_039,2025-07-11,1.8,False
+PROD_000466,Optimized cohesive migration,Toys,Toys_Sub_3,"Harris, Jones and Howard",626.41,426.72,23.18,36x15x43,SpringGreen,Glass,370,70,SUPP_015,2022-08-04,2.4,False
+PROD_000467,Cross-group even-keeled concept,Sports,Sports_Sub_2,Dominguez-Rubio,895.38,577.77,43.34,46x7x15,LightCyan,Fabric,937,83,SUPP_007,2023-09-18,4.1,False
+PROD_000468,Front-line 24hour frame,Electronics,Electronics_Sub_3,"Harrison, Dickson and Higgins",134.11,96.6,23.6,31x8x45,CadetBlue,Plastic,738,16,SUPP_073,2024-02-26,2.1,False
+PROD_000469,Universal holistic help-desk,Beauty,Beauty_Sub_3,Reed-Brown,488.1,374.21,23.95,13x23x15,SeaGreen,Glass,391,98,SUPP_100,2024-03-19,4.9,False
+PROD_000470,Synchronized maximized open system,Books,Books_Sub_3,Lam-Vasquez,269.08,200.08,7.77,7x19x31,Khaki,Fabric,236,16,SUPP_077,2024-07-31,4.0,False
+PROD_000471,Synergistic 24hour analyzer,Sports,Sports_Sub_1,Pierce LLC,913.25,581.62,33.97,14x34x20,Violet,Plastic,966,100,SUPP_015,2025-02-27,4.0,False
+PROD_000472,Inverse homogeneous structure,Books,Books_Sub_4,Rogers-Anderson,317.63,223.72,3.39,36x26x31,DarkCyan,Fabric,992,11,SUPP_002,2025-03-08,3.5,False
+PROD_000473,Streamlined client-server installation,Books,Books_Sub_5,Hodge Ltd,799.21,571.47,10.95,26x44x38,LimeGreen,Leather,279,67,SUPP_040,2025-01-23,1.7,False
+PROD_000474,Expanded 3rdgeneration Internet solution,Home & Garden,Home & Garden_Sub_3,Wagner-Joyce,620.29,393.12,34.25,49x35x35,Magenta,Plastic,361,41,SUPP_077,2024-01-28,1.1,False
+PROD_000475,Switchable object-oriented model,Beauty,Beauty_Sub_2,Miller Ltd,744.34,448.97,23.3,20x30x25,AliceBlue,Plastic,43,35,SUPP_019,2025-04-18,3.4,False
+PROD_000476,Stand-alone human-resource neural-net,Electronics,Electronics_Sub_1,Miller Inc,438.0,284.65,42.14,31x9x46,Black,Wood,308,28,SUPP_058,2023-06-11,3.0,False
+PROD_000477,Team-oriented scalable alliance,Toys,Toys_Sub_3,Hammond Group,267.21,192.32,46.92,50x23x16,AntiqueWhite,Leather,254,25,SUPP_052,2024-08-01,3.5,False
+PROD_000478,Re-engineered clear-thinking circuit,Electronics,Electronics_Sub_4,"Dawson, Hernandez and Cooper",448.45,304.97,18.25,22x41x19,PaleVioletRed,Fabric,201,49,SUPP_030,2023-09-16,3.7,True
+PROD_000479,Innovative non-volatile groupware,Electronics,Electronics_Sub_3,"Parsons, Everett and Fleming",326.27,241.04,10.68,47x42x16,Yellow,Leather,355,32,SUPP_066,2024-08-11,2.9,False
+PROD_000480,Seamless contextually-based artificial intelligence,Toys,Toys_Sub_4,Perez-Singleton,206.15,133.94,41.38,37x11x19,MistyRose,Metal,20,71,SUPP_030,2023-11-01,2.1,False
+PROD_000481,Sharable incremental benchmark,Home & Garden,Home & Garden_Sub_1,Stevens Inc,188.98,134.93,11.58,24x11x16,LavenderBlush,Metal,300,70,SUPP_033,2025-05-05,1.1,False
+PROD_000482,Face-to-face full-range product,Toys,Toys_Sub_2,Castillo Group,717.43,448.47,22.99,8x20x19,LightSalmon,Wood,45,51,SUPP_010,2022-12-18,2.6,False
+PROD_000483,Pre-emptive transitional protocol,Books,Books_Sub_3,"James, Ballard and Brown",104.88,75.26,1.51,50x10x28,Pink,Wood,332,78,SUPP_064,2024-01-09,1.2,False
+PROD_000484,User-friendly dynamic functionalities,Sports,Sports_Sub_1,Ray-Spears,280.65,172.81,7.7,46x48x48,Black,Wood,969,53,SUPP_051,2025-02-05,2.2,False
+PROD_000485,Pre-emptive incremental encryption,Books,Books_Sub_3,Pearson-Jones,814.88,501.21,42.81,13x25x19,PapayaWhip,Fabric,820,14,SUPP_063,2023-10-26,4.1,True
+PROD_000486,Diverse bi-directional hardware,Clothing,Clothing_Sub_2,Wilson-Gay,824.07,595.18,36.66,27x6x27,LemonChiffon,Leather,760,38,SUPP_094,2022-08-24,3.8,False
+PROD_000487,Optimized user-facing matrices,Sports,Sports_Sub_1,Dixon and Sons,620.31,387.23,43.74,12x26x49,PowderBlue,Glass,878,50,SUPP_046,2024-11-24,3.0,True
+PROD_000488,Cloned empowering model,Beauty,Beauty_Sub_4,Joseph-Love,799.57,605.09,8.77,37x45x46,Peru,Metal,284,62,SUPP_032,2023-08-19,1.1,False
+PROD_000489,De-engineered responsive Graphic Interface,Clothing,Clothing_Sub_4,Lyons-Taylor,142.79,85.94,42.62,47x47x39,Maroon,Leather,373,65,SUPP_031,2024-03-11,2.3,False
+PROD_000490,Devolved zero administration knowledge user,Electronics,Electronics_Sub_4,Hernandez-Black,441.46,309.11,3.75,7x23x14,SeaShell,Plastic,321,87,SUPP_072,2023-10-09,3.6,False
+PROD_000491,Assimilated 5thgeneration firmware,Toys,Toys_Sub_4,Villanueva and Sons,599.69,471.75,23.08,9x24x17,DarkKhaki,Leather,220,98,SUPP_055,2025-03-19,1.1,False
+PROD_000492,Balanced reciprocal contingency,Electronics,Electronics_Sub_5,"Mercado, Fisher and Mcdaniel",47.56,36.44,2.3,23x31x11,AliceBlue,Plastic,750,37,SUPP_077,2022-12-28,1.6,True
+PROD_000493,Fully-configurable reciprocal leverage,Clothing,Clothing_Sub_5,"Smith, Davis and Fitzpatrick",597.96,407.53,2.01,30x47x12,MediumPurple,Glass,960,41,SUPP_072,2023-03-31,3.1,False
+PROD_000494,Switchable national definition,Automotive,Automotive_Sub_5,Delacruz-Wong,736.52,529.0,4.52,48x27x31,DarkBlue,Fabric,46,54,SUPP_081,2023-03-16,1.1,False
+PROD_000495,Programmable responsive moratorium,Toys,Toys_Sub_4,Frye Ltd,761.16,480.46,26.86,15x29x35,SlateGray,Metal,536,14,SUPP_002,2025-06-01,2.9,False
+PROD_000496,Implemented intangible time-frame,Automotive,Automotive_Sub_2,Delgado-Oliver,825.88,527.43,36.23,40x12x48,Red,Leather,966,47,SUPP_058,2023-06-21,1.6,False
+PROD_000497,Organized discrete functionalities,Home & Garden,Home & Garden_Sub_3,Reyes Group,425.78,289.56,0.99,38x19x50,LightSlateGray,Plastic,982,78,SUPP_029,2025-03-14,1.2,False
+PROD_000498,Front-line dynamic solution,Automotive,Automotive_Sub_5,Davis-Davis,762.63,488.76,29.24,41x28x11,DarkSeaGreen,Leather,261,54,SUPP_037,2024-04-28,3.4,False
+PROD_000499,Virtual discrete structure,Automotive,Automotive_Sub_1,Wood Inc,267.61,180.51,24.09,41x7x32,Plum,Glass,539,75,SUPP_093,2022-10-12,2.7,False
+PROD_000500,Optional dedicated matrix,Toys,Toys_Sub_4,Black-Perez,894.28,683.41,4.29,24x27x32,Orange,Plastic,359,95,SUPP_078,2024-05-01,4.2,True
+PROD_000501,Versatile clear-thinking framework,Home & Garden,Home & Garden_Sub_3,"Mathews, Brown and Morris",256.45,154.7,37.55,37x8x45,SteelBlue,Leather,449,36,SUPP_076,2024-01-10,4.7,True
+PROD_000502,Re-contextualized national website,Electronics,Electronics_Sub_2,"Fernandez, Torres and Harmon",356.0,270.18,41.76,27x32x26,DarkRed,Metal,245,70,SUPP_091,2024-07-03,2.9,True
+PROD_000503,Programmable bi-directional parallelism,Electronics,Electronics_Sub_2,Smith Inc,108.43,71.2,24.81,40x35x11,White,Fabric,801,30,SUPP_054,2023-07-07,1.4,False
+PROD_000504,Expanded optimizing hardware,Automotive,Automotive_Sub_2,Kelly-Mack,22.49,13.6,5.26,21x47x8,RosyBrown,Metal,976,57,SUPP_038,2023-04-02,2.3,False
+PROD_000505,Open-architected holistic product,Electronics,Electronics_Sub_3,"Jenkins, Hall and Hendricks",302.83,211.74,49.63,37x7x47,DarkOrchid,Fabric,600,80,SUPP_027,2024-01-18,3.3,False
+PROD_000506,Mandatory dedicated neural-net,Automotive,Automotive_Sub_2,Dyer-Smith,525.22,396.22,23.97,24x29x11,AliceBlue,Glass,219,11,SUPP_026,2022-08-13,4.2,False
+PROD_000507,Multi-layered explicit task-force,Home & Garden,Home & Garden_Sub_5,"Mclaughlin, Boyd and Carson",227.56,150.52,33.6,6x6x42,LightSkyBlue,Plastic,298,38,SUPP_041,2022-09-18,1.6,False
+PROD_000508,Inverse uniform solution,Home & Garden,Home & Garden_Sub_1,Kirby Inc,496.8,325.05,48.69,22x11x33,DarkViolet,Fabric,579,92,SUPP_053,2023-02-14,2.3,False
+PROD_000509,Vision-oriented high-level extranet,Beauty,Beauty_Sub_2,"Wilkerson, Douglas and Lutz",516.86,326.16,24.88,17x27x11,PapayaWhip,Fabric,620,58,SUPP_021,2023-11-08,1.6,False
+PROD_000510,Virtual systematic initiative,Toys,Toys_Sub_4,"Stanton, Austin and Velazquez",65.13,48.76,8.38,20x7x13,OrangeRed,Metal,918,46,SUPP_005,2024-01-17,2.5,False
+PROD_000511,Digitized incremental encryption,Automotive,Automotive_Sub_1,"Martinez, Ferguson and Williams",192.61,148.34,4.03,28x38x41,LightSalmon,Leather,44,43,SUPP_014,2025-02-23,4.7,False
+PROD_000512,Seamless user-facing artificial intelligence,Books,Books_Sub_5,"Franklin, Schultz and Kelley",883.74,680.44,0.7,9x31x30,Beige,Glass,44,100,SUPP_070,2025-06-22,4.2,False
+PROD_000513,Public-key coherent infrastructure,Home & Garden,Home & Garden_Sub_5,Hendricks Inc,135.82,103.21,26.41,23x22x36,LightSteelBlue,Leather,628,14,SUPP_075,2023-05-15,3.2,False
+PROD_000514,Organized demand-driven matrices,Beauty,Beauty_Sub_1,Brown-Adams,333.12,210.54,23.73,44x25x40,GoldenRod,Wood,310,48,SUPP_020,2024-03-29,1.1,False
+PROD_000515,Automated empowering frame,Sports,Sports_Sub_5,"Owen, Miller and Silva",157.68,104.08,26.88,30x17x9,SpringGreen,Metal,889,69,SUPP_031,2024-01-09,2.8,False
+PROD_000516,Public-key leadingedge implementation,Electronics,Electronics_Sub_2,Villa-Flores,943.59,676.96,41.9,12x39x7,MediumTurquoise,Leather,156,58,SUPP_087,2025-01-27,2.5,False
+PROD_000517,Persistent bandwidth-monitored knowledge user,Clothing,Clothing_Sub_3,"Berry, Rivera and Brown",790.11,545.84,30.25,20x47x41,GreenYellow,Glass,6,59,SUPP_011,2023-01-12,1.1,False
+PROD_000518,Up-sized optimal knowledgebase,Clothing,Clothing_Sub_5,Farley LLC,572.18,420.73,37.24,11x42x44,IndianRed,Metal,751,50,SUPP_049,2023-01-29,4.8,False
+PROD_000519,Vision-oriented system-worthy conglomeration,Books,Books_Sub_3,"Cantrell, Taylor and Baker",729.02,478.37,20.52,40x47x18,Magenta,Wood,64,15,SUPP_029,2025-05-15,2.0,False
+PROD_000520,Down-sized zero tolerance paradigm,Home & Garden,Home & Garden_Sub_1,Cervantes-Mitchell,520.51,336.4,5.63,40x45x11,FloralWhite,Wood,9,53,SUPP_011,2023-04-08,3.8,False
+PROD_000521,Universal content-based website,Toys,Toys_Sub_1,Oconnor-Green,450.48,321.87,29.4,5x24x24,LightGoldenRodYellow,Glass,39,74,SUPP_047,2024-04-09,2.7,False
+PROD_000522,Universal responsive paradigm,Sports,Sports_Sub_1,Williams-Washington,808.61,496.36,45.15,34x11x23,SaddleBrown,Leather,837,74,SUPP_059,2025-05-22,3.1,False
+PROD_000523,Multi-tiered zero administration help-desk,Home & Garden,Home & Garden_Sub_1,Davis-Munoz,270.05,214.78,40.38,29x22x25,Khaki,Glass,128,29,SUPP_059,2023-05-01,2.3,False
+PROD_000524,Synergized zero tolerance projection,Sports,Sports_Sub_1,Farmer-Watson,460.44,361.09,13.46,19x18x33,AntiqueWhite,Wood,264,89,SUPP_081,2024-05-15,3.3,False
+PROD_000525,Reverse-engineered eco-centric architecture,Automotive,Automotive_Sub_1,"Williamson, Castillo and Yu",608.23,464.18,11.56,43x11x50,DeepSkyBlue,Metal,402,88,SUPP_037,2025-01-24,1.4,False
+PROD_000526,Stand-alone local customer loyalty,Beauty,Beauty_Sub_3,"Jacobson, Perez and Nichols",80.1,49.11,41.69,6x19x15,BurlyWood,Glass,777,67,SUPP_045,2024-05-30,1.9,False
+PROD_000527,Robust multi-state paradigm,Electronics,Electronics_Sub_3,Martinez-Peters,494.02,360.04,47.4,20x10x48,LightGoldenRodYellow,Plastic,83,13,SUPP_069,2024-02-03,3.4,False
+PROD_000528,Upgradable impactful service-desk,Sports,Sports_Sub_4,Rogers Ltd,788.94,542.92,8.37,19x30x7,LightSlateGray,Glass,953,46,SUPP_003,2022-09-06,1.2,True
+PROD_000529,Team-oriented uniform complexity,Beauty,Beauty_Sub_4,James-Fitzpatrick,603.45,392.52,43.85,29x45x45,Beige,Fabric,835,76,SUPP_076,2023-11-02,2.1,False
+PROD_000530,Compatible 6thgeneration functionalities,Clothing,Clothing_Sub_4,Knapp Group,22.0,13.52,32.52,30x11x6,DarkGray,Plastic,943,68,SUPP_060,2023-06-29,1.0,True
+PROD_000531,Enterprise-wide homogeneous emulation,Automotive,Automotive_Sub_2,Shaw Ltd,657.3,408.93,15.73,24x43x17,DarkOrange,Metal,835,14,SUPP_057,2023-06-27,3.1,False
+PROD_000532,Configurable fresh-thinking portal,Clothing,Clothing_Sub_4,"Palmer, Ross and Huffman",115.55,75.52,35.2,32x8x7,Chartreuse,Wood,630,13,SUPP_022,2024-07-04,4.7,False
+PROD_000533,Assimilated static infrastructure,Sports,Sports_Sub_1,Hart LLC,945.37,692.39,40.53,26x42x32,MediumOrchid,Glass,286,39,SUPP_030,2025-03-27,1.9,False
+PROD_000534,Balanced hybrid core,Sports,Sports_Sub_5,Mccoy-Smith,733.11,443.75,49.25,26x28x15,DimGray,Metal,581,23,SUPP_062,2022-11-11,4.1,True
+PROD_000535,Polarized human-resource model,Home & Garden,Home & Garden_Sub_2,"Garcia, Allen and Phillips",366.59,265.89,45.35,8x24x44,MistyRose,Leather,816,84,SUPP_075,2022-09-07,1.7,False
+PROD_000536,Automated incremental portal,Toys,Toys_Sub_2,May Ltd,722.15,515.32,35.91,44x35x46,Lavender,Glass,241,23,SUPP_059,2022-08-04,1.9,False
+PROD_000537,Progressive regional pricing structure,Sports,Sports_Sub_4,"Gill, Chavez and Thomas",697.53,533.29,7.82,37x36x50,Pink,Leather,155,35,SUPP_096,2022-10-21,4.2,False
+PROD_000538,Intuitive zero administration process improvement,Beauty,Beauty_Sub_3,Gilbert Ltd,970.05,599.97,12.26,44x14x35,SeaGreen,Leather,831,59,SUPP_071,2024-02-23,2.8,True
+PROD_000539,Public-key heuristic conglomeration,Clothing,Clothing_Sub_2,Wallace-Robinson,280.74,188.87,10.12,12x35x43,CornflowerBlue,Glass,450,14,SUPP_056,2024-10-13,1.0,False
+PROD_000540,Automated web-enabled process improvement,Clothing,Clothing_Sub_4,Reed PLC,873.99,528.68,41.26,34x43x13,Brown,Plastic,901,25,SUPP_050,2024-01-29,1.5,False
+PROD_000541,Down-sized needs-based focus group,Home & Garden,Home & Garden_Sub_3,Cameron LLC,752.61,592.86,19.72,30x18x42,Orchid,Fabric,710,86,SUPP_058,2024-12-15,1.1,False
+PROD_000542,Programmable well-modulated alliance,Toys,Toys_Sub_3,Garcia Ltd,491.14,377.19,42.36,19x43x50,LightSkyBlue,Metal,256,94,SUPP_017,2022-12-17,2.9,False
+PROD_000543,Expanded bandwidth-monitored superstructure,Clothing,Clothing_Sub_5,Swanson-Sloan,985.71,596.13,19.94,42x14x28,Olive,Wood,129,87,SUPP_084,2023-04-02,1.2,False
+PROD_000544,Phased zero-defect process improvement,Books,Books_Sub_4,Gould-Wood,985.06,674.6,0.45,47x10x12,Coral,Leather,789,17,SUPP_011,2024-08-27,4.3,False
+PROD_000545,Synergized upward-trending strategy,Beauty,Beauty_Sub_1,Nelson and Sons,847.63,669.21,23.04,40x21x21,NavajoWhite,Leather,638,90,SUPP_066,2024-12-17,1.3,False
+PROD_000546,Object-based content-based matrix,Home & Garden,Home & Garden_Sub_1,Greer-Kirk,56.41,43.23,37.02,37x13x46,MediumSlateBlue,Metal,543,48,SUPP_086,2023-02-17,4.9,False
+PROD_000547,Re-contextualized zero tolerance portal,Electronics,Electronics_Sub_5,"Walker, Jackson and Brown",854.17,533.83,23.96,17x48x18,Azure,Plastic,62,43,SUPP_086,2023-01-12,2.0,False
+PROD_000548,Organized analyzing knowledgebase,Automotive,Automotive_Sub_2,Allen-Jackson,631.85,476.68,20.69,28x25x31,LightCoral,Plastic,620,27,SUPP_017,2023-11-04,5.0,False
+PROD_000549,Team-oriented multi-state functionalities,Books,Books_Sub_2,Collins-Harris,30.78,22.34,10.74,10x38x30,ForestGreen,Wood,124,71,SUPP_050,2024-07-03,1.3,False
+PROD_000550,Self-enabling client-driven superstructure,Home & Garden,Home & Garden_Sub_1,Wright-Campbell,163.99,108.79,20.73,12x49x45,DarkSlateBlue,Glass,622,40,SUPP_055,2025-06-30,3.0,False
+PROD_000551,Advanced clear-thinking model,Clothing,Clothing_Sub_4,"Cohen, Morrow and Mitchell",849.14,606.55,21.78,5x20x14,SlateBlue,Metal,800,83,SUPP_086,2024-08-18,1.3,False
+PROD_000552,Streamlined bandwidth-monitored hardware,Home & Garden,Home & Garden_Sub_2,Gonzales-Hart,977.74,760.3,7.08,39x14x45,OrangeRed,Glass,824,68,SUPP_014,2023-02-18,1.7,False
+PROD_000553,Up-sized context-sensitive pricing structure,Home & Garden,Home & Garden_Sub_4,Jones-Bowman,587.34,424.64,30.29,44x41x25,SlateBlue,Metal,958,33,SUPP_041,2024-09-22,1.7,False
+PROD_000554,Diverse object-oriented methodology,Sports,Sports_Sub_3,Smith-Ramos,308.27,238.73,26.06,20x45x32,Olive,Leather,747,79,SUPP_056,2024-04-13,3.0,False
+PROD_000555,Persistent discrete database,Clothing,Clothing_Sub_1,"Holloway, Waters and Williams",316.02,209.87,48.56,19x7x32,Chocolate,Wood,24,87,SUPP_091,2024-08-11,3.1,False
+PROD_000556,Reactive local hierarchy,Automotive,Automotive_Sub_4,"Morton, Flores and Sullivan",94.32,73.76,16.76,49x27x43,Chocolate,Leather,675,98,SUPP_008,2024-05-03,4.1,False
+PROD_000557,Synergistic next generation product,Books,Books_Sub_4,"Jones, Robinson and Gutierrez",535.34,399.34,46.46,8x15x27,Orange,Fabric,100,98,SUPP_020,2025-01-20,1.1,False
+PROD_000558,Optimized non-volatile conglomeration,Beauty,Beauty_Sub_2,Wilson-Spencer,473.28,332.12,5.9,16x30x30,MediumSlateBlue,Leather,23,37,SUPP_019,2025-02-23,1.8,False
+PROD_000559,Cloned object-oriented model,Clothing,Clothing_Sub_5,Poole LLC,798.34,515.31,8.84,25x27x47,AntiqueWhite,Fabric,603,82,SUPP_063,2024-02-04,2.9,False
+PROD_000560,Synchronized solution-oriented database,Automotive,Automotive_Sub_5,"Mcclure, Baker and Blackburn",203.61,132.54,41.55,36x42x25,BlueViolet,Wood,69,82,SUPP_083,2022-09-02,4.3,False
+PROD_000561,Multi-tiered global interface,Automotive,Automotive_Sub_3,Alvarez Ltd,685.37,483.56,3.77,35x48x18,Aquamarine,Glass,986,68,SUPP_002,2022-10-20,1.9,False
+PROD_000562,Streamlined explicit Local Area Network,Books,Books_Sub_3,Mccoy-Bartlett,399.02,252.21,32.68,32x11x11,LimeGreen,Metal,373,81,SUPP_038,2025-03-05,3.9,False
+PROD_000563,Synchronized tertiary forecast,Home & Garden,Home & Garden_Sub_1,Lin-Thompson,798.52,633.07,27.2,28x30x20,MediumBlue,Plastic,760,75,SUPP_090,2023-08-30,1.6,True
+PROD_000564,Right-sized empowering structure,Sports,Sports_Sub_5,Calderon-Lopez,147.92,93.83,23.37,15x12x7,GoldenRod,Glass,699,76,SUPP_068,2024-10-11,1.8,False
+PROD_000565,Polarized encompassing approach,Automotive,Automotive_Sub_2,Peck-Sullivan,719.11,440.68,49.08,23x39x27,LightGray,Metal,188,10,SUPP_061,2023-06-10,1.5,True
+PROD_000566,Cloned mobile benchmark,Automotive,Automotive_Sub_1,Carlson Ltd,554.91,400.99,6.97,35x21x48,MediumSeaGreen,Plastic,447,97,SUPP_092,2023-05-30,1.6,False
+PROD_000567,Streamlined holistic neural-net,Beauty,Beauty_Sub_2,Spencer-Palmer,632.94,382.08,16.38,15x44x25,SlateGray,Wood,339,21,SUPP_088,2022-08-10,3.8,False
+PROD_000568,Cloned even-keeled array,Toys,Toys_Sub_1,Mosley Ltd,42.04,26.68,5.83,24x49x39,Beige,Wood,727,26,SUPP_017,2022-12-26,2.7,False
+PROD_000569,Function-based solution-oriented adapter,Electronics,Electronics_Sub_1,Sharp-Anthony,217.71,153.66,0.64,33x13x13,MidnightBlue,Metal,329,14,SUPP_020,2024-04-08,4.0,False
+PROD_000570,Centralized multimedia ability,Electronics,Electronics_Sub_2,"Smith, Sims and Wilson",672.97,462.3,34.17,45x22x17,Gray,Glass,338,36,SUPP_074,2023-09-02,1.5,False
+PROD_000571,Down-sized demand-driven analyzer,Books,Books_Sub_5,Wallace-Flores,39.83,30.56,30.35,31x50x30,Chocolate,Metal,126,64,SUPP_055,2024-11-13,3.4,False
+PROD_000572,Proactive next generation model,Automotive,Automotive_Sub_3,Ferguson Ltd,19.16,12.99,10.4,5x21x28,DeepSkyBlue,Wood,931,42,SUPP_009,2023-10-09,4.8,False
+PROD_000573,Proactive uniform complexity,Beauty,Beauty_Sub_4,"Ruiz, Bauer and Wade",271.26,180.62,23.27,6x48x39,MediumTurquoise,Wood,297,52,SUPP_071,2022-12-03,1.1,False
+PROD_000574,Object-based content-based budgetary management,Clothing,Clothing_Sub_4,"Parker, Gilbert and Brown",413.14,257.72,7.22,31x49x15,LightPink,Fabric,3,85,SUPP_017,2023-04-15,2.2,False
+PROD_000575,Face-to-face tangible implementation,Electronics,Electronics_Sub_3,Rogers LLC,819.94,523.96,32.74,31x44x41,Cyan,Leather,425,22,SUPP_094,2024-09-20,3.9,False
+PROD_000576,Public-key explicit orchestration,Toys,Toys_Sub_2,"Hobbs, Beasley and Mcgee",711.26,472.9,18.69,49x20x49,Cyan,Metal,136,94,SUPP_071,2023-08-01,4.7,False
+PROD_000577,Inverse hybrid infrastructure,Home & Garden,Home & Garden_Sub_4,"Andersen, Reed and Holt",651.44,520.51,31.83,20x27x22,Teal,Leather,58,99,SUPP_092,2022-12-08,2.2,False
+PROD_000578,Programmable full-range support,Books,Books_Sub_3,"Watson, Gomez and Wolfe",748.69,571.56,33.85,43x28x7,Navy,Plastic,89,24,SUPP_043,2024-12-21,4.1,False
+PROD_000579,Proactive client-server algorithm,Toys,Toys_Sub_5,Brewer Ltd,688.96,443.83,41.76,34x33x50,Purple,Fabric,565,78,SUPP_023,2024-04-04,2.6,False
+PROD_000580,User-centric human-resource alliance,Automotive,Automotive_Sub_3,"Rodriguez, Miller and Taylor",536.21,403.15,1.03,20x6x21,GreenYellow,Wood,821,78,SUPP_065,2023-04-09,1.0,False
+PROD_000581,Realigned 6thgeneration monitoring,Automotive,Automotive_Sub_1,Blake-Ashley,838.4,558.12,21.65,24x13x16,MediumTurquoise,Fabric,914,38,SUPP_048,2024-08-10,4.8,False
+PROD_000582,Operative discrete model,Sports,Sports_Sub_3,Hudson-Smith,600.29,433.08,9.13,25x27x41,BlanchedAlmond,Glass,453,51,SUPP_057,2024-06-29,3.0,False
+PROD_000583,User-friendly reciprocal model,Clothing,Clothing_Sub_1,"Odom, Washington and Lee",683.81,466.59,39.28,42x40x19,SaddleBrown,Plastic,725,49,SUPP_098,2023-06-27,2.3,False
+PROD_000584,Polarized empowering protocol,Books,Books_Sub_4,Smith-Long,875.31,673.79,16.32,48x11x10,Peru,Glass,0,80,SUPP_073,2025-02-05,4.9,False
+PROD_000585,Balanced encompassing open architecture,Automotive,Automotive_Sub_1,Padilla-Davis,800.01,563.48,5.54,27x47x15,CornflowerBlue,Metal,119,36,SUPP_026,2024-06-14,2.5,False
+PROD_000586,Proactive bi-directional budgetary management,Beauty,Beauty_Sub_1,Ramos-Nelson,17.68,12.86,25.75,22x34x32,Yellow,Leather,766,19,SUPP_017,2024-10-30,3.7,False
+PROD_000587,Ergonomic logistical firmware,Home & Garden,Home & Garden_Sub_1,Pope Group,689.99,497.39,46.04,22x29x11,Blue,Leather,119,41,SUPP_094,2023-11-23,4.3,True
+PROD_000588,Business-focused uniform parallelism,Automotive,Automotive_Sub_5,Barajas-Stone,885.02,539.62,42.3,13x34x11,DarkKhaki,Leather,928,52,SUPP_090,2023-02-02,2.6,False
+PROD_000589,Managed uniform analyzer,Home & Garden,Home & Garden_Sub_2,White Ltd,525.66,382.97,24.34,39x38x48,Snow,Wood,903,28,SUPP_066,2023-05-26,2.5,False
+PROD_000590,Enterprise-wide leadingedge budgetary management,Beauty,Beauty_Sub_5,"Sanchez, Stevens and Romero",655.44,512.47,27.35,21x20x41,MediumAquaMarine,Glass,405,99,SUPP_032,2023-03-27,1.2,False
+PROD_000591,Up-sized discrete database,Electronics,Electronics_Sub_1,Fisher-Casey,475.56,315.07,24.87,23x44x42,LightGray,Fabric,870,93,SUPP_039,2025-06-15,4.1,False
+PROD_000592,Cross-platform client-driven frame,Sports,Sports_Sub_3,"Humphrey, Rodriguez and Ramos",284.33,192.53,42.51,7x33x30,Fuchsia,Fabric,927,31,SUPP_096,2025-01-11,2.7,False
+PROD_000593,Phased client-server concept,Toys,Toys_Sub_3,"Lawson, Bowen and Bell",657.65,491.08,14.96,33x27x41,LightBlue,Plastic,705,60,SUPP_004,2022-07-30,4.7,False
+PROD_000594,Mandatory foreground neural-net,Home & Garden,Home & Garden_Sub_3,Castillo and Sons,583.94,416.66,45.99,18x44x38,LightGreen,Wood,977,90,SUPP_082,2024-06-29,3.8,False
+PROD_000595,Synergistic homogeneous workforce,Electronics,Electronics_Sub_4,"Brown, Lowery and Rodgers",814.25,524.86,35.23,41x32x28,Plum,Fabric,875,50,SUPP_058,2023-01-09,3.0,False
+PROD_000596,Reduced systematic encryption,Automotive,Automotive_Sub_3,"Krause, Levy and Owens",422.47,310.7,49.31,40x9x29,MediumTurquoise,Glass,538,49,SUPP_028,2025-02-16,5.0,False
+PROD_000597,Cross-platform mobile productivity,Automotive,Automotive_Sub_2,Ellis-Gonzalez,66.22,48.82,22.2,47x11x48,AntiqueWhite,Glass,476,59,SUPP_013,2022-09-11,4.5,False
+PROD_000598,Assimilated upward-trending knowledgebase,Home & Garden,Home & Garden_Sub_3,Watkins-Ochoa,661.01,421.82,32.13,5x36x37,LightSlateGray,Fabric,223,59,SUPP_075,2022-12-13,1.6,False
+PROD_000599,Switchable zero tolerance structure,Toys,Toys_Sub_3,Ruiz-Nelson,23.52,17.71,45.22,31x42x42,MediumSpringGreen,Fabric,348,26,SUPP_071,2023-08-02,2.3,True
+PROD_000600,Integrated fault-tolerant secured line,Books,Books_Sub_2,"Mullins, Hunter and Myers",96.13,71.03,49.98,13x48x30,DarkGoldenRod,Wood,200,30,SUPP_059,2023-07-15,2.0,False
+PROD_000601,Virtual 24hour website,Toys,Toys_Sub_1,White PLC,291.9,203.28,22.58,21x43x49,PaleTurquoise,Plastic,192,27,SUPP_017,2023-07-27,2.0,False
+PROD_000602,Triple-buffered empowering knowledge user,Clothing,Clothing_Sub_3,"Jones, Hardin and Oconnor",429.64,296.58,30.66,7x42x20,DarkMagenta,Leather,365,50,SUPP_048,2023-07-09,2.4,False
+PROD_000603,Re-contextualized maximized portal,Electronics,Electronics_Sub_2,Vance-Howe,46.38,35.18,20.61,35x21x9,Maroon,Metal,428,49,SUPP_034,2022-09-07,4.7,False
+PROD_000604,Balanced fresh-thinking ability,Sports,Sports_Sub_4,Perkins LLC,801.2,582.45,5.65,15x11x40,DarkGray,Fabric,255,94,SUPP_077,2023-10-16,1.4,False
+PROD_000605,Focused clear-thinking knowledge user,Automotive,Automotive_Sub_1,Brown Ltd,844.31,617.4,16.31,33x30x11,Khaki,Metal,172,29,SUPP_070,2022-11-09,3.6,False
+PROD_000606,Devolved coherent success,Electronics,Electronics_Sub_3,Smith Ltd,392.34,260.82,14.24,40x49x27,Aquamarine,Metal,687,10,SUPP_033,2025-05-09,2.5,False
+PROD_000607,Digitized maximized frame,Toys,Toys_Sub_5,Taylor-Hubbard,339.64,255.96,6.39,31x18x50,LightBlue,Wood,438,10,SUPP_064,2023-11-04,3.0,False
+PROD_000608,Distributed mission-critical ability,Sports,Sports_Sub_2,Reyes Group,239.77,163.57,6.93,31x17x41,Red,Leather,615,17,SUPP_034,2023-06-07,3.7,False
+PROD_000609,De-engineered secondary neural-net,Electronics,Electronics_Sub_5,Marshall and Sons,186.16,127.49,37.12,20x30x41,Red,Glass,738,94,SUPP_019,2022-09-02,4.8,False
+PROD_000610,Persevering intangible functionalities,Electronics,Electronics_Sub_2,Humphrey and Sons,947.48,588.23,9.27,8x41x33,PaleVioletRed,Wood,971,53,SUPP_087,2025-05-11,1.1,False
+PROD_000611,Optimized scalable matrices,Electronics,Electronics_Sub_4,Farrell Ltd,646.88,463.69,45.81,6x9x26,Coral,Leather,110,32,SUPP_005,2024-02-26,1.2,False
+PROD_000612,Optimized mission-critical toolset,Home & Garden,Home & Garden_Sub_3,Jensen Ltd,316.25,194.42,1.75,32x43x35,Aquamarine,Metal,934,24,SUPP_049,2023-10-23,1.7,False
+PROD_000613,Polarized logistical portal,Home & Garden,Home & Garden_Sub_2,"Fuentes, Mccann and Robinson",757.36,573.05,40.91,42x45x9,SkyBlue,Leather,610,30,SUPP_074,2023-08-23,4.7,False
+PROD_000614,Up-sized needs-based infrastructure,Books,Books_Sub_1,Clark PLC,12.42,9.68,16.93,6x35x10,BlueViolet,Metal,177,63,SUPP_006,2025-02-17,4.5,False
+PROD_000615,Reverse-engineered disintermediate application,Books,Books_Sub_2,"Munoz, Mcclure and Miller",515.8,367.21,32.65,33x22x16,MediumSeaGreen,Glass,798,16,SUPP_041,2025-01-10,2.1,False
+PROD_000616,Seamless tertiary system engine,Automotive,Automotive_Sub_5,Hernandez-Evans,540.09,395.37,22.3,15x40x14,GoldenRod,Plastic,409,34,SUPP_020,2024-10-20,1.6,False
+PROD_000617,Cross-group grid-enabled productivity,Electronics,Electronics_Sub_1,Aguirre-Edwards,981.04,687.37,8.45,41x40x8,LightSalmon,Wood,264,63,SUPP_091,2022-08-03,2.7,False
+PROD_000618,Reactive bottom-line forecast,Toys,Toys_Sub_2,Perez-Fernandez,743.25,577.67,13.61,31x5x41,Gainsboro,Glass,838,98,SUPP_003,2024-01-29,3.6,False
+PROD_000619,Robust client-driven orchestration,Sports,Sports_Sub_4,Savage Inc,164.08,106.67,31.42,26x16x28,LavenderBlush,Glass,222,67,SUPP_071,2025-03-09,2.9,False
+PROD_000620,Future-proofed directional function,Automotive,Automotive_Sub_5,"Martin, Brooks and Walton",907.08,629.17,13.12,33x5x49,Bisque,Leather,620,44,SUPP_054,2025-03-27,2.3,False
+PROD_000621,Enhanced 5thgeneration info-mediaries,Electronics,Electronics_Sub_4,Moore-Ellis,95.55,64.95,45.25,37x37x43,CadetBlue,Glass,976,29,SUPP_070,2024-11-07,2.2,False
+PROD_000622,Self-enabling well-modulated neural-net,Electronics,Electronics_Sub_5,Henderson LLC,144.97,94.44,39.85,14x30x48,Salmon,Leather,72,100,SUPP_083,2024-08-31,4.0,False
+PROD_000623,Switchable incremental moderator,Automotive,Automotive_Sub_1,Ponce-Wells,11.3,8.43,9.87,36x9x46,Indigo,Fabric,964,64,SUPP_005,2023-05-07,2.3,False
+PROD_000624,Extended methodical emulation,Beauty,Beauty_Sub_5,"Andrews, Miller and Jefferson",520.16,372.15,39.77,9x49x46,LightSeaGreen,Glass,387,49,SUPP_061,2024-01-27,4.9,False
+PROD_000625,Object-based mobile hub,Toys,Toys_Sub_1,Frederick and Sons,152.9,121.8,29.17,17x12x16,AntiqueWhite,Wood,136,81,SUPP_088,2024-09-07,2.4,False
+PROD_000626,Customizable reciprocal website,Sports,Sports_Sub_1,"Manning, Spence and Townsend",840.07,597.49,39.61,10x41x43,MediumOrchid,Plastic,1000,88,SUPP_072,2025-02-25,3.7,False
+PROD_000627,Stand-alone heuristic core,Automotive,Automotive_Sub_1,Marshall LLC,931.65,578.14,6.01,5x49x37,MediumOrchid,Leather,701,61,SUPP_063,2025-01-26,4.5,False
+PROD_000628,Streamlined background structure,Books,Books_Sub_1,Kelly PLC,484.74,343.97,32.48,8x35x23,Orchid,Plastic,291,38,SUPP_029,2022-09-03,2.7,False
+PROD_000629,Open-source modular artificial intelligence,Toys,Toys_Sub_4,Campbell-Hudson,601.13,368.78,22.71,14x46x23,SlateGray,Glass,85,95,SUPP_007,2025-07-19,2.3,False
+PROD_000630,Assimilated foreground open architecture,Electronics,Electronics_Sub_5,Marshall and Sons,925.9,557.73,2.66,35x8x11,Orchid,Glass,568,56,SUPP_004,2025-02-14,3.9,False
+PROD_000631,Function-based next generation architecture,Electronics,Electronics_Sub_2,Clark-Martin,354.54,215.05,14.52,35x15x48,CadetBlue,Leather,235,100,SUPP_088,2022-08-23,3.5,False
+PROD_000632,Advanced holistic project,Electronics,Electronics_Sub_2,Meza PLC,623.9,455.94,44.3,28x44x43,SlateGray,Glass,275,92,SUPP_059,2024-12-08,3.7,False
+PROD_000633,Team-oriented cohesive adapter,Toys,Toys_Sub_2,Lawson-Payne,869.47,636.99,21.17,43x33x24,LightGoldenRodYellow,Wood,851,31,SUPP_045,2024-08-11,1.6,False
+PROD_000634,Innovative hybrid leverage,Sports,Sports_Sub_2,Smith and Sons,65.59,49.76,4.26,23x12x27,DarkSlateBlue,Leather,216,66,SUPP_038,2024-06-21,1.2,False
+PROD_000635,Visionary user-facing intranet,Toys,Toys_Sub_1,Esparza-Gross,901.45,612.17,49.77,20x34x44,Gray,Metal,889,66,SUPP_055,2024-06-08,4.2,False
+PROD_000636,Monitored coherent help-desk,Automotive,Automotive_Sub_4,Jimenez-Hill,538.24,408.6,37.2,29x5x38,DarkMagenta,Wood,351,73,SUPP_099,2023-04-01,1.4,False
+PROD_000637,Inverse impactful neural-net,Sports,Sports_Sub_5,Lopez Group,660.73,432.5,40.02,38x24x44,Tomato,Leather,400,76,SUPP_066,2024-12-11,1.3,False
+PROD_000638,Implemented user-facing flexibility,Electronics,Electronics_Sub_5,"Sanders, Gonzalez and Weaver",67.73,44.1,47.8,26x37x30,Khaki,Metal,290,15,SUPP_087,2025-01-16,2.4,False
+PROD_000639,Vision-oriented fault-tolerant complexity,Toys,Toys_Sub_1,"Vance, Jackson and Hall",569.29,391.83,28.92,32x18x16,SaddleBrown,Wood,382,41,SUPP_041,2022-10-02,1.6,False
+PROD_000640,Down-sized background customer loyalty,Clothing,Clothing_Sub_1,"Henderson, Thompson and Clark",902.35,586.58,4.62,8x49x38,Pink,Wood,819,98,SUPP_010,2023-05-24,4.8,False
+PROD_000641,Decentralized disintermediate strategy,Beauty,Beauty_Sub_5,"Estrada, Hall and King",613.59,418.72,33.45,25x43x19,BlueViolet,Metal,78,41,SUPP_046,2022-10-12,4.3,False
+PROD_000642,Advanced foreground time-frame,Home & Garden,Home & Garden_Sub_1,Murray-Woods,820.55,498.88,22.75,49x17x46,Coral,Wood,709,78,SUPP_002,2022-09-26,4.5,False
+PROD_000643,Cross-platform reciprocal success,Books,Books_Sub_2,Pitts Ltd,660.07,439.86,20.99,14x27x44,DarkOrchid,Glass,678,27,SUPP_002,2022-07-28,2.3,False
+PROD_000644,Cross-group web-enabled attitude,Books,Books_Sub_5,Perry-Griffith,521.87,397.08,44.23,35x40x11,BlanchedAlmond,Leather,624,28,SUPP_009,2024-05-06,4.4,False
+PROD_000645,Team-oriented object-oriented help-desk,Automotive,Automotive_Sub_3,Guerrero-Williams,612.76,423.5,27.04,33x24x29,Wheat,Plastic,301,32,SUPP_075,2023-11-23,2.0,False
+PROD_000646,Balanced encompassing structure,Clothing,Clothing_Sub_4,"Oneill, Morrow and Perez",723.85,506.56,45.95,48x35x16,YellowGreen,Plastic,268,65,SUPP_011,2024-04-02,2.8,True
+PROD_000647,Adaptive analyzing Graphic Interface,Electronics,Electronics_Sub_3,"Davidson, Park and Blanchard",350.7,242.33,7.29,16x32x33,PeachPuff,Glass,634,74,SUPP_067,2023-11-21,3.6,False
+PROD_000648,Ergonomic context-sensitive secured line,Automotive,Automotive_Sub_4,May-Alexander,337.34,210.2,14.01,37x21x33,MediumTurquoise,Wood,989,18,SUPP_031,2024-12-29,2.1,False
+PROD_000649,Cross-platform bottom-line application,Books,Books_Sub_5,Ashley-Miller,991.21,684.66,49.19,31x5x49,DarkGray,Wood,985,87,SUPP_056,2024-08-18,1.7,False
+PROD_000650,Sharable foreground attitude,Clothing,Clothing_Sub_5,Ray Inc,216.71,152.91,18.91,20x38x43,Fuchsia,Plastic,113,29,SUPP_036,2023-12-20,4.4,False
+PROD_000651,Fully-configurable analyzing moratorium,Sports,Sports_Sub_4,Barnes Inc,608.0,462.48,21.15,47x27x31,LawnGreen,Plastic,943,18,SUPP_047,2025-03-08,2.6,False
+PROD_000652,Multi-lateral zero tolerance leverage,Books,Books_Sub_2,Brady LLC,704.22,426.79,12.08,8x34x6,AliceBlue,Leather,428,52,SUPP_079,2024-12-12,2.0,False
+PROD_000653,Reverse-engineered logistical installation,Toys,Toys_Sub_2,Austin-Saunders,111.12,71.41,1.85,50x13x33,FloralWhite,Leather,945,48,SUPP_031,2023-04-13,2.0,False
+PROD_000654,Programmable intermediate hierarchy,Automotive,Automotive_Sub_2,"Vasquez, Johnson and Miller",810.34,534.54,45.69,50x36x9,YellowGreen,Fabric,423,91,SUPP_084,2024-01-08,1.6,False
+PROD_000655,Persevering radical emulation,Toys,Toys_Sub_4,"French, Moss and Newman",196.17,139.07,3.23,11x13x45,DarkSlateBlue,Plastic,214,79,SUPP_090,2024-10-12,1.1,False
+PROD_000656,Implemented systematic data-warehouse,Books,Books_Sub_5,"Richardson, Ashley and Clark",905.04,699.01,27.03,8x30x31,Orange,Plastic,326,99,SUPP_039,2023-05-03,2.4,False
+PROD_000657,Fundamental modular customer loyalty,Toys,Toys_Sub_5,Larson Group,407.33,314.01,11.66,32x25x50,Salmon,Wood,81,76,SUPP_004,2023-03-25,1.7,False
+PROD_000658,Front-line multi-tasking orchestration,Books,Books_Sub_3,Brown PLC,148.11,116.28,46.91,47x38x50,Gold,Fabric,390,65,SUPP_075,2025-03-29,1.2,False
+PROD_000659,De-engineered dedicated core,Sports,Sports_Sub_4,Davis-Ward,593.44,473.58,35.77,38x24x16,DodgerBlue,Fabric,513,30,SUPP_089,2024-02-12,4.4,False
+PROD_000660,Managed hybrid product,Automotive,Automotive_Sub_1,Dunn-Smith,335.06,261.66,2.32,10x47x19,Navy,Leather,171,88,SUPP_070,2025-04-26,3.2,False
+PROD_000661,Extended neutral Graphic Interface,Clothing,Clothing_Sub_2,Newton-Graham,217.51,149.76,8.05,6x18x32,Khaki,Glass,535,65,SUPP_038,2025-02-01,1.5,False
+PROD_000662,Public-key solution-oriented focus group,Automotive,Automotive_Sub_5,Haney-Hunter,395.31,295.6,21.43,39x49x47,MidnightBlue,Wood,190,70,SUPP_019,2025-04-15,3.1,True
+PROD_000663,Phased fault-tolerant matrix,Electronics,Electronics_Sub_2,Jones-Stephenson,158.05,125.07,25.34,35x33x40,Aqua,Metal,851,44,SUPP_057,2024-05-05,4.9,False
+PROD_000664,Mandatory needs-based encryption,Electronics,Electronics_Sub_4,"Malone, Armstrong and Richard",190.18,123.34,26.89,19x22x45,MediumPurple,Leather,355,91,SUPP_091,2022-11-21,2.5,False
+PROD_000665,Open-source modular utilization,Beauty,Beauty_Sub_2,Dean PLC,200.95,129.13,32.55,33x36x46,Chartreuse,Leather,785,14,SUPP_008,2023-12-30,2.0,False
+PROD_000666,Open-architected responsive archive,Toys,Toys_Sub_5,Morris LLC,475.12,317.8,3.14,13x34x19,BurlyWood,Leather,651,95,SUPP_017,2023-08-01,1.7,False
+PROD_000667,Optimized intermediate project,Automotive,Automotive_Sub_1,Hurst-Shepherd,319.05,224.69,8.24,21x7x14,LightSalmon,Wood,350,53,SUPP_038,2024-10-24,4.6,True
+PROD_000668,Extended methodical infrastructure,Home & Garden,Home & Garden_Sub_5,Simpson-Mcintyre,797.81,567.71,44.63,34x46x7,SandyBrown,Wood,106,23,SUPP_054,2024-09-29,2.9,False
+PROD_000669,Switchable multimedia migration,Clothing,Clothing_Sub_3,Mccall-Lamb,790.83,630.53,21.12,23x30x46,Green,Glass,238,77,SUPP_051,2023-04-29,4.4,False
+PROD_000670,Front-line optimizing migration,Toys,Toys_Sub_4,Stewart-Gomez,612.63,395.55,14.92,22x37x47,DarkGoldenRod,Wood,764,95,SUPP_056,2023-09-09,3.0,True
+PROD_000671,Open-source intermediate architecture,Books,Books_Sub_2,Garrett-Francis,627.36,491.6,3.62,49x15x23,SkyBlue,Fabric,616,52,SUPP_046,2023-05-10,3.1,False
+PROD_000672,User-centric analyzing contingency,Automotive,Automotive_Sub_1,Murphy LLC,20.46,15.05,42.47,15x20x48,MediumTurquoise,Fabric,268,50,SUPP_075,2024-02-20,4.4,False
+PROD_000673,Expanded analyzing knowledgebase,Sports,Sports_Sub_2,Elliott-Green,427.53,267.53,1.69,31x6x45,DarkMagenta,Fabric,608,51,SUPP_027,2024-10-11,1.2,False
+PROD_000674,User-centric uniform collaboration,Electronics,Electronics_Sub_2,"Fisher, Allen and Lawson",860.86,647.23,12.32,37x6x49,SteelBlue,Plastic,247,74,SUPP_064,2025-05-21,1.4,False
+PROD_000675,Cross-platform grid-enabled analyzer,Books,Books_Sub_5,Campbell-Gray,231.61,140.74,17.86,40x44x8,Peru,Wood,912,80,SUPP_100,2024-04-12,5.0,True
+PROD_000676,Robust reciprocal task-force,Electronics,Electronics_Sub_1,"Martinez, Johnson and Wu",372.32,272.24,11.0,34x22x17,Coral,Wood,413,68,SUPP_003,2025-05-21,1.5,False
+PROD_000677,Diverse discrete parallelism,Automotive,Automotive_Sub_2,Solis-Parsons,516.38,381.79,23.09,25x29x28,CornflowerBlue,Fabric,441,94,SUPP_080,2024-07-11,2.5,False
+PROD_000678,Upgradable motivating leverage,Sports,Sports_Sub_3,Moon-Wells,961.11,638.99,17.1,26x44x41,Chocolate,Wood,999,57,SUPP_004,2024-11-02,4.6,False
+PROD_000679,Seamless empowering encoding,Home & Garden,Home & Garden_Sub_4,"Moses, Williams and Brown",142.66,101.55,35.53,10x33x12,Aquamarine,Wood,526,56,SUPP_037,2024-04-04,4.6,False
+PROD_000680,Horizontal dedicated encoding,Toys,Toys_Sub_2,"Walker, Warren and Green",692.78,505.07,6.64,47x28x14,Plum,Plastic,965,68,SUPP_086,2025-02-06,4.1,False
+PROD_000681,Customizable 6thgeneration orchestration,Books,Books_Sub_1,Peters-Richards,400.41,270.22,15.74,9x44x45,LightCyan,Leather,189,21,SUPP_039,2025-01-22,4.3,False
+PROD_000682,Intuitive optimal neural-net,Sports,Sports_Sub_3,"Arnold, Sherman and Strong",326.47,253.45,3.1,18x7x47,DarkRed,Metal,484,90,SUPP_050,2025-01-25,4.1,False
+PROD_000683,Innovative encompassing orchestration,Automotive,Automotive_Sub_2,"Mason, Ellis and Gallegos",35.46,22.5,36.56,40x14x24,Cyan,Plastic,193,56,SUPP_088,2024-02-20,4.4,False
+PROD_000684,Horizontal 24/7 capacity,Clothing,Clothing_Sub_2,Hamilton-Duncan,740.45,487.15,14.3,23x5x49,FloralWhite,Metal,596,35,SUPP_099,2022-11-22,2.7,False
+PROD_000685,Extended holistic orchestration,Electronics,Electronics_Sub_5,"Jackson, Lewis and Luna",258.01,184.31,8.88,50x10x40,OldLace,Plastic,370,94,SUPP_022,2024-09-03,2.4,False
+PROD_000686,Distributed explicit open system,Electronics,Electronics_Sub_1,Clark LLC,289.49,192.51,40.88,43x21x10,PaleVioletRed,Metal,819,93,SUPP_031,2023-05-20,4.6,False
+PROD_000687,Ameliorated holistic focus group,Beauty,Beauty_Sub_1,"Wagner, Castillo and Ramsey",95.48,70.85,45.01,10x12x18,DarkGoldenRod,Wood,758,39,SUPP_034,2025-01-03,4.2,False
+PROD_000688,Re-contextualized systemic framework,Automotive,Automotive_Sub_1,"Flores, Olsen and Mitchell",210.11,129.73,30.08,48x44x32,Yellow,Leather,180,69,SUPP_055,2024-08-26,3.2,True
+PROD_000689,Automated eco-centric migration,Automotive,Automotive_Sub_2,"Goodwin, Mccoy and Ramirez",297.45,208.36,6.51,12x14x6,DarkBlue,Metal,634,21,SUPP_090,2023-02-26,3.8,False
+PROD_000690,Advanced maximized secured line,Home & Garden,Home & Garden_Sub_1,Fernandez LLC,101.34,71.85,29.64,24x40x7,GhostWhite,Metal,632,77,SUPP_078,2023-03-03,1.2,False
+PROD_000691,Right-sized intermediate architecture,Clothing,Clothing_Sub_5,"Camacho, Fisher and Schaefer",386.05,298.71,20.67,28x15x17,FloralWhite,Plastic,844,83,SUPP_014,2023-11-18,3.7,False
+PROD_000692,Public-key upward-trending hub,Electronics,Electronics_Sub_5,Bailey-Watson,162.54,128.7,33.57,17x25x30,SpringGreen,Fabric,744,99,SUPP_027,2024-01-21,1.4,True
+PROD_000693,Universal homogeneous installation,Home & Garden,Home & Garden_Sub_4,Davis-Fisher,882.19,544.32,31.34,36x8x24,Coral,Leather,901,99,SUPP_009,2024-01-09,4.6,False
+PROD_000694,Phased web-enabled throughput,Home & Garden,Home & Garden_Sub_5,Cummings-Martinez,902.89,672.14,4.7,12x37x35,MediumOrchid,Wood,36,51,SUPP_004,2023-10-08,1.4,False
+PROD_000695,Re-engineered bandwidth-monitored circuit,Books,Books_Sub_1,Barker-Moore,765.81,596.47,49.31,22x21x42,DarkRed,Wood,440,13,SUPP_064,2022-09-11,1.3,False
+PROD_000696,Robust encompassing policy,Automotive,Automotive_Sub_4,"Logan, Gardner and Chavez",351.49,243.18,41.34,36x34x27,OliveDrab,Leather,157,55,SUPP_091,2022-11-22,4.4,False
+PROD_000697,Future-proofed value-added conglomeration,Home & Garden,Home & Garden_Sub_1,"Webster, Haney and Ballard",827.25,602.65,37.82,18x12x30,OliveDrab,Plastic,855,35,SUPP_085,2023-10-02,3.0,False
+PROD_000698,Secured bottom-line alliance,Clothing,Clothing_Sub_1,Young-Lewis,655.8,468.68,42.65,8x25x49,DarkViolet,Glass,999,13,SUPP_025,2022-11-06,4.0,False
+PROD_000699,Profit-focused logistical pricing structure,Beauty,Beauty_Sub_2,Wilson-Herring,69.82,50.23,20.01,34x6x5,PowderBlue,Wood,608,87,SUPP_036,2023-11-27,2.6,False
+PROD_000700,Optional zero tolerance database,Beauty,Beauty_Sub_4,Elliott-Griffin,689.55,428.64,12.35,50x13x20,Teal,Metal,706,69,SUPP_008,2024-05-04,1.1,False
+PROD_000701,Seamless upward-trending process improvement,Toys,Toys_Sub_5,Gardner Group,820.6,533.33,39.09,42x36x9,DarkCyan,Wood,671,16,SUPP_072,2024-06-11,2.7,False
+PROD_000702,Integrated reciprocal productivity,Home & Garden,Home & Garden_Sub_3,Harrison PLC,223.34,157.51,1.63,30x26x39,Peru,Glass,300,46,SUPP_090,2024-11-29,3.2,False
+PROD_000703,Programmable full-range focus group,Home & Garden,Home & Garden_Sub_5,Martinez-Wang,876.52,617.88,8.64,34x26x43,LawnGreen,Leather,5,83,SUPP_064,2023-12-31,1.7,False
+PROD_000704,Intuitive object-oriented synergy,Toys,Toys_Sub_5,Smith-Martin,840.08,522.96,7.15,28x40x26,PaleGoldenRod,Leather,280,55,SUPP_041,2023-06-17,5.0,False
+PROD_000705,Enterprise-wide user-facing forecast,Clothing,Clothing_Sub_5,"Collins, Warren and Mahoney",955.27,680.3,39.11,18x24x38,GoldenRod,Metal,796,40,SUPP_055,2022-09-13,3.0,True
+PROD_000706,Progressive well-modulated adapter,Home & Garden,Home & Garden_Sub_5,Lynch-Mckee,713.33,464.82,9.85,41x45x17,Peru,Metal,975,40,SUPP_069,2024-04-05,1.1,False
+PROD_000707,Front-line mobile definition,Home & Garden,Home & Garden_Sub_4,Lopez-Moore,262.78,195.07,18.27,24x31x31,Aquamarine,Wood,529,65,SUPP_095,2024-02-20,2.9,False
+PROD_000708,Optimized global collaboration,Clothing,Clothing_Sub_4,Bell Group,238.58,151.2,38.36,13x7x30,SlateBlue,Metal,108,68,SUPP_043,2023-01-15,2.4,False
+PROD_000709,Polarized hybrid hierarchy,Automotive,Automotive_Sub_4,Middleton LLC,405.64,265.24,6.18,27x37x24,Gold,Plastic,525,23,SUPP_015,2024-02-29,4.0,False
+PROD_000710,Open-architected zero-defect emulation,Clothing,Clothing_Sub_3,Nguyen Group,445.02,314.99,27.25,50x24x50,CornflowerBlue,Metal,719,58,SUPP_009,2024-11-01,1.3,False
+PROD_000711,Decentralized discrete contingency,Clothing,Clothing_Sub_1,Perez-Smith,313.85,235.28,45.88,17x29x9,Crimson,Plastic,528,87,SUPP_022,2024-12-28,2.6,False
+PROD_000712,User-friendly optimal firmware,Toys,Toys_Sub_3,"Marshall, Williams and Newton",346.39,234.14,31.57,29x27x21,LightPink,Metal,759,60,SUPP_065,2024-01-27,4.9,False
+PROD_000713,Triple-buffered clear-thinking neural-net,Sports,Sports_Sub_2,Simmons-Ferrell,504.83,334.68,4.57,22x6x17,Azure,Wood,898,96,SUPP_035,2023-03-17,3.5,False
+PROD_000714,Customizable transitional database,Toys,Toys_Sub_5,Henderson-Rios,360.63,246.21,20.57,32x6x5,LightCyan,Metal,7,21,SUPP_012,2024-06-05,3.4,False
+PROD_000715,Universal local portal,Books,Books_Sub_2,Brown PLC,501.58,310.88,7.58,19x38x29,MediumVioletRed,Fabric,482,44,SUPP_088,2022-12-13,1.5,False
+PROD_000716,Face-to-face coherent benchmark,Automotive,Automotive_Sub_2,Munoz PLC,396.67,288.06,26.57,39x28x47,Violet,Plastic,964,84,SUPP_042,2024-12-27,4.4,True
+PROD_000717,Distributed scalable attitude,Electronics,Electronics_Sub_5,Davis Ltd,201.74,125.62,1.57,50x43x41,Thistle,Plastic,416,97,SUPP_047,2025-07-27,1.1,False
+PROD_000718,Upgradable background methodology,Home & Garden,Home & Garden_Sub_4,Lopez Group,805.49,623.71,39.56,6x20x22,WhiteSmoke,Fabric,643,42,SUPP_072,2023-06-02,2.1,False
+PROD_000719,Open-source interactive protocol,Automotive,Automotive_Sub_4,"Jones, Wagner and Hudson",43.59,32.34,34.58,16x36x41,LightSkyBlue,Wood,729,94,SUPP_074,2022-09-24,2.3,True
+PROD_000720,De-engineered zero administration model,Sports,Sports_Sub_2,Zamora-Maldonado,597.98,368.9,17.83,23x44x29,MediumSpringGreen,Glass,589,52,SUPP_038,2023-01-01,1.6,False
+PROD_000721,Persevering intermediate time-frame,Automotive,Automotive_Sub_3,Watts-Jones,846.29,665.22,6.61,26x15x37,Indigo,Plastic,990,11,SUPP_015,2025-07-12,2.7,False
+PROD_000722,Cross-group maximized forecast,Clothing,Clothing_Sub_4,"Smith, Taylor and Jordan",212.65,140.9,15.37,42x47x23,DarkSlateBlue,Leather,769,50,SUPP_075,2024-07-22,1.7,False
+PROD_000723,Monitored tangible application,Clothing,Clothing_Sub_4,Haley Group,714.48,526.84,27.59,15x32x22,LightSkyBlue,Leather,526,87,SUPP_063,2025-05-22,3.9,False
+PROD_000724,Reactive stable model,Electronics,Electronics_Sub_1,Camacho PLC,99.59,66.48,0.74,40x11x13,LemonChiffon,Leather,729,89,SUPP_037,2023-08-14,3.5,False
+PROD_000725,Grass-roots analyzing monitoring,Beauty,Beauty_Sub_1,Stewart PLC,740.29,486.88,12.05,22x41x24,LightYellow,Fabric,288,21,SUPP_090,2024-08-17,4.7,False
+PROD_000726,Stand-alone intangible concept,Home & Garden,Home & Garden_Sub_3,"Farrell, Crawford and Olson",716.5,497.52,38.72,39x17x45,SeaShell,Metal,494,31,SUPP_087,2024-08-04,3.1,False
+PROD_000727,User-friendly neutral function,Toys,Toys_Sub_4,Stewart-Byrd,661.85,447.19,28.73,40x12x47,AliceBlue,Metal,49,27,SUPP_054,2024-02-07,4.5,False
+PROD_000728,Implemented mission-critical system engine,Automotive,Automotive_Sub_4,Reed Ltd,104.9,83.08,4.23,38x40x13,Violet,Leather,746,18,SUPP_068,2024-12-23,4.5,False
+PROD_000729,Devolved impactful protocol,Electronics,Electronics_Sub_5,Perez-Garrison,792.49,623.38,13.95,5x36x41,SandyBrown,Plastic,118,63,SUPP_016,2024-10-06,1.3,False
+PROD_000730,Distributed background contingency,Sports,Sports_Sub_3,"Wright, Osborne and Sanchez",388.01,256.35,32.52,11x42x37,Khaki,Metal,61,83,SUPP_059,2025-07-23,2.5,False
+PROD_000731,Optimized 24hour ability,Sports,Sports_Sub_4,"Peters, Carter and Silva",220.76,154.4,36.61,47x38x39,Ivory,Leather,783,53,SUPP_091,2022-08-05,1.7,False
+PROD_000732,Innovative maximized parallelism,Automotive,Automotive_Sub_3,Thomas-Moss,563.97,409.73,41.96,36x34x5,LightGreen,Plastic,480,81,SUPP_072,2023-05-18,4.5,False
+PROD_000733,Secured asymmetric forecast,Toys,Toys_Sub_2,Tapia-Chandler,180.86,114.43,46.58,15x10x46,DarkCyan,Leather,789,81,SUPP_004,2022-10-21,3.2,False
+PROD_000734,Realigned bandwidth-monitored structure,Books,Books_Sub_4,Smith-Clay,488.24,345.79,48.58,8x44x31,LightCyan,Leather,415,62,SUPP_094,2024-05-13,1.1,False
+PROD_000735,Virtual system-worthy matrix,Toys,Toys_Sub_2,Perkins-Miller,553.82,423.7,10.83,41x46x28,DarkViolet,Glass,64,62,SUPP_040,2023-07-27,2.6,False
+PROD_000736,Face-to-face holistic data-warehouse,Books,Books_Sub_1,Nelson PLC,770.85,592.44,0.16,5x17x48,MediumSpringGreen,Leather,483,11,SUPP_097,2023-12-24,4.0,False
+PROD_000737,Re-contextualized high-level protocol,Electronics,Electronics_Sub_4,Harrison Ltd,56.18,38.59,12.37,38x8x38,Turquoise,Leather,524,63,SUPP_092,2025-01-26,3.8,False
+PROD_000738,Fully-configurable demand-driven migration,Home & Garden,Home & Garden_Sub_2,Moore and Sons,46.22,29.16,40.05,50x7x41,Snow,Fabric,240,44,SUPP_065,2022-10-27,2.1,False
+PROD_000739,Fundamental well-modulated hardware,Beauty,Beauty_Sub_4,"Garcia, Hurst and Ochoa",725.31,551.01,27.09,31x48x16,DarkGreen,Fabric,419,54,SUPP_008,2023-04-12,4.4,False
+PROD_000740,Multi-channeled regional firmware,Sports,Sports_Sub_3,"Krueger, Gonzalez and Pierce",401.02,281.5,22.14,32x35x30,SeaShell,Wood,693,45,SUPP_012,2024-04-29,4.1,False
+PROD_000741,Visionary multi-state conglomeration,Clothing,Clothing_Sub_4,"Harper, Moreno and Brown",997.96,751.41,13.65,35x41x27,LightSteelBlue,Plastic,879,15,SUPP_025,2023-01-25,2.2,False
+PROD_000742,Horizontal 5thgeneration function,Books,Books_Sub_1,"Francis, Gray and Castro",194.04,153.37,48.75,30x44x19,Plum,Plastic,221,26,SUPP_096,2023-11-09,2.6,False
+PROD_000743,Up-sized 24hour adapter,Sports,Sports_Sub_3,"Aguilar, Guzman and Johns",180.11,137.6,46.33,33x19x20,Cyan,Plastic,626,14,SUPP_060,2023-04-05,4.0,False
+PROD_000744,Synchronized interactive algorithm,Electronics,Electronics_Sub_4,Rocha-Moran,234.83,163.38,4.42,37x26x14,Red,Leather,152,44,SUPP_060,2022-08-26,2.6,False
+PROD_000745,Vision-oriented clear-thinking workforce,Clothing,Clothing_Sub_2,Wade Group,349.17,268.2,27.94,35x45x41,Snow,Fabric,25,17,SUPP_093,2025-07-11,4.2,False
+PROD_000746,Devolved maximized paradigm,Home & Garden,Home & Garden_Sub_4,Wright PLC,726.1,473.11,38.38,43x18x17,SaddleBrown,Metal,504,65,SUPP_030,2023-01-30,1.9,False
+PROD_000747,Focused optimal frame,Books,Books_Sub_5,Reed Inc,944.24,601.71,34.89,15x38x19,Ivory,Glass,143,38,SUPP_064,2023-10-16,3.7,False
+PROD_000748,Digitized composite conglomeration,Home & Garden,Home & Garden_Sub_1,"Mayo, Sims and Ochoa",44.99,32.25,40.51,50x35x49,Orange,Leather,906,16,SUPP_001,2024-06-10,3.2,False
+PROD_000749,Face-to-face intermediate success,Books,Books_Sub_2,"Tate, Silva and Walters",258.47,165.25,44.82,18x33x5,Orchid,Wood,202,34,SUPP_030,2025-01-13,4.5,False
+PROD_000750,Operative optimizing throughput,Clothing,Clothing_Sub_5,Holder Inc,888.37,619.53,25.78,39x22x28,LightBlue,Glass,649,20,SUPP_017,2023-03-08,2.4,True
+PROD_000751,Streamlined multi-tasking help-desk,Electronics,Electronics_Sub_3,"Moreno, Chavez and Foster",470.09,345.75,22.05,42x38x50,DarkSlateBlue,Leather,641,57,SUPP_097,2023-08-04,4.7,False
+PROD_000752,Implemented object-oriented ability,Automotive,Automotive_Sub_4,"Ortiz, Miller and Nelson",575.65,380.21,19.34,6x46x45,BlueViolet,Glass,302,57,SUPP_091,2025-02-23,2.4,False
+PROD_000753,Multi-tiered real-time application,Books,Books_Sub_1,Pitts-Singleton,373.97,248.56,33.32,39x19x34,Maroon,Fabric,684,30,SUPP_056,2022-08-18,2.2,False
+PROD_000754,Diverse regional array,Books,Books_Sub_4,Mays LLC,206.24,163.41,48.49,43x32x38,Fuchsia,Fabric,371,88,SUPP_027,2024-04-22,2.1,False
+PROD_000755,Synchronized zero administration pricing structure,Home & Garden,Home & Garden_Sub_5,Miller Inc,47.64,29.35,30.2,44x43x34,GreenYellow,Leather,688,76,SUPP_028,2023-11-16,3.7,False
+PROD_000756,Managed even-keeled implementation,Toys,Toys_Sub_1,David Ltd,245.64,180.84,4.82,37x28x42,Gold,Leather,430,54,SUPP_047,2023-09-24,4.1,False
+PROD_000757,Networked multi-state paradigm,Electronics,Electronics_Sub_2,Rivera-Chavez,338.31,246.71,19.87,32x46x38,CornflowerBlue,Glass,653,95,SUPP_099,2023-01-21,1.1,False
+PROD_000758,Streamlined stable installation,Home & Garden,Home & Garden_Sub_3,Barry Inc,499.27,357.83,23.6,24x41x41,OliveDrab,Leather,544,64,SUPP_032,2024-11-16,1.6,False
+PROD_000759,Public-key next generation contingency,Clothing,Clothing_Sub_1,"Howard, Yang and Roberts",238.8,170.31,16.81,24x14x35,Cyan,Glass,172,29,SUPP_014,2025-04-27,2.3,False
+PROD_000760,Multi-lateral disintermediate approach,Beauty,Beauty_Sub_2,"Hull, Curtis and Delgado",908.47,606.28,22.14,18x41x48,Black,Glass,233,86,SUPP_078,2025-02-10,2.0,False
+PROD_000761,Multi-layered responsive firmware,Sports,Sports_Sub_1,"Johnson, Peterson and Wilson",209.05,128.54,28.19,25x23x31,CadetBlue,Wood,445,94,SUPP_084,2025-01-03,2.5,True
+PROD_000762,Enhanced zero administration orchestration,Electronics,Electronics_Sub_5,"Heath, Lewis and Garcia",495.69,334.69,1.66,14x10x6,Teal,Leather,149,69,SUPP_027,2023-11-12,2.5,False
+PROD_000763,Visionary explicit workforce,Books,Books_Sub_3,Livingston-Oliver,738.47,509.84,32.87,34x18x50,MediumTurquoise,Metal,174,36,SUPP_037,2025-03-04,4.7,False
+PROD_000764,Organic bi-directional portal,Home & Garden,Home & Garden_Sub_5,Sosa PLC,979.89,695.47,21.36,30x5x11,Coral,Fabric,126,14,SUPP_078,2024-04-17,1.0,False
+PROD_000765,Operative tangible knowledge user,Beauty,Beauty_Sub_4,Hernandez-Harmon,722.8,544.82,36.39,33x18x14,Coral,Glass,316,48,SUPP_097,2024-02-02,2.8,False
+PROD_000766,Future-proofed 24/7 solution,Home & Garden,Home & Garden_Sub_4,Oliver Inc,518.96,373.6,30.74,45x22x10,Salmon,Glass,441,17,SUPP_079,2022-11-11,3.7,False
+PROD_000767,Organic neutral moratorium,Automotive,Automotive_Sub_1,Patterson and Sons,919.27,615.92,14.7,50x47x47,Khaki,Wood,653,81,SUPP_014,2024-04-26,1.1,False
+PROD_000768,Horizontal foreground moderator,Automotive,Automotive_Sub_2,"Duke, Ross and Paul",718.61,464.77,20.98,41x24x21,LightSeaGreen,Glass,811,37,SUPP_089,2023-07-13,4.8,False
+PROD_000769,Realigned static hierarchy,Automotive,Automotive_Sub_5,Sanchez-Rodriguez,883.36,598.74,37.24,50x25x13,Green,Fabric,966,83,SUPP_004,2023-11-18,3.6,False
+PROD_000770,Quality-focused client-server protocol,Toys,Toys_Sub_1,Campos-Melendez,557.59,360.92,22.18,24x33x33,Blue,Plastic,607,77,SUPP_097,2025-07-15,3.2,False
+PROD_000771,Proactive empowering hierarchy,Automotive,Automotive_Sub_3,Lopez-Robinson,253.06,171.83,13.27,7x43x30,Purple,Fabric,326,89,SUPP_028,2024-04-03,3.0,False
+PROD_000772,Right-sized needs-based capacity,Toys,Toys_Sub_1,Dixon-Doyle,158.3,125.13,2.35,41x46x42,DarkOrange,Leather,399,45,SUPP_051,2023-11-15,4.2,False
+PROD_000773,Secured system-worthy solution,Books,Books_Sub_3,"Dominguez, Jackson and Williams",931.04,579.5,14.98,19x27x21,MidnightBlue,Fabric,415,86,SUPP_043,2024-03-29,1.7,False
+PROD_000774,Organized foreground open architecture,Clothing,Clothing_Sub_3,Smith Inc,394.99,305.55,41.14,37x33x9,LightSlateGray,Plastic,533,79,SUPP_006,2023-09-02,1.8,False
+PROD_000775,Open-source web-enabled time-frame,Beauty,Beauty_Sub_5,Jackson LLC,297.83,206.07,21.42,24x42x8,Tan,Metal,488,61,SUPP_034,2025-01-27,2.8,False
+PROD_000776,Proactive human-resource ability,Clothing,Clothing_Sub_1,Salinas and Sons,431.77,286.09,9.39,12x26x7,FireBrick,Metal,744,83,SUPP_088,2025-05-20,2.6,True
+PROD_000777,Adaptive context-sensitive database,Toys,Toys_Sub_5,Harris and Sons,790.76,605.49,35.54,50x49x9,HoneyDew,Leather,576,91,SUPP_006,2022-10-29,1.2,False
+PROD_000778,Sharable cohesive projection,Clothing,Clothing_Sub_3,"Richardson, Aguilar and Vargas",525.92,401.27,11.16,18x28x13,WhiteSmoke,Fabric,425,94,SUPP_052,2022-12-31,1.0,False
+PROD_000779,Expanded static algorithm,Toys,Toys_Sub_3,"Joseph, Reid and Martin",751.72,452.77,38.34,6x15x42,Aquamarine,Wood,804,71,SUPP_025,2024-08-26,4.2,False
+PROD_000780,Adaptive logistical website,Electronics,Electronics_Sub_1,Jackson-Nielsen,192.52,144.3,14.79,27x34x11,DodgerBlue,Fabric,94,57,SUPP_072,2024-08-23,1.2,False
+PROD_000781,Synergistic 24hour infrastructure,Clothing,Clothing_Sub_5,Hammond-Baker,302.25,201.66,28.45,42x12x17,DarkCyan,Glass,640,57,SUPP_005,2024-07-02,4.5,False
+PROD_000782,Managed composite open system,Clothing,Clothing_Sub_5,Maldonado PLC,230.39,160.49,46.44,31x39x33,PaleTurquoise,Plastic,513,65,SUPP_085,2025-01-08,3.0,False
+PROD_000783,Expanded even-keeled benchmark,Electronics,Electronics_Sub_3,"Russell, Clark and Cabrera",614.22,480.54,7.47,18x50x15,LightSteelBlue,Fabric,928,56,SUPP_003,2023-10-27,3.0,False
+PROD_000784,Re-engineered encompassing orchestration,Clothing,Clothing_Sub_5,Butler PLC,428.34,270.98,7.77,42x19x18,DarkTurquoise,Metal,76,34,SUPP_036,2022-10-13,3.3,False
+PROD_000785,Customizable bottom-line complexity,Books,Books_Sub_1,Fry-Wilson,566.91,348.43,47.11,21x7x47,MediumTurquoise,Plastic,966,37,SUPP_062,2023-02-06,4.5,False
+PROD_000786,Exclusive global website,Automotive,Automotive_Sub_4,Love-Parks,369.58,229.6,27.83,29x14x50,Snow,Glass,261,79,SUPP_001,2025-05-04,2.6,True
+PROD_000787,Persistent optimal intranet,Books,Books_Sub_4,Huynh and Sons,791.1,542.59,37.06,7x46x19,Gold,Plastic,397,85,SUPP_048,2024-10-03,4.8,False
+PROD_000788,Grass-roots fault-tolerant conglomeration,Automotive,Automotive_Sub_1,"Garcia, Weber and Peterson",176.34,110.45,5.98,32x8x46,Navy,Plastic,555,20,SUPP_016,2024-09-10,3.7,True
+PROD_000789,Robust local Internet solution,Home & Garden,Home & Garden_Sub_5,Davis Group,845.32,590.93,46.32,17x8x16,MediumVioletRed,Wood,365,84,SUPP_096,2025-05-05,3.0,False
+PROD_000790,Multi-channeled explicit benchmark,Books,Books_Sub_1,"Davis, Jones and Lee",434.9,304.86,7.62,12x23x47,Brown,Wood,614,65,SUPP_072,2024-08-23,3.6,False
+PROD_000791,Ameliorated actuating migration,Clothing,Clothing_Sub_1,Rivera-Duffy,882.66,593.03,35.22,45x11x41,MidnightBlue,Glass,880,80,SUPP_007,2023-11-15,4.9,False
+PROD_000792,Realigned mission-critical utilization,Toys,Toys_Sub_2,"Carter, Henderson and Stokes",98.16,74.13,7.13,8x18x32,Orange,Plastic,531,25,SUPP_052,2023-03-11,4.1,False
+PROD_000793,Persevering executive projection,Electronics,Electronics_Sub_3,"Coleman, Jimenez and Garcia",262.56,162.9,39.83,31x7x39,LimeGreen,Leather,77,98,SUPP_079,2024-04-01,3.0,False
+PROD_000794,Object-based discrete attitude,Electronics,Electronics_Sub_5,Moore Inc,842.37,507.37,13.73,41x25x21,NavajoWhite,Wood,579,55,SUPP_004,2022-12-26,4.3,False
+PROD_000795,Centralized executive algorithm,Toys,Toys_Sub_5,Lee and Sons,44.38,32.7,41.4,49x34x21,Tomato,Wood,407,65,SUPP_077,2023-09-12,3.2,False
+PROD_000796,Front-line systemic algorithm,Toys,Toys_Sub_5,Brown-Schaefer,657.32,396.51,24.41,14x43x22,Ivory,Plastic,312,28,SUPP_086,2023-10-05,3.5,False
+PROD_000797,Balanced scalable emulation,Toys,Toys_Sub_4,Kemp Inc,930.61,657.69,49.84,33x32x16,SaddleBrown,Wood,868,34,SUPP_087,2023-08-28,4.0,False
+PROD_000798,Persistent optimal capacity,Automotive,Automotive_Sub_4,Thompson Group,755.22,532.34,30.28,43x27x17,Magenta,Plastic,98,60,SUPP_037,2025-06-17,3.0,False
+PROD_000799,Universal exuding monitoring,Beauty,Beauty_Sub_1,Bass PLC,474.72,376.16,14.75,50x29x38,PowderBlue,Wood,596,11,SUPP_018,2023-01-29,4.9,False
+PROD_000800,Switchable mobile focus group,Beauty,Beauty_Sub_2,"Thompson, Nguyen and Trevino",612.66,416.49,22.35,29x10x12,Peru,Glass,396,27,SUPP_099,2023-04-30,3.9,True
+PROD_000801,Balanced executive definition,Electronics,Electronics_Sub_2,Hernandez-Glenn,315.36,230.24,26.15,22x30x40,Black,Fabric,939,90,SUPP_087,2023-09-15,2.7,False
+PROD_000802,Open-architected transitional process improvement,Clothing,Clothing_Sub_4,Daniel PLC,375.88,287.31,7.95,36x36x48,Wheat,Wood,45,30,SUPP_009,2024-09-24,4.6,False
+PROD_000803,Visionary attitude-oriented leverage,Automotive,Automotive_Sub_2,Turner PLC,214.22,164.0,35.87,14x25x14,Cyan,Wood,183,35,SUPP_044,2024-10-01,1.6,True
+PROD_000804,Assimilated object-oriented extranet,Beauty,Beauty_Sub_1,Rojas PLC,10.68,7.18,16.12,38x44x24,HoneyDew,Fabric,399,18,SUPP_058,2025-05-07,1.7,False
+PROD_000805,Robust full-range archive,Electronics,Electronics_Sub_3,"Sutton, Gray and Goodwin",774.99,544.82,0.51,28x19x26,FireBrick,Metal,785,21,SUPP_025,2024-11-26,3.9,False
+PROD_000806,Implemented secondary monitoring,Toys,Toys_Sub_4,Bowen-Garcia,26.49,19.7,30.67,44x19x23,PowderBlue,Leather,152,41,SUPP_020,2023-11-05,1.5,True
+PROD_000807,Reduced demand-driven knowledge user,Clothing,Clothing_Sub_1,"Davis, Cervantes and Rodgers",608.49,443.06,44.17,42x22x21,White,Leather,231,23,SUPP_036,2024-07-09,4.6,False
+PROD_000808,Object-based intermediate throughput,Clothing,Clothing_Sub_3,Nichols-Robertson,863.5,627.79,40.39,39x36x37,FloralWhite,Metal,271,98,SUPP_026,2025-01-05,3.7,False
+PROD_000809,Innovative didactic alliance,Automotive,Automotive_Sub_5,Smith PLC,764.44,481.18,7.64,24x7x14,SeaShell,Plastic,950,24,SUPP_055,2025-05-06,4.7,False
+PROD_000810,Optimized eco-centric success,Clothing,Clothing_Sub_2,Bell Inc,497.17,378.25,47.02,48x38x10,DarkMagenta,Fabric,111,93,SUPP_002,2025-06-17,4.8,False
+PROD_000811,Optional homogeneous function,Beauty,Beauty_Sub_2,Stephenson LLC,862.9,657.66,8.21,31x27x34,DarkKhaki,Fabric,790,88,SUPP_097,2023-12-17,4.2,False
+PROD_000812,Seamless intermediate forecast,Toys,Toys_Sub_3,Lopez-Jones,508.9,402.07,22.64,23x27x13,MidnightBlue,Glass,218,99,SUPP_039,2025-02-16,3.0,False
+PROD_000813,Managed value-added core,Books,Books_Sub_2,Cline-Lewis,751.5,481.35,49.61,45x14x25,Maroon,Wood,302,33,SUPP_017,2023-10-04,3.6,False
+PROD_000814,Monitored radical moderator,Clothing,Clothing_Sub_1,Summers and Sons,900.05,585.35,48.5,48x40x16,Chocolate,Fabric,25,52,SUPP_006,2024-08-15,4.9,False
+PROD_000815,Distributed global frame,Toys,Toys_Sub_2,Carpenter-Velez,558.48,377.5,26.41,37x35x15,MediumVioletRed,Plastic,268,66,SUPP_051,2023-07-10,2.9,False
+PROD_000816,Total dynamic paradigm,Beauty,Beauty_Sub_1,"Reed, Hinton and Williams",536.95,393.6,27.06,36x24x25,GoldenRod,Leather,713,74,SUPP_058,2024-04-24,1.3,False
+PROD_000817,De-engineered even-keeled focus group,Electronics,Electronics_Sub_4,"Morrison, Baker and Rodriguez",320.27,241.94,3.71,18x50x29,PaleVioletRed,Fabric,368,87,SUPP_025,2024-11-12,1.4,False
+PROD_000818,Robust methodical throughput,Books,Books_Sub_4,"Coleman, Henderson and Ramirez",137.11,89.49,32.87,7x35x23,PeachPuff,Leather,920,20,SUPP_033,2025-03-25,4.2,False
+PROD_000819,Exclusive zero administration implementation,Electronics,Electronics_Sub_1,Ramsey Group,25.07,16.81,19.45,22x23x27,Brown,Metal,605,86,SUPP_049,2023-05-15,4.7,False
+PROD_000820,Fundamental secondary product,Automotive,Automotive_Sub_3,Hubbard Inc,278.51,179.74,10.32,9x43x44,MediumOrchid,Glass,99,25,SUPP_088,2023-07-27,4.4,False
+PROD_000821,Persistent value-added monitoring,Home & Garden,Home & Garden_Sub_3,Walter and Sons,787.64,479.78,46.65,15x44x32,MediumOrchid,Fabric,478,13,SUPP_012,2023-08-23,1.1,False
+PROD_000822,Multi-channeled scalable archive,Home & Garden,Home & Garden_Sub_3,"James, Bass and Morales",234.02,166.23,15.15,43x36x28,DarkSlateBlue,Leather,728,79,SUPP_090,2025-04-10,2.4,True
+PROD_000823,Cross-group content-based strategy,Beauty,Beauty_Sub_1,Wheeler-Cervantes,736.33,526.14,26.22,10x35x37,DarkViolet,Glass,54,100,SUPP_017,2025-02-28,1.5,False
+PROD_000824,Polarized 24/7 service-desk,Books,Books_Sub_4,Mitchell Inc,610.93,482.95,10.95,32x19x37,DarkSlateGray,Metal,502,46,SUPP_075,2024-11-16,4.5,False
+PROD_000825,Face-to-face zero tolerance circuit,Home & Garden,Home & Garden_Sub_2,Stewart-Anderson,126.35,87.19,8.45,19x43x25,Chartreuse,Wood,570,15,SUPP_057,2025-01-03,1.1,False
+PROD_000826,Digitized clear-thinking standardization,Clothing,Clothing_Sub_3,"Garrett, Marshall and Sharp",734.52,566.83,43.93,38x18x30,Tomato,Fabric,474,49,SUPP_059,2024-12-29,2.9,False
+PROD_000827,Managed modular capacity,Sports,Sports_Sub_1,Carpenter LLC,464.45,313.75,11.14,29x31x27,Gold,Glass,12,10,SUPP_087,2025-04-06,4.9,True
+PROD_000828,Total responsive adapter,Books,Books_Sub_2,"Leonard, Smith and Davis",856.26,655.72,27.53,14x12x16,RosyBrown,Leather,660,78,SUPP_017,2022-08-16,1.5,False
+PROD_000829,Grass-roots mobile flexibility,Home & Garden,Home & Garden_Sub_5,King-Mcmahon,421.18,312.37,47.92,15x35x40,DarkSalmon,Wood,780,66,SUPP_018,2024-09-12,2.7,False
+PROD_000830,Persistent tertiary attitude,Home & Garden,Home & Garden_Sub_5,Lewis PLC,213.93,160.9,42.54,24x28x46,SeaShell,Fabric,858,65,SUPP_073,2025-03-28,1.7,False
+PROD_000831,Centralized leadingedge focus group,Beauty,Beauty_Sub_4,"Sawyer, Singh and White",663.53,519.43,19.91,22x39x27,FireBrick,Metal,96,33,SUPP_026,2023-12-08,2.0,False
+PROD_000832,Right-sized holistic Internet solution,Home & Garden,Home & Garden_Sub_3,"Miller, Thomas and Hamilton",525.84,405.97,36.38,42x40x10,LavenderBlush,Plastic,989,76,SUPP_085,2023-09-10,2.2,False
+PROD_000833,Reactive asynchronous conglomeration,Beauty,Beauty_Sub_3,Conner-Reed,107.1,66.15,48.35,16x12x6,Lime,Glass,767,40,SUPP_060,2022-08-11,3.2,False
+PROD_000834,Multi-layered bifurcated policy,Electronics,Electronics_Sub_3,"Butler, Robles and Fox",563.52,384.41,36.32,19x29x21,PaleGreen,Leather,972,77,SUPP_013,2023-12-18,1.3,False
+PROD_000835,Extended global productivity,Toys,Toys_Sub_5,Smith PLC,356.12,231.25,18.14,40x45x50,NavajoWhite,Wood,586,43,SUPP_022,2024-09-15,1.3,False
+PROD_000836,Down-sized grid-enabled adapter,Home & Garden,Home & Garden_Sub_1,Dunn-Chung,216.49,149.86,42.67,17x49x30,PowderBlue,Wood,590,73,SUPP_023,2024-07-11,3.0,False
+PROD_000837,De-engineered 6thgeneration hub,Automotive,Automotive_Sub_4,Lynch and Sons,493.23,394.43,28.44,28x40x32,LightSkyBlue,Plastic,213,49,SUPP_012,2023-05-23,2.9,False
+PROD_000838,Optimized hybrid adapter,Clothing,Clothing_Sub_5,"Obrien, Hansen and Cox",352.59,246.21,38.74,40x6x40,Red,Leather,557,48,SUPP_023,2023-05-25,2.7,False
+PROD_000839,Polarized optimal middleware,Books,Books_Sub_2,"Garcia, Nelson and Allen",208.48,128.51,30.39,48x36x30,LimeGreen,Plastic,372,13,SUPP_005,2022-09-12,1.4,False
+PROD_000840,Robust 6thgeneration service-desk,Clothing,Clothing_Sub_3,Turner-Williams,314.87,198.76,48.35,24x23x16,MintCream,Leather,203,62,SUPP_033,2023-05-04,3.0,False
+PROD_000841,Ergonomic dedicated interface,Clothing,Clothing_Sub_3,"Maldonado, Brown and Martinez",992.89,759.23,30.23,10x5x38,Snow,Glass,99,59,SUPP_100,2025-04-10,4.3,False
+PROD_000842,Cloned full-range collaboration,Automotive,Automotive_Sub_5,"Sanchez, Hall and Horn",28.36,22.25,41.98,47x43x41,White,Plastic,350,71,SUPP_029,2023-05-20,3.1,False
+PROD_000843,Grass-roots systematic parallelism,Beauty,Beauty_Sub_4,"Hanna, Hodges and Davis",616.97,418.85,28.66,34x47x19,Peru,Glass,462,33,SUPP_005,2023-02-03,3.3,False
+PROD_000844,Upgradable solution-oriented analyzer,Electronics,Electronics_Sub_2,"Beltran, Koch and Burton",764.06,517.57,22.96,32x24x19,Teal,Leather,177,17,SUPP_047,2023-11-08,3.0,False
+PROD_000845,Right-sized heuristic protocol,Automotive,Automotive_Sub_2,Hernandez Group,896.85,660.44,45.57,44x35x11,SaddleBrown,Leather,864,92,SUPP_047,2023-04-02,2.4,False
+PROD_000846,Operative tertiary functionalities,Home & Garden,Home & Garden_Sub_2,"Jones, Williams and Floyd",770.54,590.78,24.5,5x12x12,SeaShell,Leather,343,49,SUPP_087,2023-10-22,3.5,False
+PROD_000847,Secured cohesive forecast,Automotive,Automotive_Sub_4,Rojas PLC,213.55,157.51,40.44,31x5x42,CadetBlue,Glass,520,53,SUPP_053,2023-06-02,3.0,False
+PROD_000848,Reduced high-level Graphical User Interface,Beauty,Beauty_Sub_1,Compton Ltd,44.58,35.38,37.83,26x48x43,DarkMagenta,Glass,205,54,SUPP_065,2023-08-08,2.5,False
+PROD_000849,Multi-channeled zero tolerance website,Sports,Sports_Sub_2,Harris-Robinson,949.4,662.68,45.8,31x22x22,Green,Glass,52,31,SUPP_049,2022-12-03,1.8,False
+PROD_000850,Grass-roots impactful migration,Automotive,Automotive_Sub_4,Morgan Inc,886.17,663.11,38.28,27x43x30,DarkKhaki,Wood,753,52,SUPP_067,2024-10-08,2.8,True
+PROD_000851,Cloned bandwidth-monitored definition,Beauty,Beauty_Sub_5,"Trujillo, Jackson and Short",266.69,205.55,29.21,21x33x10,Plum,Wood,362,90,SUPP_095,2023-05-31,2.0,False
+PROD_000852,Extended 5thgeneration matrices,Sports,Sports_Sub_3,"Williams, Arias and Golden",651.3,475.12,35.87,13x21x6,DarkSlateBlue,Wood,247,66,SUPP_064,2025-05-17,1.7,False
+PROD_000853,Balanced actuating application,Sports,Sports_Sub_5,"Yates, Wang and Miller",615.03,469.24,15.81,19x46x44,SlateBlue,Wood,340,13,SUPP_031,2025-05-30,2.8,False
+PROD_000854,Expanded didactic projection,Sports,Sports_Sub_5,"Day, Hayes and Stevens",868.23,613.61,1.72,35x38x5,MediumAquaMarine,Wood,235,78,SUPP_028,2023-07-05,1.8,False
+PROD_000855,Ergonomic even-keeled challenge,Beauty,Beauty_Sub_5,Bradley Group,196.6,145.35,36.11,12x20x31,Green,Fabric,388,48,SUPP_095,2024-11-07,3.1,False
+PROD_000856,Fundamental mobile Graphical User Interface,Sports,Sports_Sub_1,"Austin, Spencer and Simmons",479.97,382.96,22.98,8x22x10,Sienna,Wood,1,59,SUPP_028,2024-08-08,1.7,False
+PROD_000857,Decentralized encompassing project,Sports,Sports_Sub_1,"Jacobs, Webster and Chavez",321.08,220.38,2.39,14x31x28,Bisque,Fabric,235,78,SUPP_058,2024-05-20,3.5,False
+PROD_000858,Fully-configurable intermediate utilization,Home & Garden,Home & Garden_Sub_3,Fletcher and Sons,925.28,601.0,23.42,46x32x22,Cyan,Leather,807,60,SUPP_056,2023-02-14,4.0,False
+PROD_000859,Up-sized logistical throughput,Books,Books_Sub_4,"Page, Heath and Forbes",204.6,151.76,39.21,44x35x21,Moccasin,Plastic,343,86,SUPP_019,2024-12-19,4.1,False
+PROD_000860,Polarized web-enabled migration,Sports,Sports_Sub_1,"Turner, Obrien and Pierce",62.84,48.69,4.53,16x45x36,Cornsilk,Glass,45,71,SUPP_069,2024-12-20,1.4,False
+PROD_000861,Business-focused clear-thinking Graphic Interface,Toys,Toys_Sub_1,Carter-Olson,397.82,254.31,48.84,21x42x34,SpringGreen,Glass,579,91,SUPP_061,2022-07-28,1.8,False
+PROD_000862,Total composite framework,Home & Garden,Home & Garden_Sub_1,Brown and Sons,432.85,305.43,13.25,18x25x33,BurlyWood,Leather,380,44,SUPP_091,2024-09-05,4.8,False
+PROD_000863,Monitored methodical initiative,Home & Garden,Home & Garden_Sub_3,Gomez PLC,32.7,22.68,40.45,27x47x46,Olive,Leather,187,62,SUPP_005,2023-04-03,1.7,False
+PROD_000864,Profound cohesive knowledge user,Beauty,Beauty_Sub_5,"Francis, Moore and Rodriguez",475.67,296.79,21.69,35x8x35,Plum,Plastic,651,99,SUPP_070,2024-07-01,3.7,False
+PROD_000865,Optimized grid-enabled Graphical User Interface,Books,Books_Sub_5,Burnett Inc,190.51,123.97,44.16,30x11x18,HoneyDew,Fabric,112,26,SUPP_025,2023-08-28,3.0,True
+PROD_000866,Grass-roots didactic algorithm,Sports,Sports_Sub_1,Johnson-Taylor,702.88,492.72,48.3,20x36x31,Lime,Fabric,456,11,SUPP_043,2023-01-24,4.7,False
+PROD_000867,Customer-focused grid-enabled algorithm,Electronics,Electronics_Sub_4,Whitney PLC,582.99,407.62,37.95,45x30x46,DarkViolet,Wood,121,13,SUPP_055,2024-02-19,2.1,True
+PROD_000868,Switchable heuristic installation,Automotive,Automotive_Sub_5,Griffin and Sons,212.94,162.07,26.94,46x24x33,YellowGreen,Fabric,748,44,SUPP_066,2022-09-29,4.9,False
+PROD_000869,Synchronized holistic archive,Home & Garden,Home & Garden_Sub_3,Campos-Williams,522.37,404.1,38.46,34x18x32,Cornsilk,Wood,675,46,SUPP_089,2024-03-24,3.7,False
+PROD_000870,Horizontal tertiary groupware,Sports,Sports_Sub_5,Cortez Group,138.0,96.77,9.32,8x44x5,Yellow,Metal,120,67,SUPP_071,2024-03-01,4.5,False
+PROD_000871,Reactive transitional strategy,Beauty,Beauty_Sub_3,Johnson-Long,253.25,199.97,47.42,32x36x38,DarkGray,Wood,764,89,SUPP_065,2023-07-27,4.3,True
+PROD_000872,Re-contextualized dynamic knowledge user,Sports,Sports_Sub_1,"Casey, Wong and Fisher",555.32,402.76,32.98,25x42x18,Red,Plastic,204,33,SUPP_081,2024-11-12,1.1,False
+PROD_000873,Up-sized real-time Graphical User Interface,Toys,Toys_Sub_4,Wilson Group,15.03,9.5,35.69,26x14x32,LightSteelBlue,Fabric,639,16,SUPP_016,2025-07-03,4.0,False
+PROD_000874,Realigned value-added throughput,Electronics,Electronics_Sub_2,Scott Inc,610.98,386.77,29.95,44x30x29,Aquamarine,Metal,224,12,SUPP_077,2024-04-30,4.3,False
+PROD_000875,Cloned maximized implementation,Home & Garden,Home & Garden_Sub_3,Mendez LLC,851.19,647.46,20.04,21x5x20,MintCream,Plastic,450,86,SUPP_083,2024-06-10,3.4,False
+PROD_000876,Front-line zero-defect implementation,Sports,Sports_Sub_1,Greer-Lee,806.27,498.83,34.16,18x15x6,Cornsilk,Plastic,149,90,SUPP_078,2025-03-22,2.4,False
+PROD_000877,Integrated asynchronous framework,Toys,Toys_Sub_1,Becker-Gibson,31.77,24.49,6.49,10x47x39,WhiteSmoke,Metal,716,14,SUPP_098,2024-01-24,5.0,False
+PROD_000878,Persistent bottom-line knowledge user,Books,Books_Sub_1,Miller-Taylor,307.95,202.5,43.74,49x7x41,MediumSeaGreen,Metal,931,17,SUPP_045,2024-12-26,2.2,False
+PROD_000879,Networked next generation customer loyalty,Automotive,Automotive_Sub_2,Warren Ltd,916.07,701.9,18.01,36x43x33,OliveDrab,Metal,600,77,SUPP_096,2024-12-19,1.6,False
+PROD_000880,Organized mission-critical archive,Toys,Toys_Sub_3,Garcia Group,244.34,171.78,41.51,28x10x39,DarkCyan,Metal,497,28,SUPP_087,2024-01-16,1.8,False
+PROD_000881,Advanced cohesive protocol,Books,Books_Sub_4,Gutierrez and Sons,932.48,646.59,42.61,42x27x11,Maroon,Fabric,351,33,SUPP_047,2023-01-19,2.5,False
+PROD_000882,Phased systematic complexity,Beauty,Beauty_Sub_5,Cruz-Foster,785.61,490.84,33.1,10x26x26,Maroon,Fabric,42,41,SUPP_007,2023-02-23,4.7,True
+PROD_000883,Intuitive 4thgeneration artificial intelligence,Beauty,Beauty_Sub_5,"Nash, Thompson and Wyatt",335.06,252.11,15.24,37x34x29,LavenderBlush,Plastic,691,53,SUPP_002,2022-11-07,4.3,False
+PROD_000884,Enhanced modular open system,Sports,Sports_Sub_5,"Bailey, Davis and Duffy",742.06,550.88,44.25,25x6x37,LightSteelBlue,Fabric,139,93,SUPP_033,2023-04-09,2.2,False
+PROD_000885,Right-sized responsive policy,Electronics,Electronics_Sub_2,Morris-Blankenship,918.28,693.04,1.44,31x43x28,Coral,Wood,802,55,SUPP_077,2024-11-05,3.8,False
+PROD_000886,Quality-focused clear-thinking matrix,Home & Garden,Home & Garden_Sub_3,"Vega, Burke and Johnson",862.33,651.23,25.46,9x8x37,Brown,Leather,137,94,SUPP_020,2022-11-23,2.8,False
+PROD_000887,Re-contextualized attitude-oriented ability,Sports,Sports_Sub_4,Gates-Murphy,769.96,571.01,22.66,36x36x22,Snow,Wood,588,33,SUPP_048,2025-02-01,2.1,True
+PROD_000888,Front-line optimizing initiative,Books,Books_Sub_2,Cardenas-Conley,519.17,362.74,7.5,23x42x20,Violet,Glass,610,70,SUPP_079,2024-07-05,1.2,False
+PROD_000889,Cross-group logistical task-force,Sports,Sports_Sub_3,Garcia Inc,893.78,701.09,30.03,23x40x24,DodgerBlue,Fabric,704,63,SUPP_060,2024-04-29,4.6,False
+PROD_000890,Intuitive 24/7 secured line,Clothing,Clothing_Sub_4,"Green, Bates and Collins",432.11,290.72,9.95,41x26x31,Peru,Leather,865,72,SUPP_016,2025-05-01,1.6,True
+PROD_000891,Re-engineered didactic knowledgebase,Home & Garden,Home & Garden_Sub_3,"Roberts, Johnson and Jones",902.62,682.78,46.51,33x32x33,DarkGoldenRod,Wood,639,12,SUPP_049,2023-07-04,2.2,False
+PROD_000892,User-friendly maximized hub,Books,Books_Sub_4,"Daniel, Bailey and Callahan",156.05,99.93,24.19,28x17x9,DarkSlateBlue,Wood,836,57,SUPP_015,2023-10-27,3.8,True
+PROD_000893,Multi-tiered motivating approach,Clothing,Clothing_Sub_4,Cochran PLC,907.34,687.82,31.88,8x8x26,Yellow,Wood,983,56,SUPP_044,2025-03-06,3.2,False
+PROD_000894,Open-architected intangible secured line,Toys,Toys_Sub_3,Ramsey-Golden,626.26,422.48,16.88,28x32x16,DarkSlateGray,Plastic,434,81,SUPP_085,2025-04-06,1.9,False
+PROD_000895,Function-based coherent Local Area Network,Automotive,Automotive_Sub_4,"Crawford, Bradford and Booth",420.61,287.48,2.79,44x27x5,LightSlateGray,Wood,822,84,SUPP_012,2025-01-01,1.1,False
+PROD_000896,Re-engineered methodical throughput,Electronics,Electronics_Sub_3,"Hart, Pierce and Green",208.91,151.49,23.74,28x26x48,LightGreen,Glass,572,51,SUPP_099,2022-09-16,1.6,False
+PROD_000897,Open-architected non-volatile matrices,Automotive,Automotive_Sub_5,Hill Inc,239.2,163.62,19.61,29x7x44,DarkGreen,Leather,988,41,SUPP_009,2023-10-15,3.7,True
+PROD_000898,Fundamental interactive implementation,Toys,Toys_Sub_1,Garcia PLC,979.72,627.92,1.77,28x40x17,LightYellow,Fabric,80,21,SUPP_014,2024-10-29,2.5,False
+PROD_000899,Synergistic asymmetric algorithm,Electronics,Electronics_Sub_2,"Gomez, Benson and Tyler",411.84,294.11,2.52,44x50x17,GhostWhite,Leather,694,40,SUPP_091,2023-12-31,1.9,False
+PROD_000900,Re-contextualized holistic projection,Home & Garden,Home & Garden_Sub_4,Roman-Gonzalez,591.56,375.0,9.33,5x47x47,NavajoWhite,Metal,556,81,SUPP_082,2025-01-26,2.8,False
+PROD_000901,Re-engineered empowering projection,Clothing,Clothing_Sub_5,Calhoun Ltd,536.97,365.59,10.64,24x23x33,RoyalBlue,Fabric,101,62,SUPP_099,2024-01-29,2.8,False
+PROD_000902,De-engineered static neural-net,Sports,Sports_Sub_2,Cole Ltd,741.76,505.1,27.23,24x37x49,PaleTurquoise,Plastic,190,47,SUPP_024,2023-01-16,4.0,False
+PROD_000903,Operative well-modulated encoding,Sports,Sports_Sub_4,"Neal, French and Holt",285.31,214.92,36.42,31x24x22,PowderBlue,Plastic,263,69,SUPP_083,2022-11-03,3.2,False
+PROD_000904,Stand-alone full-range system engine,Books,Books_Sub_4,"Johnston, Graves and Williams",603.28,428.29,21.76,20x33x43,SlateBlue,Leather,335,76,SUPP_012,2024-03-13,3.7,False
+PROD_000905,Focused regional secured line,Automotive,Automotive_Sub_3,"Soto, Smith and Holmes",279.9,182.34,28.37,24x29x38,LightPink,Glass,679,21,SUPP_040,2023-06-17,4.7,False
+PROD_000906,Public-key leadingedge migration,Home & Garden,Home & Garden_Sub_5,Fuentes LLC,620.44,448.58,16.81,10x25x26,SlateBlue,Glass,413,49,SUPP_084,2023-08-05,1.6,False
+PROD_000907,Customer-focused web-enabled encoding,Electronics,Electronics_Sub_2,Velez Ltd,630.34,452.48,39.63,42x5x40,GoldenRod,Fabric,824,58,SUPP_035,2023-10-20,4.1,False
+PROD_000908,Re-contextualized stable conglomeration,Beauty,Beauty_Sub_4,York-Castro,671.0,422.18,40.41,9x12x47,Bisque,Fabric,186,27,SUPP_074,2025-05-14,4.1,False
+PROD_000909,Assimilated asymmetric artificial intelligence,Books,Books_Sub_3,Meyer Group,389.87,294.24,24.58,16x8x19,WhiteSmoke,Glass,212,39,SUPP_063,2023-11-12,3.8,False
+PROD_000910,Customer-focused executive analyzer,Electronics,Electronics_Sub_4,Smith and Sons,678.74,440.45,3.31,37x31x36,GhostWhite,Wood,723,76,SUPP_042,2024-03-29,3.0,False
+PROD_000911,Universal static projection,Sports,Sports_Sub_3,Mclaughlin and Sons,334.58,266.39,19.31,25x48x33,HotPink,Leather,408,93,SUPP_086,2023-01-22,4.7,True
+PROD_000912,Public-key uniform portal,Automotive,Automotive_Sub_5,Smith Group,391.52,272.42,33.88,8x27x26,LightSteelBlue,Plastic,870,26,SUPP_051,2022-10-12,3.5,False
+PROD_000913,Implemented transitional access,Beauty,Beauty_Sub_3,Brown-Morris,642.76,399.46,47.04,21x18x31,SpringGreen,Metal,169,69,SUPP_005,2025-05-30,2.5,False
+PROD_000914,Pre-emptive grid-enabled software,Beauty,Beauty_Sub_3,"Galvan, Cunningham and Brandt",200.95,141.07,12.64,21x16x7,PowderBlue,Plastic,298,29,SUPP_012,2024-11-15,4.9,False
+PROD_000915,User-friendly reciprocal groupware,Automotive,Automotive_Sub_3,Smith-Roberts,461.35,329.56,5.08,28x13x8,LightSkyBlue,Metal,333,20,SUPP_081,2023-09-21,3.3,False
+PROD_000916,Team-oriented optimizing success,Toys,Toys_Sub_1,Myers Ltd,806.42,497.98,20.5,45x11x20,Turquoise,Metal,324,80,SUPP_041,2023-07-31,1.2,True
+PROD_000917,Universal multi-state ability,Sports,Sports_Sub_2,"Acosta, Gentry and Martinez",913.32,585.4,41.66,50x41x37,LightBlue,Glass,920,64,SUPP_053,2024-12-29,3.8,False
+PROD_000918,Realigned 6thgeneration conglomeration,Automotive,Automotive_Sub_5,Santana Inc,694.92,544.83,2.48,22x13x18,MediumVioletRed,Metal,561,22,SUPP_001,2024-08-14,2.6,False
+PROD_000919,Polarized eco-centric system engine,Clothing,Clothing_Sub_4,Navarro LLC,52.79,38.58,18.25,13x43x10,DarkCyan,Fabric,273,54,SUPP_059,2022-10-22,4.6,False
+PROD_000920,Innovative tangible emulation,Sports,Sports_Sub_5,"Mills, Morris and Reyes",833.56,530.18,20.38,44x43x6,Orchid,Wood,867,26,SUPP_061,2025-06-08,1.1,False
+PROD_000921,Customizable logistical knowledge user,Beauty,Beauty_Sub_1,"Rogers, Walker and White",957.9,666.53,40.11,18x25x37,SlateGray,Metal,45,49,SUPP_001,2023-08-25,3.5,False
+PROD_000922,Expanded multi-state protocol,Toys,Toys_Sub_1,"Wood, Gonzalez and Santos",228.62,150.32,21.46,5x43x14,RoyalBlue,Metal,111,61,SUPP_071,2023-12-20,3.4,False
+PROD_000923,Triple-buffered value-added project,Home & Garden,Home & Garden_Sub_4,"Swanson, Wang and Finley",119.13,78.2,49.92,20x14x7,MidnightBlue,Wood,251,20,SUPP_079,2022-08-27,1.5,False
+PROD_000924,Synergistic multi-state analyzer,Clothing,Clothing_Sub_2,Nguyen and Sons,419.63,333.02,20.62,30x7x16,LightGoldenRodYellow,Metal,206,61,SUPP_012,2025-02-22,4.6,True
+PROD_000925,Progressive non-volatile hardware,Toys,Toys_Sub_5,"Smith, Hall and Parks",31.95,20.06,38.17,21x34x25,LimeGreen,Wood,346,29,SUPP_054,2024-03-30,2.8,False
+PROD_000926,Multi-layered national website,Electronics,Electronics_Sub_2,"Rios, Sutton and Brennan",411.13,325.63,44.59,8x14x34,DarkGoldenRod,Leather,321,24,SUPP_001,2024-07-12,1.0,False
+PROD_000927,Future-proofed regional structure,Beauty,Beauty_Sub_5,"Bell, Garcia and Waters",492.55,347.01,21.37,5x25x34,Gray,Plastic,791,19,SUPP_023,2025-02-11,1.3,False
+PROD_000928,Optional interactive extranet,Beauty,Beauty_Sub_4,"Pena, Reed and Oconnell",870.81,562.78,29.98,16x20x28,LimeGreen,Metal,588,39,SUPP_098,2024-08-06,3.8,False
+PROD_000929,Multi-layered encompassing website,Toys,Toys_Sub_3,Thomas-Perry,534.43,382.83,36.73,49x25x10,MediumSeaGreen,Glass,338,70,SUPP_008,2024-04-11,4.6,False
+PROD_000930,Assimilated fresh-thinking open system,Home & Garden,Home & Garden_Sub_2,"Santos, Spencer and Galvan",862.08,646.54,35.34,19x7x14,MediumPurple,Wood,180,60,SUPP_088,2024-05-17,2.1,False
+PROD_000931,Public-key value-added orchestration,Toys,Toys_Sub_3,"Hernandez, Williams and Roberts",741.82,490.31,28.72,14x7x24,DeepSkyBlue,Plastic,876,93,SUPP_009,2022-08-27,2.3,False
+PROD_000932,Enterprise-wide attitude-oriented toolset,Electronics,Electronics_Sub_3,"Smith, Johnson and Mcmillan",107.54,68.89,30.38,17x23x30,MediumSpringGreen,Wood,740,41,SUPP_029,2023-02-26,4.9,False
+PROD_000933,Organic human-resource complexity,Home & Garden,Home & Garden_Sub_1,Griffin Inc,322.55,246.4,35.46,28x49x24,Aquamarine,Metal,476,99,SUPP_007,2023-06-16,1.0,False
+PROD_000934,Integrated neutral Local Area Network,Sports,Sports_Sub_1,Sanchez LLC,411.56,285.0,49.54,19x33x33,ForestGreen,Plastic,655,92,SUPP_019,2022-09-04,1.4,False
+PROD_000935,Decentralized responsive paradigm,Sports,Sports_Sub_4,Lopez PLC,70.87,45.7,40.96,26x50x49,Khaki,Fabric,173,80,SUPP_088,2023-04-04,4.3,False
+PROD_000936,Mandatory analyzing frame,Home & Garden,Home & Garden_Sub_5,Weber-Day,747.4,514.88,4.72,46x39x28,DarkSeaGreen,Glass,541,23,SUPP_059,2025-05-27,2.5,False
+PROD_000937,Persistent 5thgeneration toolset,Electronics,Electronics_Sub_3,Gentry and Sons,608.26,448.36,24.73,20x49x41,YellowGreen,Metal,31,99,SUPP_009,2022-11-26,4.9,False
+PROD_000938,Stand-alone actuating info-mediaries,Toys,Toys_Sub_5,Nash PLC,93.12,74.4,18.98,40x17x20,Linen,Leather,666,19,SUPP_063,2025-07-21,3.4,False
+PROD_000939,Team-oriented human-resource protocol,Beauty,Beauty_Sub_3,Parker Ltd,647.15,481.14,1.49,43x50x21,Silver,Leather,307,15,SUPP_050,2024-09-09,2.4,True
+PROD_000940,Persistent asynchronous secured line,Sports,Sports_Sub_3,Hanna PLC,829.75,653.93,48.96,26x41x17,DarkKhaki,Wood,478,12,SUPP_085,2022-08-02,3.0,True
+PROD_000941,Operative executive success,Beauty,Beauty_Sub_3,Evans LLC,16.64,12.16,13.12,16x5x35,BurlyWood,Fabric,901,92,SUPP_042,2024-07-17,2.7,False
+PROD_000942,Assimilated 5thgeneration benchmark,Books,Books_Sub_4,"Washington, Moreno and Simpson",119.55,89.41,33.12,15x31x6,Black,Metal,954,90,SUPP_085,2024-09-10,2.5,False
+PROD_000943,Reactive cohesive strategy,Clothing,Clothing_Sub_1,Anderson and Sons,565.5,405.76,25.68,6x12x6,Snow,Fabric,907,38,SUPP_056,2024-11-08,4.4,False
+PROD_000944,Operative full-range concept,Clothing,Clothing_Sub_5,White Ltd,285.55,199.86,28.63,40x9x46,Gold,Glass,50,16,SUPP_026,2023-07-12,5.0,False
+PROD_000945,Open-architected mission-critical help-desk,Beauty,Beauty_Sub_2,Byrd and Sons,532.11,402.8,17.3,47x47x49,DarkKhaki,Fabric,472,69,SUPP_063,2024-08-10,4.4,False
+PROD_000946,Optimized coherent encoding,Clothing,Clothing_Sub_3,"Martinez, Perez and Turner",674.31,462.15,23.26,49x29x37,MediumSeaGreen,Metal,902,22,SUPP_014,2023-11-11,3.3,False
+PROD_000947,Triple-buffered static firmware,Beauty,Beauty_Sub_3,Miller Group,439.67,333.99,48.21,33x17x45,FireBrick,Wood,984,86,SUPP_047,2022-11-12,2.6,True
+PROD_000948,Distributed neutral application,Clothing,Clothing_Sub_5,"Rocha, Hanson and Smith",819.26,644.55,7.55,27x12x18,AntiqueWhite,Wood,410,40,SUPP_094,2024-10-02,4.3,False
+PROD_000949,Phased contextually-based open architecture,Automotive,Automotive_Sub_3,Sparks Group,733.3,508.47,39.14,44x16x27,DeepSkyBlue,Plastic,49,73,SUPP_046,2025-02-12,1.4,False
+PROD_000950,Triple-buffered optimizing middleware,Sports,Sports_Sub_5,"Watson, Johnson and Hanson",421.9,275.26,23.7,28x39x12,SlateGray,Fabric,133,24,SUPP_063,2024-06-01,3.9,False
+PROD_000951,Re-contextualized upward-trending leverage,Automotive,Automotive_Sub_3,"Green, Reed and Robbins",504.13,324.27,30.4,28x44x44,Black,Leather,694,52,SUPP_084,2024-09-17,3.2,False
+PROD_000952,Business-focused homogeneous alliance,Home & Garden,Home & Garden_Sub_3,Travis Group,392.76,240.49,28.98,35x12x16,BlanchedAlmond,Wood,148,14,SUPP_011,2025-05-27,3.4,False
+PROD_000953,Self-enabling web-enabled core,Beauty,Beauty_Sub_3,Ewing Ltd,431.53,309.43,28.94,14x29x36,RosyBrown,Plastic,591,21,SUPP_073,2024-06-11,2.7,False
+PROD_000954,Secured needs-based utilization,Home & Garden,Home & Garden_Sub_2,"Cox, Lewis and Henry",375.87,228.5,33.94,18x45x9,Pink,Metal,783,81,SUPP_062,2023-05-26,3.2,True
+PROD_000955,Polarized 24hour data-warehouse,Beauty,Beauty_Sub_5,Campbell-Ward,141.28,89.62,39.91,35x28x19,Navy,Metal,337,52,SUPP_023,2023-10-10,2.7,False
+PROD_000956,Stand-alone 3rdgeneration Local Area Network,Books,Books_Sub_5,"Gray, Collier and Martinez",678.78,462.01,38.8,36x21x35,Moccasin,Fabric,126,24,SUPP_024,2023-02-14,3.2,False
+PROD_000957,Profound static firmware,Home & Garden,Home & Garden_Sub_3,Beasley-Cruz,748.55,545.66,6.2,19x41x15,Fuchsia,Metal,140,84,SUPP_029,2024-02-17,1.3,False
+PROD_000958,Decentralized maximized hierarchy,Beauty,Beauty_Sub_3,Greene and Sons,906.61,660.77,0.5,20x41x46,Beige,Wood,702,66,SUPP_048,2024-12-12,4.3,False
+PROD_000959,De-engineered systemic superstructure,Electronics,Electronics_Sub_3,"Burns, Stewart and Norton",332.4,260.24,24.17,47x36x35,Silver,Fabric,80,68,SUPP_039,2023-03-15,1.8,False
+PROD_000960,Proactive mobile pricing structure,Sports,Sports_Sub_2,"Anderson, Reid and Robinson",308.79,207.0,16.03,27x20x37,LightGray,Leather,78,18,SUPP_089,2023-04-28,2.3,False
+PROD_000961,Optimized encompassing model,Books,Books_Sub_4,"White, Holt and Welch",166.34,111.53,30.98,37x7x17,MintCream,Glass,605,99,SUPP_048,2023-11-29,2.8,False
+PROD_000962,Stand-alone methodical attitude,Beauty,Beauty_Sub_2,Garza and Sons,883.24,672.43,12.9,17x41x11,OliveDrab,Glass,548,58,SUPP_059,2024-01-30,4.9,False
+PROD_000963,Reactive high-level info-mediaries,Toys,Toys_Sub_3,"Oconnell, Ortiz and Ellis",26.41,16.17,28.67,22x19x42,SaddleBrown,Leather,937,44,SUPP_035,2024-04-28,4.2,False
+PROD_000964,Diverse secondary attitude,Clothing,Clothing_Sub_1,Martinez-Adams,306.84,193.32,42.92,42x35x21,SteelBlue,Fabric,197,54,SUPP_036,2023-08-23,4.4,False
+PROD_000965,Re-engineered real-time leverage,Electronics,Electronics_Sub_1,Serrano-Lowe,852.29,547.87,40.0,37x39x45,SpringGreen,Fabric,425,88,SUPP_080,2025-07-06,3.6,False
+PROD_000966,Synchronized composite database,Books,Books_Sub_5,"Hunter, Lee and Young",252.97,156.29,22.47,25x18x38,WhiteSmoke,Wood,815,74,SUPP_082,2023-12-06,1.3,False
+PROD_000967,Grass-roots real-time extranet,Automotive,Automotive_Sub_1,Sampson-Hancock,856.54,664.47,15.05,28x30x8,FireBrick,Leather,94,62,SUPP_037,2023-03-07,4.4,False
+PROD_000968,Virtual user-facing monitoring,Books,Books_Sub_4,Jacobs and Sons,195.5,149.77,41.63,26x25x23,OrangeRed,Glass,166,10,SUPP_023,2023-05-08,4.8,False
+PROD_000969,Realigned 24hour Graphical User Interface,Toys,Toys_Sub_3,"Price, Blair and Elliott",795.12,610.1,31.19,49x15x14,HotPink,Leather,255,82,SUPP_037,2022-12-11,1.0,False
+PROD_000970,Polarized user-facing installation,Clothing,Clothing_Sub_4,"Potter, Stafford and Salas",253.66,165.35,14.83,22x29x29,RosyBrown,Plastic,940,89,SUPP_044,2024-05-31,4.3,False
+PROD_000971,Advanced even-keeled emulation,Electronics,Electronics_Sub_1,Vasquez Inc,422.95,284.01,39.83,20x41x38,Azure,Plastic,52,66,SUPP_074,2023-07-10,5.0,False
+PROD_000972,Phased impactful contingency,Beauty,Beauty_Sub_2,Cline Inc,343.92,213.69,3.82,45x10x16,AliceBlue,Plastic,934,31,SUPP_022,2023-04-04,2.2,False
+PROD_000973,Managed foreground algorithm,Toys,Toys_Sub_4,Rivers LLC,76.7,59.94,25.78,43x26x32,SkyBlue,Wood,680,20,SUPP_068,2024-01-10,3.9,False
+PROD_000974,Digitized asynchronous extranet,Sports,Sports_Sub_1,Harper LLC,199.83,159.09,33.74,32x30x28,LavenderBlush,Leather,822,11,SUPP_018,2024-06-20,3.1,False
+PROD_000975,Organized dynamic task-force,Clothing,Clothing_Sub_3,Edwards-York,905.74,675.14,34.86,25x40x12,ForestGreen,Glass,662,88,SUPP_013,2025-03-14,3.7,False
+PROD_000976,Fundamental clear-thinking protocol,Books,Books_Sub_5,Wagner Inc,68.95,42.79,16.53,24x42x16,LightPink,Metal,87,84,SUPP_015,2023-12-06,3.6,False
+PROD_000977,Business-focused systemic interface,Sports,Sports_Sub_2,Green-Hartman,574.72,369.71,45.53,22x37x12,DeepPink,Wood,112,46,SUPP_001,2024-07-07,4.0,False
+PROD_000978,Fully-configurable national parallelism,Toys,Toys_Sub_4,York PLC,902.27,563.14,29.1,42x12x23,PeachPuff,Metal,422,51,SUPP_020,2023-02-15,1.0,False
+PROD_000979,Monitored eco-centric complexity,Books,Books_Sub_1,Anderson-Cooper,116.99,77.38,15.17,7x14x8,PowderBlue,Fabric,923,74,SUPP_083,2023-04-24,2.2,False
+PROD_000980,Reduced multi-state capacity,Beauty,Beauty_Sub_4,Watson Ltd,370.35,271.25,14.94,9x49x39,DarkSalmon,Metal,474,33,SUPP_077,2023-11-20,1.5,False
+PROD_000981,Networked 3rdgeneration model,Automotive,Automotive_Sub_3,Robertson-Lopez,949.93,753.61,47.59,31x24x22,Gold,Leather,654,83,SUPP_016,2024-04-20,5.0,False
+PROD_000982,Centralized content-based flexibility,Home & Garden,Home & Garden_Sub_2,Mcmillan Ltd,722.13,464.72,28.03,6x11x11,DarkTurquoise,Metal,63,76,SUPP_041,2024-07-17,4.5,False
+PROD_000983,Assimilated clear-thinking hub,Toys,Toys_Sub_4,Taylor-Smith,830.53,619.12,26.73,15x20x23,MidnightBlue,Metal,556,42,SUPP_092,2024-09-07,4.9,False
+PROD_000984,Upgradable radical synergy,Books,Books_Sub_3,Archer-Sharp,400.59,265.44,47.14,35x10x45,CadetBlue,Metal,799,30,SUPP_002,2025-06-26,5.0,False
+PROD_000985,Business-focused tertiary leverage,Sports,Sports_Sub_2,Lee-Mitchell,249.32,195.4,21.25,7x33x35,LightSlateGray,Glass,30,49,SUPP_099,2023-05-14,1.5,False
+PROD_000986,Customer-focused actuating project,Home & Garden,Home & Garden_Sub_5,Brooks and Sons,753.78,533.54,24.73,50x32x50,Navy,Glass,931,70,SUPP_039,2025-07-23,1.2,False
+PROD_000987,Open-architected modular Local Area Network,Automotive,Automotive_Sub_4,"Costa, Lopez and Lane",864.63,560.47,3.84,33x46x26,LightGray,Metal,812,47,SUPP_089,2023-10-06,1.2,True
+PROD_000988,Fully-configurable fresh-thinking open architecture,Home & Garden,Home & Garden_Sub_1,Wilson Inc,883.65,701.0,18.58,9x6x49,Gray,Leather,833,86,SUPP_092,2024-04-27,4.5,True
+PROD_000989,Face-to-face systemic Internet solution,Books,Books_Sub_3,Lopez-Smith,800.3,550.11,40.24,13x27x22,LightSkyBlue,Metal,442,54,SUPP_038,2024-07-29,4.5,False
+PROD_000990,Ameliorated motivating array,Home & Garden,Home & Garden_Sub_5,"Mann, Franklin and Gallagher",186.1,119.83,49.9,32x50x50,OrangeRed,Metal,594,80,SUPP_041,2023-02-27,3.8,False
+PROD_000991,Distributed client-driven circuit,Clothing,Clothing_Sub_5,"Patel, Ramirez and Thomas",177.57,136.17,46.4,41x17x29,Aqua,Leather,196,95,SUPP_081,2025-05-07,1.7,False
+PROD_000992,Right-sized high-level forecast,Beauty,Beauty_Sub_5,Barrett-Hardy,31.13,21.52,44.24,7x22x16,LightGoldenRodYellow,Leather,897,39,SUPP_046,2024-01-06,4.6,False
+PROD_000993,Distributed fresh-thinking frame,Home & Garden,Home & Garden_Sub_1,Richardson PLC,525.85,335.19,30.14,42x20x9,Pink,Plastic,742,64,SUPP_088,2022-11-15,3.3,False
+PROD_000994,Mandatory didactic monitoring,Clothing,Clothing_Sub_2,Gray Inc,325.56,226.56,15.69,34x8x27,Thistle,Plastic,834,70,SUPP_084,2023-09-14,1.0,False
+PROD_000995,Function-based hybrid contingency,Electronics,Electronics_Sub_5,Patel Inc,556.06,378.07,38.74,24x41x23,Navy,Leather,591,88,SUPP_079,2025-03-02,4.2,False
+PROD_000996,Mandatory client-server Graphical User Interface,Toys,Toys_Sub_4,Mathews and Sons,384.11,258.0,20.87,31x13x9,Orchid,Metal,559,11,SUPP_042,2022-11-01,4.6,False
+PROD_000997,Vision-oriented asymmetric initiative,Sports,Sports_Sub_5,"Donovan, Thompson and Quinn",286.68,220.52,18.01,15x15x28,DarkBlue,Fabric,340,53,SUPP_013,2024-08-19,1.8,False
+PROD_000998,Re-contextualized real-time help-desk,Home & Garden,Home & Garden_Sub_1,"Glenn, Garcia and Rodriguez",745.07,463.39,30.66,27x23x11,LavenderBlush,Fabric,423,36,SUPP_085,2024-02-28,3.8,False
+PROD_000999,Assimilated zero-defect secured line,Clothing,Clothing_Sub_1,Hall PLC,600.68,403.11,24.94,26x11x48,Wheat,Metal,1000,64,SUPP_030,2024-01-22,2.6,False
+PROD_001000,Fully-configurable asymmetric installation,Electronics,Electronics_Sub_3,Ramirez LLC,736.63,569.59,12.67,36x20x36,Ivory,Metal,144,40,SUPP_034,2024-06-12,1.5,False
