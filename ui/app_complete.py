@@ -107,93 +107,15 @@ def initialize_session_state():
 initialize_session_state()
 
 def initialize_spark():
-    """Initialize Spark engine with robust error handling"""
+    """Initialize Spark engine"""
     if st.session_state.spark_engine is None:
         try:
             with st.spinner("Initializing Spark session..."):
                 st.session_state.spark_engine = SparkTransformationEngine("DataLineageUI")
-                
-                # Test the Spark session with a simple operation
-                test_df = st.session_state.spark_engine.spark.range(1, 3).toDF("test")
-                test_count = test_df.count()
-                if test_count == 2:
-                    st.success("✅ Spark session initialized and tested successfully!")
-                    return True
-                else:
-                    st.error("❌ Spark session test failed")
-                    return False
-                    
+                st.success("✅ Spark session initialized successfully!")
+                return True
         except Exception as e:
-            error_msg = str(e)
-            st.error(f"❌ Failed to initialize Spark: {error_msg}")
-            
-            # Provide specific troubleshooting for common issues
-            if "Python worker failed to connect back" in error_msg:
-                st.error("""
-                **Python Worker Connection Error Detected**
-                
-                This is a common issue with Spark and Python communication. Try these solutions:
-                
-                1. **Restart the application** - Close and reopen Streamlit
-                2. **Clear Python cache** - Delete __pycache__ folders
-                3. **Check Java installation** - Ensure Java 8 or 11 is installed
-                4. **Reduce memory usage** - Close other applications
-                5. **Use simpler mode** - Try the fallback mode below
-                """)
-                
-                # Offer a fallback option
-                if st.button("🔧 Try Fallback Spark Configuration"):
-                    try:
-                        # Create a simpler Spark session
-                        from pyspark.sql import SparkSession
-                        spark_simple = SparkSession.builder \
-                            .appName("DataLineage_Fallback") \
-                            .config("spark.sql.adaptive.enabled", "false") \
-                            .config("spark.sql.execution.arrow.pyspark.enabled", "false") \
-                            .config("spark.driver.memory", "1g") \
-                            .config("spark.executor.memory", "1g") \
-                            .config("spark.default.parallelism", "1") \
-                            .config("spark.sql.shuffle.partitions", "1") \
-                            .getOrCreate()
-                        
-                        # Test the fallback session
-                        test_df = spark_simple.range(1, 2).toDF("test")
-                        test_count = test_df.count()
-                        
-                        if test_count == 1:
-                            st.success("✅ Fallback Spark configuration works!")
-                            st.info("You can proceed with basic operations, but performance may be limited.")
-                            # Store the simple session
-                            st.session_state.spark_fallback = spark_simple
-                            return True
-                        else:
-                            st.error("❌ Even fallback configuration failed")
-                            
-                    except Exception as e2:
-                        st.error(f"❌ Fallback configuration also failed: {e2}")
-            
-            elif "Java" in error_msg or "JAVA_HOME" in error_msg:
-                st.error("""
-                **Java Installation Issue**
-                
-                Please ensure:
-                1. Java 8 or Java 11 is installed
-                2. JAVA_HOME environment variable is set
-                3. Java is in your system PATH
-                
-                Download Java from: https://adoptopenjdk.net/
-                """)
-            
-            elif "memory" in error_msg.lower():
-                st.error("""
-                **Memory Issue**
-                
-                Try:
-                1. Close other applications to free memory
-                2. Restart your computer
-                3. Use smaller datasets for testing
-                """)
-            
+            st.error(f"❌ Failed to initialize Spark: {e}")
             return False
     return True
 
@@ -332,7 +254,7 @@ def generate_fallback_data():
         return False
 
 def load_sample_data():
-    """Load sample datasets with enhanced error handling"""
+    """Load sample datasets with progress tracking"""
     if not initialize_spark():
         return False
     
@@ -356,292 +278,100 @@ def load_sample_data():
             
             if os.path.exists(file_path):
                 try:
-                    st.info(f"Loading {dataset_name}...")
-                    
-                    # Use the engine's improved load_data method
                     df = st.session_state.spark_engine.load_data(file_path, dataset_name, 'csv')
+                    datasets[dataset_name] = df
                     
-                    # Safely get row count with error handling
-                    try:
-                        row_count = df.count()
-                        col_count = len(df.columns)
-                        
-                        datasets[dataset_name] = df
-                        st.success(f"✅ Loaded {dataset_name}: {row_count:,} rows, {col_count} columns")
-                        
-                    except Exception as count_error:
-                        # If count fails due to Python worker issues, still store the DataFrame
-                        # but don't try to count rows
-                        col_count = len(df.columns)
-                        datasets[dataset_name] = df
-                        st.warning(f"⚠️ Loaded {dataset_name}: {col_count} columns (row count unavailable due to Spark issue)")
-                        st.info("💡 Data is loaded but some operations may be limited due to Spark Python worker issues")
+                    row_count = df.count()
+                    st.success(f"✅ Loaded {dataset_name}: {row_count:,} records")
                     
-                except Exception as load_error:
-                    error_msg = str(load_error)
-                    
-                    if "Python worker failed to connect back" in error_msg:
-                        st.error(f"❌ Python worker error loading {dataset_name}")
-                        st.info("""
-                        **Workaround Options:**
-                        1. Try restarting the Streamlit app
-                        2. Use the Jupyter notebook instead (`notebooks/data_lineage_exploration.ipynb`)
-                        3. Reduce dataset size
-                        4. Use pandas-only mode (limited functionality)
-                        """)
-                        
-                        # Offer pandas fallback
-                        if st.button(f"📊 Load {dataset_name} with Pandas (Limited Features)", key=f"pandas_{dataset_name}"):
-                            try:
-                                import pandas as pd
-                                pandas_df = pd.read_csv(file_path)
-                                st.success(f"✅ Loaded {dataset_name} with Pandas: {len(pandas_df):,} rows")
-                                st.warning("⚠️ Using Pandas mode - transformations will be limited")
-                                # Store as pandas DataFrame with special marker
-                                datasets[f"{dataset_name}_pandas"] = pandas_df
-                            except Exception as pandas_error:
-                                st.error(f"❌ Pandas fallback also failed: {pandas_error}")
-                    else:
-                        st.error(f"❌ Failed to load {dataset_name}: {load_error}")
+                except Exception as e:
+                    st.error(f"❌ Failed to load {dataset_name}: {e}")
             else:
                 st.warning(f"⚠️ {filename} not found")
             
             progress_bar.progress((i + 1) / total_files)
         
         progress_bar.empty()
-        
-        if datasets:
-            st.session_state.loaded_datasets = datasets
-            st.success(f"✅ Successfully loaded {len(datasets)} datasets")
-            
-            # Check if we have any Spark DataFrames vs Pandas DataFrames
-            spark_datasets = [k for k in datasets.keys() if not k.endswith('_pandas')]
-            pandas_datasets = [k for k in datasets.keys() if k.endswith('_pandas')]
-            
-            if pandas_datasets:
-                st.info(f"📊 Using Pandas mode for: {', '.join(pandas_datasets)}")
-                st.warning("⚠️ Some advanced features may be unavailable in Pandas mode")
-            
-            return True
-        else:
-            st.error("❌ No datasets were loaded successfully")
-            return False
+        st.session_state.loaded_datasets = datasets
+        return True
         
     except Exception as e:
         st.error(f"Failed to load datasets: {e}")
-        
-        # Offer complete fallback to pandas
-        st.info("🔧 **Complete Pandas Fallback Mode**")
-        if st.button("📊 Load All Data with Pandas Only"):
-            try:
-                import pandas as pd
-                datasets = {}
-                
-                for dataset_name, filename in dataset_files.items():
-                    file_path = os.path.join(data_dir, filename)
-                    if os.path.exists(file_path):
-                        pandas_df = pd.read_csv(file_path)
-                        datasets[f"{dataset_name}_pandas"] = pandas_df
-                        st.success(f"✅ Loaded {dataset_name}: {len(pandas_df):,} rows (Pandas)")
-                
-                if datasets:
-                    st.session_state.loaded_datasets = datasets
-                    st.warning("⚠️ Running in Pandas-only mode - Spark transformations unavailable")
-                    return True
-                else:
-                    st.error("❌ No datasets found")
-                    return False
-                    
-            except Exception as pandas_error:
-                st.error(f"❌ Pandas fallback failed: {pandas_error}")
-                return False
-        
         return False
 
 def show_dataset_preview(dataset_name: str, df):
-    """Show a comprehensive preview of the dataset with error handling"""
+    """Show a comprehensive preview of the dataset"""
     st.subheader(f"📊 {dataset_name.title()} Dataset")
     
-    # Check if this is a pandas DataFrame (fallback mode)
-    is_pandas = dataset_name.endswith('_pandas') or hasattr(df, 'shape')
+    # Metrics row
+    col1, col2, col3, col4 = st.columns(4)
     
-    if is_pandas:
-        # Pandas DataFrame handling
-        st.info("📊 Viewing in Pandas mode")
+    with col1:
+        st.metric("Total Rows", f"{df.count():,}")
+    
+    with col2:
+        st.metric("Total Columns", len(df.columns))
+    
+    with col3:
+        # Calculate null percentage
+        total_cells = df.count() * len(df.columns)
+        null_count = sum([df.filter(df[col].isNull()).count() for col in df.columns])
+        null_percentage = (null_count / total_cells * 100) if total_cells > 0 else 0
+        st.metric("Null Values", f"{null_percentage:.1f}%")
+    
+    with col4:
+        # Memory usage estimation
+        memory_mb = df.count() * len(df.columns) * 8 / (1024 * 1024)  # Rough estimate
+        st.metric("Est. Memory", f"{memory_mb:.1f} MB")
+    
+    # Schema information
+    st.write("### 🏗️ Schema Information")
+    schema_data = []
+    for field in df.schema.fields:
+        # Get sample values for each column
+        sample_values = df.select(field.name).limit(3).rdd.map(lambda x: x[0]).collect()
+        sample_str = ", ".join([str(v) for v in sample_values if v is not None][:3])
         
-        col1, col2, col3, col4 = st.columns(4)
+        schema_data.append({
+            "Column": field.name,
+            "Type": str(field.dataType).replace("Type()", ""),
+            "Nullable": "✅" if field.nullable else "❌",
+            "Sample Values": sample_str[:50] + "..." if len(sample_str) > 50 else sample_str
+        })
+    
+    st.dataframe(pd.DataFrame(schema_data), use_container_width=True)
+    
+    # Data quality metrics
+    st.write("### 📊 Data Quality Metrics")
+    quality_metrics = []
+    
+    for col_name in df.columns:
+        total_count = df.count()
+        null_count = df.filter(df[col_name].isNull()).count()
+        distinct_count = df.select(col_name).distinct().count()
         
-        with col1:
-            st.metric("Total Rows", f"{len(df):,}")
-        
-        with col2:
-            st.metric("Total Columns", len(df.columns))
-        
-        with col3:
-            null_count = df.isnull().sum().sum()
-            total_cells = len(df) * len(df.columns)
-            null_percentage = (null_count / total_cells * 100) if total_cells > 0 else 0
-            st.metric("Null Values", f"{null_percentage:.1f}%")
-        
-        with col4:
-            memory_usage = df.memory_usage(deep=True).sum() / (1024 * 1024)
-            st.metric("Memory Usage", f"{memory_usage:.1f} MB")
-        
-        # Schema information for pandas
-        st.write("### 🏗️ Schema Information")
-        schema_data = []
-        for col in df.columns:
-            dtype = str(df[col].dtype)
-            sample_values = df[col].dropna().head(3).tolist()
-            sample_str = ", ".join([str(v) for v in sample_values][:3])
-            
-            schema_data.append({
-                "Column": col,
-                "Type": dtype,
-                "Non-Null Count": df[col].count(),
-                "Sample Values": sample_str[:50] + "..." if len(sample_str) > 50 else sample_str
-            })
-        
-        st.dataframe(pd.DataFrame(schema_data), use_container_width=True)
-        
-        # Sample data
-        st.write("### 👀 Sample Data")
+        quality_metrics.append({
+            "Column": col_name,
+            "Completeness": f"{((total_count - null_count) / total_count * 100):.1f}%",
+            "Uniqueness": f"{(distinct_count / total_count * 100):.1f}%",
+            "Null Count": null_count,
+            "Distinct Values": distinct_count
+        })
+    
+    st.dataframe(pd.DataFrame(quality_metrics), use_container_width=True)
+    
+    # Sample data with pagination
+    st.write("### 👀 Sample Data")
+    
+    col1, col2 = st.columns([3, 1])
+    with col1:
         sample_size = st.slider("Sample size", min_value=5, max_value=100, value=10)
-        sample_df = df.head(sample_size)
-        st.dataframe(sample_df, use_container_width=True)
-        
-    else:
-        # Spark DataFrame handling with error recovery
-        col1, col2, col3, col4 = st.columns(4)
-        
-        try:
-            # Try to get row count safely
-            with col1:
-                try:
-                    row_count = df.count()
-                    st.metric("Total Rows", f"{row_count:,}")
-                except Exception as e:
-                    st.metric("Total Rows", "Error - see below")
-                    st.error(f"Row count failed: {e}")
-            
-            with col2:
-                st.metric("Total Columns", len(df.columns))
-            
-            with col3:
-                try:
-                    # Try to calculate null percentage
-                    total_cells = df.count() * len(df.columns)
-                    null_count = sum([df.filter(df[col].isNull()).count() for col in df.columns])
-                    null_percentage = (null_count / total_cells * 100) if total_cells > 0 else 0
-                    st.metric("Null Values", f"{null_percentage:.1f}%")
-                except Exception as e:
-                    st.metric("Null Values", "Calculation failed")
-                    st.warning("Could not calculate null percentage due to Spark issues")
-            
-            with col4:
-                # Memory usage estimation
-                try:
-                    memory_mb = df.count() * len(df.columns) * 8 / (1024 * 1024)
-                    st.metric("Est. Memory", f"{memory_mb:.1f} MB")
-                except:
-                    st.metric("Est. Memory", "Unknown")
-            
-            # Schema information
-            st.write("### 🏗️ Schema Information")
-            schema_data = []
-            for field in df.schema.fields:
-                try:
-                    # Try to get sample values safely
-                    sample_values = df.select(field.name).limit(3).collect()
-                    sample_str = ", ".join([str(row[0]) for row in sample_values if row[0] is not None][:3])
-                except:
-                    sample_str = "Unable to retrieve samples"
-                
-                schema_data.append({
-                    "Column": field.name,
-                    "Type": str(field.dataType).replace("Type()", ""),
-                    "Nullable": "✅" if field.nullable else "❌",
-                    "Sample Values": sample_str[:50] + "..." if len(sample_str) > 50 else sample_str
-                })
-            
-            st.dataframe(pd.DataFrame(schema_data), use_container_width=True)
-            
-            # Data quality metrics
-            st.write("### 📊 Data Quality Metrics")
-            try:
-                quality_metrics = []
-                
-                for col_name in df.columns:
-                    try:
-                        total_count = df.count()
-                        null_count = df.filter(df[col_name].isNull()).count()
-                        distinct_count = df.select(col_name).distinct().count()
-                        
-                        quality_metrics.append({
-                            "Column": col_name,
-                            "Completeness": f"{((total_count - null_count) / total_count * 100):.1f}%",
-                            "Uniqueness": f"{(distinct_count / total_count * 100):.1f}%",
-                            "Null Count": null_count,
-                            "Distinct Values": distinct_count
-                        })
-                    except Exception as col_error:
-                        quality_metrics.append({
-                            "Column": col_name,
-                            "Completeness": "Error",
-                            "Uniqueness": "Error", 
-                            "Null Count": "Error",
-                            "Distinct Values": "Error"
-                        })
-                
-                st.dataframe(pd.DataFrame(quality_metrics), use_container_width=True)
-                
-            except Exception as e:
-                st.warning("Could not calculate data quality metrics due to Spark issues")
-                st.info("💡 Try using the Pandas fallback mode for full functionality")
-            
-            # Sample data with error handling
-            st.write("### 👀 Sample Data")
-            
-            col1, col2 = st.columns([3, 1])
-            with col1:
-                sample_size = st.slider("Sample size", min_value=5, max_value=100, value=10)
-            with col2:
-                if st.button("🔄 Refresh Sample"):
-                    st.rerun()
-            
-            try:
-                sample_df = df.limit(sample_size).toPandas()
-                st.dataframe(sample_df, use_container_width=True)
-                
-            except Exception as e:
-                st.error(f"❌ Could not retrieve sample data: {e}")
-                
-                if "Python worker" in str(e):
-                    st.info("""
-                    **Python Worker Error**
-                    
-                    Try these options:
-                    1. Restart the Streamlit app
-                    2. Use smaller sample size
-                    3. Switch to Pandas mode
-                    4. Use the Jupyter notebook instead
-                    """)
-                    
-                    # Offer to convert to Pandas
-                    if st.button("🔄 Convert to Pandas Mode", key=f"convert_{dataset_name}"):
-                        try:
-                            # This might fail, but worth trying
-                            pandas_df = df.toPandas()
-                            st.session_state.loaded_datasets[f"{dataset_name}_pandas"] = pandas_df
-                            del st.session_state.loaded_datasets[dataset_name]
-                            st.success("✅ Converted to Pandas mode!")
-                            st.rerun()
-                        except Exception as convert_error:
-                            st.error(f"❌ Conversion failed: {convert_error}")
-                
-        except Exception as e:
-            st.error(f"❌ Error displaying dataset preview: {e}")
-            st.info("💡 This dataset may be corrupted or there's a Spark configuration issue")
+    with col2:
+        if st.button("🔄 Refresh Sample"):
+            st.rerun()
+    
+    sample_df = df.limit(sample_size).toPandas()
+    st.dataframe(sample_df, use_container_width=True)
 
 def create_transformation_interface():
     """Create interactive transformation selection interface"""
@@ -687,121 +417,118 @@ def create_transformation_interface():
     # Transformation selection
     if selected_category:
         transformations = AVAILABLE_TRANSFORMATIONS[selected_category]
+        transformation_names = [t.__name__ for t in transformations]
         
-        # Extract transformation options from the new structure
-        transformation_options = [(key, config['name']) for key, config in transformations.items()]
-        transformation_keys = [key for key, _ in transformation_options]
-        transformation_names = [name for _, name in transformation_options]
-        
-        if not transformation_names:
-            st.warning("No transformations available for this category")
-            return
-        
-        selected_transformation_index = st.selectbox(
+        selected_transformation = st.selectbox(
             "Select transformation:",
-            range(len(transformation_names)),
-            format_func=lambda x: transformation_names[x],
+            transformation_names,
             key=f"transformation_{current_step}"
         )
         
-        if selected_transformation_index is not None:
-            selected_transformation_key = transformation_keys[selected_transformation_index]
-            selected_transformation_config = transformations[selected_transformation_key]
-            transformation_class = selected_transformation_config['class']
+        if selected_transformation:
+            # Get the transformation class
+            transformation_class = next(
+                t for t in transformations 
+                if t.__name__ == selected_transformation
+            )
             
             # Show transformation details
-            st.info(f"**{selected_transformation_config['name']}**")
-            st.write(selected_transformation_config['description'])
+            st.write(f"**Description:** {transformation_class.__doc__ or 'No description available'}")
             
             # Parameter configuration
             st.write("### ⚙️ Parameters")
             
-            # Get available columns from input dataset
-            available_columns = []
-            if input_dataset and input_dataset in st.session_state.loaded_datasets:
-                try:
-                    df = st.session_state.loaded_datasets[input_dataset]
-                    if hasattr(df, 'columns'):
-                        available_columns = list(df.columns)
-                    elif hasattr(df, 'schema'):
-                        available_columns = [field.name for field in df.schema.fields]
-                except Exception as e:
-                    st.warning(f"Could not extract columns: {e}")
-            
             # Common parameters
             output_name = st.text_input(
                 "Output dataset name:",
-                value=f"{input_dataset}_{selected_transformation_key}",
+                value=f"{input_dataset}_{selected_transformation.lower()}",
                 key=f"output_name_{current_step}"
             )
             
-            # Transformation-specific parameters from config
+            # Transformation-specific parameters
             params = {}
             
-            for param_name, param_config in selected_transformation_config['parameters'].items():
-                param_type = param_config['type']
-                param_desc = param_config.get('description', '')
-                param_default = param_config.get('default', None)
-                
-                st.write(f"**{param_name.replace('_', ' ').title()}**")
-                if param_desc:
-                    st.caption(param_desc)
-                
-                if param_type == 'text':
-                    params[param_name] = st.text_input(
-                        f"Value for {param_name}:",
-                        value=str(param_default) if param_default is not None else "",
-                        key=f"param_{param_name}_{current_step}"
+            if "Filter" in selected_transformation:
+                condition = st.text_input(
+                    "Filter condition (e.g., age > 25):",
+                    key=f"condition_{current_step}"
+                )
+                if condition:
+                    params['condition'] = condition
+            
+            elif "Join" in selected_transformation:
+                join_datasets = [d for d in available_datasets if d != input_dataset]
+                if join_datasets:
+                    right_dataset = st.selectbox(
+                        "Dataset to join with:",
+                        join_datasets,
+                        key=f"right_dataset_{current_step}"
                     )
-                
-                elif param_type == 'number':
-                    params[param_name] = st.number_input(
-                        f"Value for {param_name}:",
-                        value=float(param_default) if param_default is not None else 0.0,
-                        key=f"param_{param_name}_{current_step}"
+                    join_keys = st.text_input(
+                        "Join keys (comma-separated):",
+                        key=f"join_keys_{current_step}"
                     )
-                
-                elif param_type == 'select':
-                    options = param_config.get('options', [])
-                    default_index = 0
-                    if param_default and param_default in options:
-                        default_index = options.index(param_default)
+                    join_type = st.selectbox(
+                        "Join type:",
+                        ["inner", "outer", "left", "right"],
+                        key=f"join_type_{current_step}"
+                    )
+                    params.update({
+                        'right_dataset': right_dataset,
+                        'join_keys': join_keys.split(',') if join_keys else [],
+                        'join_type': join_type
+                    })
+            
+            elif "Aggregate" in selected_transformation:
+                if input_dataset in st.session_state.loaded_datasets:
+                    df = st.session_state.loaded_datasets[input_dataset]
+                    columns = df.columns
                     
-                    params[param_name] = st.selectbox(
-                        f"Select {param_name}:",
-                        options,
-                        index=default_index,
-                        key=f"param_{param_name}_{current_step}"
-                    )
-                
-                elif param_type == 'multiselect':
-                    options = param_config.get('options', available_columns)
-                    default_values = param_config.get('default', [])
-                    if isinstance(default_values, str):
-                        default_values = [default_values]
-                    
-                    params[param_name] = st.multiselect(
-                        f"Select {param_name}:",
-                        options,
-                        default=default_values,
-                        key=f"param_{param_name}_{current_step}"
-                    )
-                
-                elif param_type == 'dict':
-                    st.write("Enter as JSON format:")
-                    json_input = st.text_area(
-                        f"JSON for {param_name}:",
-                        value='{}',
-                        key=f"param_{param_name}_{current_step}",
-                        help="Example: {\"column1\": \"string\", \"column2\": \"integer\"}"
+                    group_columns = st.multiselect(
+                        "Group by columns:",
+                        columns,
+                        key=f"group_cols_{current_step}"
                     )
                     
-                    try:
-                        import json
-                        params[param_name] = json.loads(json_input)
-                    except json.JSONDecodeError:
-                        st.error("Invalid JSON format")
-                        params[param_name] = {}
+                    agg_column = st.selectbox(
+                        "Column to aggregate:",
+                        columns,
+                        key=f"agg_col_{current_step}"
+                    )
+                    
+                    agg_function = st.selectbox(
+                        "Aggregation function:",
+                        ["sum", "avg", "count", "max", "min"],
+                        key=f"agg_func_{current_step}"
+                    )
+                    
+                    params.update({
+                        'group_columns': group_columns,
+                        'agg_column': agg_column,
+                        'agg_function': agg_function
+                    })
+            
+            elif "Sort" in selected_transformation:
+                if input_dataset in st.session_state.loaded_datasets:
+                    df = st.session_state.loaded_datasets[input_dataset]
+                    columns = df.columns
+                    
+                    sort_column = st.selectbox(
+                        "Column to sort by:",
+                        columns,
+                        key=f"sort_col_{current_step}"
+                    )
+                    
+                    ascending = st.checkbox(
+                        "Ascending order",
+                        value=True,
+                        key=f"ascending_{current_step}"
+                    )
+                    
+                    params.update({
+                        'sort_column': sort_column,
+                        'ascending': ascending
+                    })
             
             # Execute transformation
             col1, col2, col3 = st.columns(3)
@@ -842,157 +569,59 @@ def create_transformation_interface():
         st.dataframe(pd.DataFrame(history_data), use_container_width=True)
 
 def execute_transformation_step(input_dataset, transformation_class, output_name, params):
-    """Execute a single transformation step with enhanced error handling"""
+    """Execute a single transformation step"""
     try:
         with st.spinner(f"Executing {transformation_class.__name__}..."):
-            # Get the input DataFrame with error handling
-            input_df = None
-            
+            # Get the input DataFrame
             if input_dataset in st.session_state.loaded_datasets:
                 input_df = st.session_state.loaded_datasets[input_dataset]
             else:
                 # Look for it in previous results
                 for result in st.session_state.execution_results:
                     if result['output_name'] == input_dataset:
-                        if input_dataset in st.session_state.loaded_datasets:
-                            input_df = st.session_state.loaded_datasets[input_dataset]
+                        input_df = st.session_state.loaded_datasets[input_dataset]
                         break
-                
-                if input_df is None:
-                    st.error(f"❌ Dataset {input_dataset} not found!")
-                    return
-            
-            # Check if input is pandas DataFrame (fallback mode)
-            is_pandas_input = hasattr(input_df, 'shape')  # pandas DataFrame
-            
-            if is_pandas_input:
-                st.info("🐼 Input is in Pandas mode - attempting transformation")
-                
-                # For pandas mode, we need to handle transformations differently
-                try:
-                    # Convert to Spark if possible
-                    if st.session_state.spark_session:
-                        try:
-                            input_df = st.session_state.spark_session.createDataFrame(input_df)
-                            st.info("✅ Successfully converted to Spark DataFrame")
-                        except Exception as convert_error:
-                            st.warning(f"⚠️ Could not convert to Spark: {convert_error}")
-                            st.info("Continuing with pandas-only transformation...")
-                            # Would need pandas-only transformation logic here
-                            st.error("❌ Pandas-only transformations not yet implemented")
-                            return
-                except Exception as e:
-                    st.error(f"❌ Error handling pandas input: {e}")
+                else:
+                    st.error(f"Dataset {input_dataset} not found!")
                     return
             
             # Create transformation instance
-            try:
-                transformation = transformation_class()
-            except Exception as e:
-                st.error(f"❌ Failed to create transformation instance: {e}")
-                return
+            transformation = transformation_class()
             
-            # Execute transformation with enhanced error handling
-            output_df = None
-            try:
-                output_df = transformation.transform(input_df, **params)
-                
-                # Validate the output
-                if output_df is None:
-                    raise ValueError("Transformation returned None")
-                
-                # Try to get basic info about the result
-                try:
-                    output_rows = output_df.count()
-                    output_cols = len(output_df.columns)
-                except Exception as count_error:
-                    # If count fails, still continue but with warning
-                    st.warning(f"⚠️ Could not get row count: {count_error}")
-                    output_rows = "Unknown"
-                    output_cols = len(output_df.columns) if hasattr(output_df, 'columns') else "Unknown"
-                
-            except Exception as transform_error:
-                st.error(f"❌ Transformation execution failed: {transform_error}")
-                
-                # Provide specific guidance based on error type
-                if "Python worker" in str(transform_error):
-                    st.info("""
-                    **Python Worker Error Solutions:**
-                    1. 🔄 Restart the Streamlit app
-                    2. 📉 Use smaller datasets
-                    3. 🐼 Try simpler transformations
-                    4. ⚙️ Check Java installation
-                    """)
-                elif "AnalysisException" in str(transform_error):
-                    st.info("💡 Check your column names and transformation parameters")
-                elif "IllegalArgumentException" in str(transform_error):
-                    st.info("💡 Check your parameter values and data types")
-                
-                # Record failed execution
-                result = {
-                    'step': len(st.session_state.execution_results) + 1,
-                    'input_dataset': input_dataset,
-                    'transformation': transformation_class.__name__,
-                    'output_name': output_name,
-                    'error': str(transform_error),
-                    'timestamp': datetime.now().isoformat(),
-                    'success': False
-                }
-                st.session_state.execution_results.append(result)
-                return
+            # Execute transformation
+            output_df = transformation.transform(input_df, **params)
             
-            # Store result if successful
-            if output_df is not None:
-                st.session_state.loaded_datasets[output_name] = output_df
-                
-                # Record successful execution
-                result = {
-                    'step': len(st.session_state.execution_results) + 1,
-                    'input_dataset': input_dataset,
-                    'transformation': transformation_class.__name__,
-                    'output_name': output_name,
-                    'output_rows': output_rows,
-                    'output_cols': output_cols,
-                    'parameters': params,
-                    'timestamp': datetime.now().isoformat(),
-                    'success': True
-                }
-                
-                st.session_state.execution_results.append(result)
-                
-                # Track lineage with error handling
-                try:
-                    if st.session_state.spark_engine:
-                        st.session_state.spark_engine.lineage_tracker.add_transformation(
-                            transformation_class.__name__,
-                            input_dataset,
-                            output_name,
-                            params
-                        )
-                except Exception as lineage_error:
-                    st.warning(f"⚠️ Lineage tracking failed: {lineage_error}")
-                
-                # Show success message
-                if isinstance(output_rows, int):
-                    st.success(f"✅ Transformation completed! Created {output_name} with {output_rows:,} rows")
-                else:
-                    st.success(f"✅ Transformation completed! Created {output_name}")
-                
-                # Offer to preview the result
-                if st.button(f"👀 Preview {output_name}", key=f"preview_{output_name}"):
-                    try:
-                        if hasattr(output_df, 'limit'):  # Spark
-                            preview_df = output_df.limit(5).toPandas()
-                        else:  # Pandas
-                            preview_df = output_df.head(5)
-                        
-                        st.dataframe(preview_df, use_container_width=True)
-                        
-                    except Exception as preview_error:
-                        st.warning(f"⚠️ Could not preview result: {preview_error}")
+            # Store result
+            st.session_state.loaded_datasets[output_name] = output_df
+            
+            # Record execution
+            result = {
+                'step': len(st.session_state.execution_results) + 1,
+                'input_dataset': input_dataset,
+                'transformation': transformation_class.__name__,
+                'output_name': output_name,
+                'output_rows': output_df.count(),
+                'output_cols': len(output_df.columns),
+                'parameters': params,
+                'timestamp': datetime.now().isoformat(),
+                'success': True
+            }
+            
+            st.session_state.execution_results.append(result)
+            
+            # Track lineage
+            if st.session_state.spark_engine:
+                st.session_state.spark_engine.lineage_tracker.add_transformation(
+                    transformation_class.__name__,
+                    input_dataset,
+                    output_name,
+                    params
+                )
+            
+            st.success(f"✅ Transformation completed! Created {output_name} with {result['output_rows']:,} rows")
             
     except Exception as e:
-        st.error(f"❌ Unexpected error during transformation: {e}")
+        st.error(f"❌ Transformation failed: {e}")
         
         # Record failed execution
         result = {
@@ -1005,15 +634,6 @@ def execute_transformation_step(input_dataset, transformation_class, output_name
             'success': False
         }
         st.session_state.execution_results.append(result)
-        
-        # General troubleshooting advice
-        st.info("""
-        **General Troubleshooting:**
-        - Check your input data format
-        - Verify transformation parameters
-        - Try with a smaller dataset
-        - Restart the application if issues persist
-        """)
 
 def create_lineage_visualization():
     """Create interactive lineage visualization"""

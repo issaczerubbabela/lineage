@@ -100,41 +100,89 @@ class SparkTransformationEngine:
     """Main engine for executing PySpark transformations"""
     
     def __init__(self, app_name: str = "DataLineagePipeline"):
+        # Enhanced Spark configuration to prevent Python worker issues
         self.spark = SparkSession.builder \
             .appName(app_name) \
             .config("spark.sql.adaptive.enabled", "true") \
             .config("spark.sql.adaptive.coalescePartitions.enabled", "true") \
+            .config("spark.sql.execution.arrow.pyspark.enabled", "false") \
+            .config("spark.sql.adaptive.advisoryPartitionSizeInBytes", "64MB") \
+            .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
+            .config("spark.sql.adaptive.skewJoin.enabled", "true") \
+            .config("spark.sql.adaptive.localShuffleReader.enabled", "true") \
+            .config("spark.sql.adaptive.coalescePartitions.minPartitionNum", "1") \
+            .config("spark.sql.adaptive.coalescePartitions.parallelismFirst", "false") \
+            .config("spark.python.worker.reuse", "false") \
+            .config("spark.python.worker.memory", "1g") \
+            .config("spark.driver.memory", "2g") \
+            .config("spark.executor.memory", "2g") \
+            .config("spark.driver.maxResultSize", "1g") \
+            .config("spark.network.timeout", "800s") \
+            .config("spark.executor.heartbeatInterval", "60s") \
+            .config("spark.rpc.askTimeout", "600s") \
+            .config("spark.sql.broadcastTimeout", "600") \
+            .config("spark.default.parallelism", "2") \
+            .config("spark.sql.shuffle.partitions", "4") \
             .getOrCreate()
+        
+        # Set log level to reduce verbosity
+        self.spark.sparkContext.setLogLevel("WARN")
         
         self.lineage_tracker = DataLineageTracker()
         self.registered_tables = {}
     
     def load_data(self, file_path: str, table_name: str, format_type: str = "csv",
                   header: bool = True, infer_schema: bool = True) -> DataFrame:
-        """Load data and register as table"""
+        """Load data and register as table with improved error handling"""
         
-        if format_type.lower() == "csv":
-            df = self.spark.read.option("header", header) \
-                              .option("inferSchema", infer_schema) \
-                              .csv(file_path)
-        elif format_type.lower() == "parquet":
-            df = self.spark.read.parquet(file_path)
-        elif format_type.lower() == "json":
-            df = self.spark.read.json(file_path)
-        else:
-            raise ValueError(f"Unsupported format: {format_type}")
-        
-        # Register table
-        df.createOrReplaceTempView(table_name)
-        self.registered_tables[table_name] = df
-        
-        # Track data source
-        schema_dict = {field.name: str(field.dataType) for field in df.schema.fields}
-        self.lineage_tracker.add_data_source(
-            table_name, format_type, file_path, schema_dict
-        )
-        
-        return df
+        try:
+            if format_type.lower() == "csv":
+                df = self.spark.read.option("header", header) \
+                                  .option("inferSchema", infer_schema) \
+                                  .option("encoding", "UTF-8") \
+                                  .option("multiline", "true") \
+                                  .option("escape", '"') \
+                                  .csv(file_path)
+            elif format_type.lower() == "parquet":
+                df = self.spark.read.parquet(file_path)
+            elif format_type.lower() == "json":
+                df = self.spark.read.json(file_path)
+            else:
+                raise ValueError(f"Unsupported format: {format_type}")
+            
+            # Ensure the DataFrame is properly materialized with a simple action
+            # that doesn't require Python workers
+            row_count = df.count()
+            print(f"Loaded {row_count} rows for {table_name}")
+            
+            # Register table
+            df.createOrReplaceTempView(table_name)
+            self.registered_tables[table_name] = df
+            
+            # Track data source
+            schema_dict = {field.name: str(field.dataType) for field in df.schema.fields}
+            self.lineage_tracker.add_data_source(
+                table_name, format_type, file_path, schema_dict
+            )
+            
+            return df
+            
+        except Exception as e:
+            print(f"Error loading data from {file_path}: {e}")
+            # Try with simpler configuration
+            try:
+                print("Retrying with simpler configuration...")
+                if format_type.lower() == "csv":
+                    df = self.spark.read.option("header", header) \
+                                      .option("inferSchema", "false") \
+                                      .csv(file_path)
+                    print(f"Successfully loaded {table_name} with string schema")
+                    return df
+                else:
+                    raise e
+            except Exception as e2:
+                print(f"Failed to load data even with fallback: {e2}")
+                raise e2
     
     def save_data(self, df: DataFrame, output_path: str, table_name: str,
                   format_type: str = "parquet", mode: str = "overwrite"):
