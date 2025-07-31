@@ -1023,107 +1023,303 @@ def create_lineage_visualization():
         st.info("No transformations executed yet. Please run some transformations to see lineage.")
         return
     
-    # Create lineage graph
+    # Create lineage graph with proper flow
     G = nx.DiGraph()
     
-    # Add nodes and edges based on execution results
+    # First, identify all unique datasets and their relationships
+    datasets = set()
+    transformations = []
+    
     for result in st.session_state.execution_results:
+        if result.get('success', True):  # Only include successful transformations
+            datasets.add(result['input_dataset'])
+            datasets.add(result['output_name'])
+            transformations.append(result)
+    
+    # Add dataset nodes
+    for dataset in datasets:
+        G.add_node(dataset, type='dataset', label=dataset, shape='ellipse')
+    
+    # Add transformation nodes and edges to create proper flow
+    for result in transformations:
         input_dataset = result['input_dataset']
         output_dataset = result['output_name']
         transformation = result['transformation']
+        step = result['step']
         
-        # Add nodes
-        G.add_node(input_dataset, type='dataset', label=input_dataset)
-        G.add_node(output_dataset, type='dataset', label=output_dataset)
-        G.add_node(f"{transformation}_{result['step']}", type='transformation', label=transformation)
+        # Create unique transformation node name
+        transform_node = f"{transformation}_step_{step}"
         
-        # Add edges
-        G.add_edge(input_dataset, f"{transformation}_{result['step']}")
-        G.add_edge(f"{transformation}_{result['step']}", output_dataset)
+        # Add transformation node
+        G.add_node(transform_node, 
+                  type='transformation', 
+                  label=transformation,
+                  shape='rectangle',
+                  step=step,
+                  rows_out=result.get('output_rows', 'N/A'),
+                  timestamp=result.get('timestamp', ''))
+        
+        # Add edges: input -> transformation -> output
+        G.add_edge(input_dataset, transform_node, 
+                  edge_type='data_flow',
+                  rows=result.get('output_rows', 'N/A'))
+        G.add_edge(transform_node, output_dataset, 
+                  edge_type='data_flow', 
+                  rows=result.get('output_rows', 'N/A'))
     
-    # Create plotly visualization
-    pos = nx.spring_layout(G, k=3, iterations=50)
+    # Use hierarchical layout to show proper flow direction
+    try:
+        # Try to use a hierarchical layout that shows flow from left to right
+        pos = nx.nx_agraph.graphviz_layout(G, prog='dot', args='-Grankdir=LR')
+    except:
+        # Fallback to spring layout with constraints for better flow visualization
+        pos = nx.spring_layout(G, k=3, iterations=100, seed=42)
     
-    # Separate nodes by type
+    # Separate nodes by type for different styling
     dataset_nodes = [node for node, data in G.nodes(data=True) if data.get('type') == 'dataset']
     transformation_nodes = [node for node, data in G.nodes(data=True) if data.get('type') == 'transformation']
     
-    # Create traces
-    edge_trace = []
-    for edge in G.edges():
+    # Create edge traces with arrows
+    edge_traces = []
+    for edge in G.edges(data=True):
         x0, y0 = pos[edge[0]]
         x1, y1 = pos[edge[1]]
-        edge_trace.extend([
-            go.Scatter(x=[x0, x1, None], y=[y0, y1, None], 
-                      mode='lines', line=dict(width=2, color='#888'),
-                      hoverinfo='none', showlegend=False)
-        ])
+        
+        # Create arrow effect by offsetting the end point
+        dx = x1 - x0
+        dy = y1 - y0
+        length = (dx**2 + dy**2)**0.5
+        if length > 0:
+            # Shorten the line to make room for the arrow head
+            arrow_length = 0.03 * length
+            x1_arrow = x1 - (dx/length) * arrow_length
+            y1_arrow = y1 - (dy/length) * arrow_length
+        else:
+            x1_arrow, y1_arrow = x1, y1
+        
+        edge_trace = go.Scatter(
+            x=[x0, x1_arrow, None], 
+            y=[y0, y1_arrow, None], 
+            mode='lines',
+            line=dict(width=3, color='#666'),
+            hoverinfo='none',
+            showlegend=False,
+            name=f"Flow: {edge[0]} → {edge[1]}"
+        )
+        edge_traces.append(edge_trace)
+        
+        # Add arrow head
+        if length > 0:
+            arrow_head = go.Scatter(
+                x=[x1], y=[y1],
+                mode='markers',
+                marker=dict(
+                    symbol='triangle-right',
+                    size=12,
+                    color='#666',
+                    line=dict(width=1, color='#333')
+                ),
+                hoverinfo='none',
+                showlegend=False
+            )
+            edge_traces.append(arrow_head)
     
-    # Dataset nodes
+    # Dataset nodes (sources and sinks)
     dataset_x = [pos[node][0] for node in dataset_nodes]
     dataset_y = [pos[node][1] for node in dataset_nodes]
+    
+    # Determine if dataset is source, intermediate, or sink
+    dataset_colors = []
+    dataset_hover_texts = []
+    for node in dataset_nodes:
+        in_degree = G.in_degree(node)
+        out_degree = G.out_degree(node)
+        
+        if in_degree == 0:  # Source
+            color = 'lightgreen'
+            node_type = "Data Source"
+        elif out_degree == 0:  # Sink
+            color = 'lightcoral'
+            node_type = "Final Output"
+        else:  # Intermediate
+            color = 'lightblue'
+            node_type = "Intermediate Dataset"
+        
+        dataset_colors.append(color)
+        dataset_hover_texts.append(f"<b>{node}</b><br>Type: {node_type}<br>Connections: {in_degree} in, {out_degree} out")
     
     dataset_trace = go.Scatter(
         x=dataset_x, y=dataset_y,
         mode='markers+text',
-        marker=dict(size=20, color='lightblue', line=dict(width=2)),
+        marker=dict(
+            size=25, 
+            color=dataset_colors, 
+            line=dict(width=2, color='#333'),
+            symbol='circle'
+        ),
         text=dataset_nodes,
         textposition="middle center",
+        textfont=dict(size=10, color='black'),
         name="Datasets",
-        hovertemplate="<b>%{text}</b><br>Type: Dataset<extra></extra>"
+        hovertemplate="%{hovertext}<extra></extra>",
+        hovertext=dataset_hover_texts
     )
     
     # Transformation nodes
     transformation_x = [pos[node][0] for node in transformation_nodes]
     transformation_y = [pos[node][1] for node in transformation_nodes]
     
+    transformation_hover_texts = []
+    transformation_labels = []
+    for node in transformation_nodes:
+        node_data = G.nodes[node]
+        label = node_data.get('label', node)
+        transformation_labels.append(label)
+        
+        hover_text = f"<b>{label}</b><br>Step: {node_data.get('step', 'N/A')}<br>Output Rows: {node_data.get('rows_out', 'N/A')}"
+        transformation_hover_texts.append(hover_text)
+    
     transformation_trace = go.Scatter(
         x=transformation_x, y=transformation_y,
         mode='markers+text',
-        marker=dict(size=15, color='orange', symbol='square'),
-        text=[G.nodes[node]['label'] for node in transformation_nodes],
+        marker=dict(
+            size=20, 
+            color='orange', 
+            symbol='square',
+            line=dict(width=2, color='#333')
+        ),
+        text=transformation_labels,
         textposition="middle center",
+        textfont=dict(size=9, color='black'),
         name="Transformations",
-        hovertemplate="<b>%{text}</b><br>Type: Transformation<extra></extra>"
+        hovertemplate="%{hovertext}<extra></extra>",
+        hovertext=transformation_hover_texts
     )
     
-    # Create figure
-    fig = go.Figure(data=edge_trace + [dataset_trace, transformation_trace])
+    # Create figure with all traces
+    all_traces = edge_traces + [dataset_trace, transformation_trace]
+    fig = go.Figure(data=all_traces)
+    
     fig.update_layout(
-        title="Data Lineage Graph",
+        title="📊 Data Lineage Flow: From Source to Destination",
         showlegend=True,
         hovermode='closest',
-        margin=dict(b=20,l=5,r=5,t=40),
-        annotations=[ dict(
-            text="Interactive Data Lineage Visualization",
-            showarrow=False,
-            xref="paper", yref="paper",
-            x=0.005, y=-0.002,
-            xanchor='left', yanchor='bottom',
-            font=dict(color='#888', size=12)
-        )],
+        margin=dict(b=20, l=5, r=5, t=60),
+        annotations=[
+            dict(
+                text="🟢 Sources → 🟠 Transformations → 🔴 Final Outputs<br>Hover over nodes for details",
+                showarrow=False,
+                xref="paper", yref="paper",
+                x=0.005, y=-0.002,
+                xanchor='left', yanchor='bottom',
+                font=dict(color='#666', size=11)
+            )
+        ],
         xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False)
+        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+        plot_bgcolor='white',
+        paper_bgcolor='white'
     )
     
     st.plotly_chart(fig, use_container_width=True)
     
-    # Lineage summary table
-    st.write("### 📋 Lineage Summary")
+    # Add flow statistics
+    col1, col2, col3, col4 = st.columns(4)
     
+    # Calculate statistics
+    sources = [node for node in dataset_nodes if G.in_degree(node) == 0]
+    sinks = [node for node in dataset_nodes if G.out_degree(node) == 0]
+    intermediates = [node for node in dataset_nodes if G.in_degree(node) > 0 and G.out_degree(node) > 0]
+    
+    with col1:
+        st.metric("📥 Data Sources", len(sources))
+    with col2:
+        st.metric("🔄 Transformations", len(transformation_nodes))
+    with col3:
+        st.metric("📤 Final Outputs", len(sinks))
+    with col4:
+        st.metric("🔗 Flow Connections", G.number_of_edges())
+    
+    # Show flow path analysis
+    if sources and sinks:
+        st.write("### 🛤️ Data Flow Paths")
+        
+        for source in sources:
+            for sink in sinks:
+                try:
+                    # Find the shortest path from source to sink
+                    if nx.has_path(G, source, sink):
+                        path = nx.shortest_path(G, source, sink)
+                        path_length = len(path) - 1  # Number of edges
+                        
+                        # Create a readable path string
+                        path_str = " → ".join([
+                            f"**{node}**" if node in dataset_nodes else f"*{G.nodes[node].get('label', node)}*"
+                            for node in path
+                        ])
+                        
+                        st.write(f"**{source}** to **{sink}** ({path_length} steps):")
+                        st.write(path_str)
+                        st.write("---")
+                except:
+                    continue
+    
+    # Enhanced lineage summary table
+    st.write("### 📋 Transformation Pipeline Summary")
+    
+    # Create a more detailed summary showing the complete flow
     lineage_data = []
-    for result in st.session_state.execution_results:
-        lineage_data.append({
-            "Step": result['step'],
-            "Source": result['input_dataset'],
-            "Transformation": result['transformation'],
-            "Target": result['output_name'],
-            "Rows In": "N/A",  # Could be calculated if needed
-            "Rows Out": f"{result['output_rows']:,}",
-            "Timestamp": result['timestamp'][:19].replace('T', ' ')
-        })
+    for i, result in enumerate(st.session_state.execution_results):
+        if result.get('success', True):  # Only show successful transformations
+            # Calculate previous dataset info for better flow tracking
+            prev_rows = "Initial Data"
+            if i > 0:
+                prev_result = st.session_state.execution_results[i-1]
+                if prev_result.get('success', True):
+                    prev_rows = f"{prev_result.get('output_rows', 'N/A'):,}" if isinstance(prev_result.get('output_rows'), int) else prev_result.get('output_rows', 'N/A')
+            
+            current_rows = f"{result['output_rows']:,}" if isinstance(result.get('output_rows'), int) else result.get('output_rows', 'N/A')
+            
+            # Calculate data change
+            data_change = "N/A"
+            if isinstance(result.get('output_rows'), int) and i > 0:
+                prev_result = st.session_state.execution_results[i-1]
+                if isinstance(prev_result.get('output_rows'), int):
+                    change = result['output_rows'] - prev_result['output_rows']
+                    change_pct = (change / prev_result['output_rows']) * 100
+                    data_change = f"{change:+,} ({change_pct:+.1f}%)"
+            
+            lineage_data.append({
+                "Step": result['step'],
+                "Input Dataset": result['input_dataset'],
+                "Transformation": result['transformation'],
+                "Output Dataset": result['output_name'],
+                "Input Rows": prev_rows,
+                "Output Rows": current_rows,
+                "Data Change": data_change,
+                "Timestamp": result['timestamp'][:19].replace('T', ' ')
+            })
     
-    st.dataframe(pd.DataFrame(lineage_data), use_container_width=True)
+    if lineage_data:
+        df = pd.DataFrame(lineage_data)
+        st.dataframe(df, use_container_width=True)
+        
+        # Show overall pipeline statistics
+        st.write("### 📈 Pipeline Statistics")
+        
+        total_steps = len(lineage_data)
+        start_dataset = lineage_data[0]['Input Dataset'] if lineage_data else "N/A"
+        end_dataset = lineage_data[-1]['Output Dataset'] if lineage_data else "N/A"
+        
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("📊 Total Steps", total_steps)
+        with col2:
+            st.metric("🎯 Start Dataset", start_dataset)
+        with col3:
+            st.metric("🏁 Final Dataset", end_dataset)
+    else:
+        st.info("No successful transformations to display.")
 
 def create_advanced_visualizations():
     """Create advanced pipeline visualizations"""
